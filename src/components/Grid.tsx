@@ -33,7 +33,7 @@ const Grid = ({ heading, genreItems, gamesData }: Props) => {
                     </label>
                 </div>
                 {/* Games Grid */}
-                <div className="grid lg:grid-cols-6 md:grid-cols-5 sm:grid-cols-3 grid-cols-2 p-2 gap-3 rounded-2xl">
+                <div className="grid 2xl:grid-cols-7 xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-2 grid-cols-1 p-2 gap-3 rounded-2xl">
                     {gamesData.map((game: any) => (
                         <div
                             key={game.id}
