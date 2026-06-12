@@ -11,7 +11,7 @@ const Navbar = ({ logoIcon }: Props) => {
                     {logoIcon}
                 </div>
                 {/*Search Bar*/}
-                <div className="sm:grow flex items-center justify-center dark:bg-neutral-800 h-8 sm:px-3 p-3 sm:rounded-2xl rounded-full sm:max-w-4xl sm:m-0 ml-auto">
+                <div className="sm:grow flex items-center justify-center dark:bg-neutral-800 h-8 sm:px-3 p-3 sm:rounded-2xl rounded-full sm:max-w-4xl sm:mx-4 ml-auto">
                     <input
                         type="text"
                         placeholder="Search"
