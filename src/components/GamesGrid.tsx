@@ -23,10 +23,14 @@ const GamesGrid = () => {
             mounted = false;
         };
     }, []);
+
     return (
         <div className="grid 2xl:grid-cols-7 xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 p-2 gap-3 rounded-2xl">
             {gamesData.map((game: any) => (
-                <div key={game.id} className="dark:bg-neutral-800 rounded-2xl">
+                <div
+                    key={game.id}
+                    className="dark:bg-neutral-800 bg-amber-100 dark:text-neutral-50 rounded-2xl"
+                >
                     <img
                         src={game.background_image}
                         alt={game.name}
@@ -35,10 +39,12 @@ const GamesGrid = () => {
 
                     <div className="p-4">
                         <div className="flex justify-between text-sm">
-                            <p className="text-neutral-400">
+                            <p className="dark:text-neutral-400 text-neutral-800">
                                 {game.genres[0]?.name}
                             </p>
-                            <p className="text-emerald-500">{game.rating}</p>
+                            <p className="dark:text-emerald-500 text-emerald-700">
+                                {game.rating}
+                            </p>
                         </div>
 
                         <div className="font-semibold">{game.name}</div>
