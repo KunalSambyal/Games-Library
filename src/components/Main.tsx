@@ -7,7 +7,7 @@ interface Props {
 
 const Main = ({ heading, genreItems }: Props) => {
     return (
-        <div className="dark:bg-neutral-900 dark:text-white flex flex-col">
+        <div className="dark:bg-neutral-900 bg-neutral-100 dark:text-white flex flex-col">
             {/* Heading */}
             <h1 className="text-4xl font-bold p-4 border-b dark:border-amber-200 border-amber-400">
                 {heading}
