@@ -54,11 +54,18 @@ const GamesGrid = ({ filterOption }: Props) => {
                         className="rounded-t-2xl bg-cover"
                     />
 
-                    <div className="p-4">
+                    <div className="p-4 flex flex-col gap-y-2">
                         <div className="flex justify-between text-sm">
-                            <p className="dark:text-neutral-400 text-neutral-800">
-                                {game.genres[0]?.name}
-                            </p>
+                            <div className="flex flex-wrap gap-1">
+                                {game.genres.map((g: { name: string }) => (
+                                    <span
+                                        key={g.name}
+                                        className="text-xs px-2 py-0.5 rounded-lg dark:bg-neutral-700 bg-amber-300 dark:text-neutral-300 text-neutral-700"
+                                    >
+                                        {g.name}
+                                    </span>
+                                ))}
+                            </div>
                             <p className="dark:text-emerald-500 text-emerald-700">
                                 {game.rating}
                             </p>
