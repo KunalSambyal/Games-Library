@@ -19,20 +19,18 @@ const Title = ({ heading, genreItems }: Props) => {
             </h1>
             {/* Filter Options */}
             <div className="p-4">
-                <label htmlFor="genreSelect" className="">
-                    <select
-                        name="genre"
-                        id="genreFilter"
-                        className="dark:bg-neutral-900 px-2 py-1 rounded-sm outline-0 dark:border-amber-200 border-amber-400 border"
-                        onChange={handleChnage}
-                    >
-                        {genreItems.map((item) => (
-                            <option value={item} key={item}>
-                                {item}
-                            </option>
-                        ))}
-                    </select>
-                </label>
+                <select
+                    name="genre"
+                    id="genreFilter"
+                    className="dark:bg-neutral-900 px-2 py-1 rounded-sm outline-0 dark:border-amber-200 border-amber-400 border"
+                    onChange={handleChnage}
+                >
+                    {genreItems.map((item) => (
+                        <option value={item} key={item}>
+                            {item}
+                        </option>
+                    ))}
+                </select>
             </div>
             {/* Games Grid */}
             <GamesGrid filterOption={selectedFilter} />

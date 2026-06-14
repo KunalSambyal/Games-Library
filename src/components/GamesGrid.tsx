@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
+import { SearchContext } from "../App";
 
 interface RawGame {
     id: number;
@@ -20,7 +21,7 @@ const GamesGrid = ({ filterOption }: Props) => {
         let mounted = true;
         async function fetchGames() {
             try {
-                // await new Promise((resolve) => setTimeout(resolve, 5000));
+                // await new Promise((resolve) => setTimeout(resolve, 2000));
                 const response = await fetch("/games.json");
                 const data = await response.json();
                 if (!mounted) return;
@@ -54,15 +55,24 @@ const GamesGrid = ({ filterOption }: Props) => {
         );
     }
 
-    const filteredGames =
-        filterOption === "All"
-            ? gamesData
-            : gamesData.filter((game) =>
-                  game.genres.some((g) => g.name === filterOption),
-              );
+    const { searchValue } = useContext(SearchContext);
+
+    const filteredGames = gamesData.filter((game) => {
+        const matchesGenre =
+            filterOption === "All" ||
+            game.genres.some((g) => g.name === filterOption);
+
+        const matchesSearch = game.name
+            .toLowerCase()
+            .includes(searchValue.toLowerCase());
+
+        return matchesGenre && matchesSearch;
+    });
 
     if (!filteredGames.length) {
-        return <div className="text-center text-red-400">No games found</div>;
+        return (
+            <div className="text-center text-red-400 mt-10">No games found</div>
+        );
     }
 
     return (
