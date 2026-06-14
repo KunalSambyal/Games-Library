@@ -8,7 +8,11 @@ interface RawGame {
     genres: { name: string }[];
 }
 
-const GamesGrid = () => {
+interface Props {
+    filterOption: string;
+}
+
+const GamesGrid = ({ filterOption }: Props) => {
     const [gamesData, setGamesData] = useState<RawGame[]>([]);
     useEffect(() => {
         let mounted = true;
@@ -24,9 +28,22 @@ const GamesGrid = () => {
         };
     }, []);
 
+    const filteredGames =
+        filterOption === "All"
+            ? gamesData
+            : gamesData.filter((game) =>
+                  game.genres.some((g) => g.name === filterOption),
+              );
+
+    if (!filteredGames.length) {
+        return <div className="text-center text-red-400">No games found</div>;
+    }
+
+    console.log(filteredGames);
+
     return (
         <div className="grid 2xl:grid-cols-7 xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 p-2 gap-3 rounded-2xl">
-            {gamesData.map((game: any) => (
+            {filteredGames.map((game: any) => (
                 <div
                     key={game.id}
                     className="dark:bg-neutral-800 bg-amber-100 dark:text-neutral-50 rounded-2xl"
