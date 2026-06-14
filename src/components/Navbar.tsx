@@ -7,7 +7,10 @@ interface Props {
 type Theme = "light" | "dark";
 
 const Navbar = ({ logoIcon }: Props) => {
-    const [theme, setTheme] = useState<Theme>("light");
+    const [theme, setTheme] = useState<Theme>(() => {
+        const savedTheme = localStorage.getItem("theme") as Theme;
+        return savedTheme || "light";
+    });
 
     useEffect(() => {
         const root = window.document.documentElement;
