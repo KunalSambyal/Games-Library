@@ -42,17 +42,20 @@ const GamesGrid = ({ filterOption }: Props) => {
     console.log(filteredGames);
 
     return (
-        <div className="grid 2xl:grid-cols-7 xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 p-2 gap-3 rounded-2xl">
+        <div className="grid 2xl:grid-cols-7 xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 p-2 gap-3 rounded-2xl overflow-y-auto">
             {filteredGames.map((game: any) => (
                 <div
                     key={game.id}
-                    className="dark:bg-neutral-800 bg-amber-100 dark:text-neutral-50 rounded-2xl"
+                    className="dark:bg-neutral-800 bg-amber-100 dark:text-neutral-50 rounded-2xl relative"
                 >
                     <img
                         src={game.background_image}
                         alt={game.name}
-                        className="rounded-t-2xl bg-cover"
+                        className="rounded-t-2xl w-full aspect-video object-cover"
                     />
+                    <span className="absolute top-2 right-2 bg-black/60 text-emerald-400 text-xs px-1.5 py-1 rounded-full backdrop-blur-sm">
+                        ⭐ {game.rating}
+                    </span>
 
                     <div className="p-4 flex flex-col gap-y-2">
                         <div className="flex justify-between text-sm">
@@ -66,9 +69,6 @@ const GamesGrid = ({ filterOption }: Props) => {
                                     </span>
                                 ))}
                             </div>
-                            <p className="dark:text-emerald-500 text-emerald-700">
-                                {game.rating}
-                            </p>
                         </div>
 
                         <div className="font-semibold">{game.name}</div>

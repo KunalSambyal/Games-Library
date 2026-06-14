@@ -9,10 +9,10 @@ const genreOptions: string[] = ["All", "Action", "Adventure", "RPG", "Shooter"];
 
 const App = () => {
     return (
-        <>
+        <div className="h-dvh flex flex-col">
             <Navbar logoIcon={navbarLogoIcon} />
             <Title heading={mainHeading} genreItems={genreOptions} />
-        </>
+        </div>
     );
 };
 
