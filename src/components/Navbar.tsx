@@ -1,73 +1,97 @@
-import React, { useState, useEffect, useContext } from "react";
+import { useEffect, useState, type ReactElement } from "react";
+import { Link } from "react-router-dom";
 
-import { SearchContext } from "../App";
-
-interface Props {
-    logoIcon?: React.JSX.Element;
+interface NavbarProps {
+    logoIcon: ReactElement;
+    navbarLinks: string[];
 }
 
 type Theme = "light" | "dark";
 
-const Navbar = ({ logoIcon }: Props) => {
-    // Theme Toggle
+const Navbar = ({ logoIcon, navbarLinks }: NavbarProps) => {
     const [theme, setTheme] = useState<Theme>(() => {
         const savedTheme = localStorage.getItem("theme") as Theme;
         return savedTheme || "light";
     });
-
     useEffect(() => {
-        const root = window.document.documentElement;
+        const rootElement = window.document.documentElement;
 
-        if (theme === "dark") {
-            root.classList.add("dark");
+        if (theme === "light") {
+            rootElement.classList.add("dark");
         } else {
-            root.classList.remove("dark");
+            rootElement.classList.remove("dark");
         }
         localStorage.setItem("theme", theme);
     }, [theme]);
-    const handleThemeToggle = () => {
+
+    function handleThemeToggle() {
         setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
-    };
-
-    // Searchbar Input
-
-    const { searchValue, setSearchValue } = useContext(SearchContext);
-
-    function handleSearch(event: React.ChangeEvent<HTMLInputElement>) {
-        setSearchValue(event.target.value);
-        console.log(event.target.value);
     }
 
+    const themeButtonIcon: ReactElement =
+        theme === "light" ? (
+            <i className="fa-regular fa-sun"></i>
+        ) : (
+            <i className="fa-regular fa-moon"></i>
+        );
     return (
-        <>
-            <div className="dark:bg-neutral-950 dark:text-white flex h-14 items-center justify-between px-3 sm:px-6 gap-x-4 shadow-sm">
-                {/* Logo */}
-                <div className="sm:text-2xl text-xl cursor-pointer dark:hover:text-yellow-200 hover:text-yellow-400 duration-200">
-                    {logoIcon}
-                </div>
-                {/*Search Bar*/}
-                <div className="font-medium grow flex items-center justify-center dark:bg-neutral-800 bg-neutral-200 h-8 px-3 rounded-full max-w-4xl mx-4">
+        <div className="dark:bg-neutral-950 dark:text-white flex h-14 items-center justify-between px-3 sm:px-6 gap-x-4 shadow-sm">
+            {/* Logo */}
+            <div className="sm:text-2xl text-xl cursor-pointer dark:hover:text-yellow-200 hover:text-yellow-400 duration-200">
+                {logoIcon}
+            </div>
+
+            {/* Nav Links */}
+            <div className="h-full flex items-center">
+                <ul className="flex items-center gap-x-4">
+                    {navbarLinks.map((link, index) => (
+                        <li key={link}>
+                            <Link
+                                className="hover:bg-neutral-600 px-2 py-1 rounded-sm font-semibold"
+                                to={
+                                    index === 0
+                                        ? "/"
+                                        : "/" + link.toLocaleLowerCase()
+                                }
+                            >
+                                {link}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+
+            {/* Search and Theme */}
+            <div className="flex items-center max-w-xl w-full gap-x-2 ">
+                {/* Search Bar */}
+                <div className="w-full bg-neutral-700 rounded-full flex ">
+                    {/* Input For Search */}
                     <input
                         type="text"
                         placeholder="Search"
-                        className="grow outline-0"
-                        value={searchValue}
-                        onChange={handleSearch}
+                        className="h-8 bg-none pl-3 rounded-full outline-none flex-1"
                     />
-                    <button className="border-l border-neutral-500 px-1 cursor-pointer dark:hover:text-yellow-200 hover:text-yellow-400 duration-200">
-                        <i className="fa-solid fa-magnifying-glass "></i>
+
+                    {/* Search Button */}
+                    <button className="pr-1 bg-none duration-200 hover:text-amber-200 hover:cursor-pointer border-l border-neutral-400 w-8 h-8 flex items-center justify-center">
+                        <i className="fa-solid fa-magnifying-glass"></i>
                     </button>
                 </div>
-                {/*Theme Change*/}
+
+                {/* Theme Button */}
                 <button
+                    className="p-2 hover:bg-neutral-700 hover:text-amber-200 duration-200 rounded-full cursor-pointer flex justify-center items-center"
                     onClick={handleThemeToggle}
-                    className="h-8 dark:hover:text-yellow-200 
-                    hover:text-yellow-400 duration-200 cursor-pointer p-3 dark:bg-neutral-800 bg-neutral-300 rounded-full flex items-center justify-center"
                 >
-                    <i className="fa-solid fa-moon"></i>
+                    {themeButtonIcon}
+                </button>
+
+                {/* HamMenu Button */}
+                <button className="hidden">
+                    <i className="fa-solid fa-bars"></i>
                 </button>
             </div>
-        </>
+        </div>
     );
 };
 

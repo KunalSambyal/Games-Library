@@ -1,29 +1,25 @@
-import { createContext, useState, type ReactElement } from "react";
-import Title from "./components/Title";
+import { Routes, Route } from "react-router-dom";
+import type { ReactElement } from "react";
+
+import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
+import Favourites from "./pages/Favourites";
+import WishList from "./pages/WishList";
 
+// Navbar Assets
 const navbarLogoIcon: ReactElement = <i className="fa-solid fa-gamepad"></i>;
-
-const mainHeading: string = "Games";
-const genreOptions: string[] = ["All", "Action", "Adventure", "RPG", "Shooter"];
-
-export const SearchContext = createContext<{
-    searchValue: string;
-    setSearchValue: (value: string) => void;
-}>({
-    searchValue: "",
-    setSearchValue: () => {},
-});
+const navbarLinksValue: string[] = ["Home", "WishList", "Favourites"];
 
 const App = () => {
-    const [searchValue, setSearchValue] = useState("");
     return (
-        <SearchContext.Provider value={{ searchValue, setSearchValue }}>
-            <div className="h-dvh flex flex-col">
-                <Navbar logoIcon={navbarLogoIcon} />
-                <Title heading={mainHeading} genreItems={genreOptions} />
-            </div>
-        </SearchContext.Provider>
+        <>
+            <Navbar logoIcon={navbarLogoIcon} navbarLinks={navbarLinksValue} />
+            <Routes>
+                <Route path="/" element={<Home />}></Route>
+                <Route path="/favourites" element={<Favourites />}></Route>
+                <Route path="/wishlist" element={<WishList />}></Route>
+            </Routes>
+        </>
     );
 };
 
