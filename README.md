@@ -14,7 +14,7 @@ A responsive game search application built with **React**, **TypeScript**, **Tai
 - React
 - Tailwind CSS
 - TypeScript
-- FreeToGame API
+- rawg.io API
 
 <!-- ## Installation
 
