@@ -8,12 +8,11 @@ import WishList from "./pages/WishList";
 
 // Navbar Assets
 const navbarLogoIcon: ReactElement = <i className="fa-solid fa-gamepad"></i>;
-const navbarLinksValue: string[] = ["Home", "WishList", "Favourites"];
 
 const App = () => {
     return (
         <>
-            <Navbar logoIcon={navbarLogoIcon} navbarLinks={navbarLinksValue} />
+            <Navbar logoIcon={navbarLogoIcon} />
             <Routes>
                 <Route path="/" element={<Home />}></Route>
                 <Route path="/favourites" element={<Favourites />}></Route>
