@@ -11,14 +11,16 @@ const navbarLogoIcon: ReactElement = <i className="fa-solid fa-gamepad"></i>;
 
 const App = () => {
     return (
-        <>
+        <div className="flex flex-col h-dvh dark:bg-neutral-900 overflow-hidden">
             <Navbar logoIcon={navbarLogoIcon} />
-            <Routes>
-                <Route path="/" element={<Home />}></Route>
-                <Route path="/favourites" element={<Favourites />}></Route>
-                <Route path="/wishlist" element={<WishList />}></Route>
-            </Routes>
-        </>
+            <div className="flex-1 overflow-hidden">
+                <Routes>
+                    <Route path="/" element={<Home />}></Route>
+                    <Route path="/favourites" element={<Favourites />}></Route>
+                    <Route path="/wishlist" element={<WishList />}></Route>
+                </Routes>
+            </div>
+        </div>
     );
 };
 

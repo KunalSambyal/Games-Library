@@ -1,5 +1,11 @@
+import PageHeading from "../components/PageHeading";
+
 function Favourites() {
-    return <>Favdshiihcfj</>;
+    return (
+        <>
+            <PageHeading heading="Favourite Games" />
+        </>
+    );
 }
 
 export default Favourites;

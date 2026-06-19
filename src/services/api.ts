@@ -1,6 +1,6 @@
 export async function getGamesData() {
     try {
-        const response = await fetch("http://localhost:5173/games.json");
+        const response = await fetch("/games.json");
 
         if (!response.ok) {
             throw new Error(`Failed to fetch games: ${response.statusText}`);
