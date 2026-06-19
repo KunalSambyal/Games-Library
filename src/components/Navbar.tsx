@@ -1,5 +1,5 @@
 import { type ReactElement, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import HamMenu from "./HamMenu";
 import ThemeButton from "./ThemeButton";
 import NavLinks from "./NavLinks";
@@ -10,6 +10,18 @@ interface NavbarProps {
 
 const Navbar = ({ logoIcon }: NavbarProps) => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+    const navigate = useNavigate();
+    const [inputVal, setInputVal] = useState("");
+    const handleSearchSubmit = (e: React.FormEvent) => {
+        e.preventDefault();
+        if (inputVal.trim()) {
+            navigate(`/?search=${encodeURIComponent(inputVal.trim())}`);
+        } else {
+            navigate("/");
+        }
+    };
+
     return (
         <div className="relative dark:bg-neutral-950 dark:text-white flex h-14 items-center justify-between px-3 sm:px-6 gap-x-4 shadow-sm">
             {/* Logo */}
@@ -27,19 +39,27 @@ const Navbar = ({ logoIcon }: NavbarProps) => {
 
             {/* Search Bar*/}
             <div className="flex items-center max-w-xl w-full gap-x-1 ">
-                <div className="w-full dark:bg-neutral-700 bg-neutral-200 rounded-full flex ">
+                <form
+                    onSubmit={handleSearchSubmit}
+                    className="w-full dark:bg-neutral-700 bg-neutral-200 rounded-full flex "
+                >
                     {/* Input For Search */}
                     <input
+                        onChange={(e) => setInputVal(e.target.value)}
+                        value={inputVal}
                         type="text"
                         placeholder="Search"
                         className="h-8 bg-none pl-3 rounded-full outline-none flex-1"
                     />
 
                     {/* Search Button */}
-                    <button className="bg-none duration-200 dark:hover:text-amber-200 hover:text-amber-400 hover:cursor-pointer border-l border-neutral-400 w-10 h-8 flex items-center justify-center">
+                    <button
+                        type="submit"
+                        className="bg-none duration-200 dark:hover:text-amber-200 hover:text-amber-400 hover:cursor-pointer border-l border-neutral-400 w-10 h-8 flex items-center justify-center"
+                    >
                         <i className="fa-solid fa-magnifying-glass"></i>
                     </button>
-                </div>
+                </form>
 
                 {/* Theme Button */}
                 <ThemeButton />
