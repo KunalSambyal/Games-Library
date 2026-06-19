@@ -14,10 +14,6 @@ const Navbar = ({ logoIcon }: NavbarProps) => {
     const [searchParams, setSearchParams] = useSearchParams();
     const searchQuery = searchParams.get("search") || "";
 
-    useEffect(() => {
-        setInputVal(searchQuery);
-    }, [searchQuery]);
-
     const navigate = useNavigate();
     const [inputVal, setInputVal] = useState("");
 

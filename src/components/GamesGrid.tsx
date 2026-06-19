@@ -46,7 +46,7 @@ function GamesGrid() {
         );
     if (error) return <div>Error loading games: {error}</div>;
 
-    const filteredGames = games.filter((game) => {
+    const filteredGames = games.filter((game: RawGame) => {
         const matchesSearch = game.name
             .toLowerCase()
             .includes(searchQuery.toLowerCase());
@@ -70,7 +70,7 @@ function GamesGrid() {
                     {selectedGenre !== "All" && ` in genre "${selectedGenre}"`}
                 </div>
             ) : (
-                filteredGames.map((game: any) => (
+                filteredGames.map((game: RawGame) => (
                     <div
                         key={game.id}
                         className="dark:bg-neutral-800 bg-amber-100 dark:text-neutral-50 rounded-2xl relative hover:scale-[1.02] duration-200 group"
@@ -99,9 +99,11 @@ function GamesGrid() {
                             </div>
 
                             <div className="flex justify-between items-start gap-x-2">
-                                <div className="font-semibold flex-1">{game.name}</div>
+                                <div className="font-semibold flex-1">
+                                    {game.name}
+                                </div>
                                 <button
-                                    className="text-amber-500 hover:text-amber-600 dark:text-amber-400 dark:hover:text-amber-300 transition-colors duration-200 cursor-pointer text-lg flex-shrink-0"
+                                    className="text-amber-500 hover:text-amber-600 dark:text-amber-400 dark:hover:text-amber-300 transition-colors duration-200 cursor-pointer text-lg shrink-0"
                                     title="Add to Favourites"
                                 >
                                     <i className="fa-regular fa-heart"></i>

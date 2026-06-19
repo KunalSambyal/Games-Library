@@ -9,5 +9,6 @@ export async function getGamesData() {
         return await response.json();
     } catch (error) {
         console.error("Error fetching games data:", error);
+        throw error;
     }
 }
