@@ -1,4 +1,4 @@
-import { type ReactElement } from "react";
+import { type ReactElement, useState } from "react";
 import { Link } from "react-router-dom";
 import HamMenu from "./HamMenu";
 import ThemeButton from "./ThemeButton";
@@ -9,8 +9,9 @@ interface NavbarProps {
 }
 
 const Navbar = ({ logoIcon }: NavbarProps) => {
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     return (
-        <div className="dark:bg-neutral-950 dark:text-white flex h-14 items-center justify-between px-3 sm:px-6 gap-x-4 shadow-sm">
+        <div className="relative dark:bg-neutral-950 dark:text-white flex h-14 items-center justify-between px-3 sm:px-6 gap-x-4 shadow-sm">
             {/* Logo */}
             <Link
                 to={"/"}
@@ -44,8 +45,21 @@ const Navbar = ({ logoIcon }: NavbarProps) => {
                 <ThemeButton />
 
                 {/* HamMenu Button */}
-                <HamMenu />
+                <HamMenu
+                    isOpen={isMobileMenuOpen}
+                    onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                />
             </div>
+
+            {/* Mobile Menu Dropdown Menu */}
+            {isMobileMenuOpen && (
+                <div className="absolute top-14 left-0 w-full dark:bg-neutral-900 bg-amber-100 border-b dark:border-neutral-800 border-amber-300 md:hidden block z-50  shadow-md">
+                    <NavLinks
+                        className="flex flex-col gap-y-3 p-4 text-center font-bold"
+                        onLinkClick={() => setIsMobileMenuOpen(false)}
+                    />
+                </div>
+            )}
         </div>
     );
 };
