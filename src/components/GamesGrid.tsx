@@ -83,9 +83,6 @@ function GamesGrid() {
                         <span className="absolute top-2 right-2 bg-black/60 text-emerald-400 text-xs px-1.5 py-1 rounded-full backdrop-blur-sm">
                             ⭐ {game.rating}
                         </span>
-                        <span className="absolute top-2 left-2 text-amber-400 hidden group-hover:block hover:scale-[1.05] duration-200 cursor-pointer">
-                            <i className="fa-regular fa-heart"></i>
-                        </span>
 
                         <div className="p-4 flex flex-col gap-y-2">
                             <div className="flex justify-between text-sm">
@@ -101,7 +98,15 @@ function GamesGrid() {
                                 </div>
                             </div>
 
-                            <div className="font-semibold">{game.name}</div>
+                            <div className="flex justify-between items-start gap-x-2">
+                                <div className="font-semibold flex-1">{game.name}</div>
+                                <button
+                                    className="text-amber-500 hover:text-amber-600 dark:text-amber-400 dark:hover:text-amber-300 transition-colors duration-200 cursor-pointer text-lg flex-shrink-0"
+                                    title="Add to Favourites"
+                                >
+                                    <i className="fa-regular fa-heart"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 ))
