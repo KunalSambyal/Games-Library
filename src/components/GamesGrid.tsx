@@ -13,6 +13,7 @@ interface RawGame {
 function GamesGrid() {
     const [searchParams] = useSearchParams();
     const searchQuery = searchParams.get("search") || "";
+    const selectedGenre = searchParams.get("genre") || "All";
 
     const [games, setGames] = useState<RawGame[]>([]);
     const [loading, setLoading] = useState<boolean>(true);
@@ -45,16 +46,28 @@ function GamesGrid() {
         );
     if (error) return <div>Error loading games: {error}</div>;
 
-    const filteredGames = games.filter((game) =>
-        game.name.toLowerCase().includes(searchQuery.toLowerCase()),
-    );
+    const filteredGames = games.filter((game) => {
+        const matchesSearch = game.name
+            .toLowerCase()
+            .includes(searchQuery.toLowerCase());
+
+        const matchesGenre =
+            selectedGenre === "All" ||
+            game.genres.some(
+                (g) => g.name.toLowerCase() === selectedGenre.toLowerCase(),
+            );
+
+        return matchesSearch && matchesGenre;
+    });
 
     return (
         // Card
         <div className="grid 2xl:grid-cols-7 xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 p-2 gap-3 overflow-y-auto">
             {filteredGames.length === 0 ? (
                 <div className="col-span-full text-center py-10 dark:text-neutral-400 text-neutral-600">
-                    No games found matching "{searchQuery}"
+                    No games found
+                    {searchQuery && ` matching "${searchQuery}"`}
+                    {selectedGenre !== "All" && ` in genre "${selectedGenre}"`}
                 </div>
             ) : (
                 filteredGames.map((game: any) => (
