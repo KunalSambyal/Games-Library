@@ -7,6 +7,16 @@ const options: string[] = [
     "Shooter",
     "RPG",
     "Puzzle",
+    "Indie",
+    "Strategy",
+    "Simulation",
+    "Racing",
+    "Sports",
+    "Fighting",
+    "Platformer",
+    "Massively Multiplayer",
+    "Casual",
+    "Arcade",
 ];
 
 function FilterOptions() {
