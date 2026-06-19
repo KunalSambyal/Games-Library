@@ -1,5 +1,5 @@
-import { type ReactElement, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { type ReactElement, useState, useEffect } from "react";
+import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import HamMenu from "./HamMenu";
 import ThemeButton from "./ThemeButton";
 import NavLinks from "./NavLinks";
@@ -11,8 +11,16 @@ interface NavbarProps {
 const Navbar = ({ logoIcon }: NavbarProps) => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+    const [searchParams, setSearchParams] = useSearchParams();
+    const searchQuery = searchParams.get("search") || "";
+
+    useEffect(() => {
+        setInputVal(searchQuery);
+    }, [searchQuery]);
+
     const navigate = useNavigate();
     const [inputVal, setInputVal] = useState("");
+
     const handleSearchSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         if (inputVal.trim()) {
@@ -20,6 +28,16 @@ const Navbar = ({ logoIcon }: NavbarProps) => {
         } else {
             navigate("/");
         }
+    };
+
+    useEffect(() => {
+        setInputVal(searchQuery);
+    }, [searchQuery]);
+
+    const handleClearSearch = () => {
+        const newParams = new URLSearchParams(searchParams);
+        newParams.delete("search");
+        setSearchParams(newParams);
     };
 
     return (
@@ -53,6 +71,15 @@ const Navbar = ({ logoIcon }: NavbarProps) => {
                     />
 
                     {/* Search Button */}
+                    {inputVal && (
+                        <button
+                            type="button"
+                            onClick={handleClearSearch}
+                            className="h-8 px-2 text-neutral-400 dark:hover:text-amber-200 hover:text-amber-400 cursor-pointer flex items-center justify-center text-sm"
+                        >
+                            <i className="fa-solid fa-xmark"></i>
+                        </button>
+                    )}
                     <button
                         type="submit"
                         className="bg-none duration-200 dark:hover:text-amber-200 hover:text-amber-400 hover:cursor-pointer border-l border-neutral-400 w-10 h-8 flex items-center justify-center"
