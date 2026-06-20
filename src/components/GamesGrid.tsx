@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { getGamesData } from "../services/api";
+import GamesCard from "./GamesCard";
 
 interface RawGame {
     id: number;
@@ -61,7 +62,7 @@ function GamesGrid() {
     });
 
     return (
-        // Card
+        // Grid Layout
         <div className="flex-1 grid 2xl:grid-cols-7 xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 p-2 gap-3 overflow-y-auto content-start">
             {filteredGames.length === 0 ? (
                 <div className="col-span-full text-center py-10 dark:text-neutral-400 text-neutral-600">
@@ -70,48 +71,7 @@ function GamesGrid() {
                     {selectedGenre !== "All" && ` in genre "${selectedGenre}"`}
                 </div>
             ) : (
-                filteredGames.map((game: RawGame) => (
-                    <div
-                        key={game.id}
-                        className="dark:bg-neutral-800 bg-amber-100 dark:text-neutral-50 rounded-2xl relative hover:scale-[1.02] duration-200 group"
-                    >
-                        <img
-                            src={game.background_image}
-                            alt={game.name}
-                            className="rounded-t-2xl w-full aspect-video object-cover"
-                        />
-                        <span className="absolute top-2 right-2 bg-black/60 text-emerald-400 text-xs px-1.5 py-1 rounded-full backdrop-blur-sm">
-                            ⭐ {game.rating}
-                        </span>
-
-                        <div className="p-4 flex flex-col gap-y-2">
-                            <div className="flex justify-between text-sm">
-                                <div className="flex flex-wrap gap-1">
-                                    {game.genres.map((g: { name: string }) => (
-                                        <span
-                                            key={g.name}
-                                            className="text-xs px-2 py-0.5 rounded-lg dark:bg-neutral-700 bg-amber-300 dark:text-neutral-300 text-neutral-700"
-                                        >
-                                            {g.name}
-                                        </span>
-                                    ))}
-                                </div>
-                            </div>
-
-                            <div className="flex justify-between items-start gap-x-2">
-                                <div className="font-semibold flex-1">
-                                    {game.name}
-                                </div>
-                                <button
-                                    className="text-amber-500 hover:text-amber-600 dark:text-amber-400 dark:hover:text-amber-300 transition-colors duration-200 cursor-pointer text-lg shrink-0"
-                                    title="Add to Favourites"
-                                >
-                                    <i className="fa-regular fa-heart"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                ))
+                filteredGames.map((game: RawGame) => <GamesCard Game={game} />)
             )}
         </div>
     );
