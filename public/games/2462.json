@@ -1,0 +1,187 @@
+{
+  "id": 2462,
+  "slug": "uncharted-4-a-thiefs-end",
+  "name": "Uncharted 4: A Thief’s End",
+  "released": "2016-05-10",
+  "tba": false,
+  "background_image": "https://media.rawg.io/media/games/709/709bf81f874ce5d25d625b37b014cb63.jpg",
+  "rating": 4.48,
+  "rating_top": 5,
+  "ratings": [
+    {
+      "id": 5,
+      "title": "exceptional",
+      "count": 2427,
+      "percent": 64.12
+    },
+    {
+      "id": 4,
+      "title": "recommended",
+      "count": 1019,
+      "percent": 26.92
+    },
+    {
+      "id": 3,
+      "title": "meh",
+      "count": 206,
+      "percent": 5.44
+    },
+    {
+      "id": 1,
+      "title": "skip",
+      "count": 133,
+      "percent": 3.51
+    }
+  ],
+  "ratings_count": 3747,
+  "reviews_text_count": 27,
+  "added": 9646,
+  "added_by_status": {
+    "yet": 426,
+    "owned": 4891,
+    "beaten": 3449,
+    "toplay": 602,
+    "dropped": 172,
+    "playing": 106
+  },
+  "metacritic": 93,
+  "playtime": 0,
+  "suggestions_count": 686,
+  "updated": "2026-06-18T18:44:31",
+  "user_game": null,
+  "reviews_count": 3785,
+  "saturated_color": "0f0f0f",
+  "dominant_color": "0f0f0f",
+  "platforms": [
+    {
+      "platform": {
+        "id": 187,
+        "name": "PlayStation 5",
+        "slug": "playstation5",
+        "image": null,
+        "year_end": null,
+        "year_start": 2020,
+        "games_count": 1520,
+        "image_background": "https://media.rawg.io/media/games/152/152e788b7504aa2753c86dae912fb34c.jpg"
+      },
+      "released_at": "2016-05-10",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 18,
+        "name": "PlayStation 4",
+        "slug": "playstation4",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 7037,
+        "image_background": "https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg"
+      },
+      "released_at": "2016-05-10",
+      "requirements_en": null,
+      "requirements_ru": null
+    }
+  ],
+  "parent_platforms": [
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation",
+        "slug": "playstation"
+      }
+    }
+  ],
+  "genres": [
+    {
+      "id": 4,
+      "name": "Action",
+      "slug": "action",
+      "games_count": 191772,
+      "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Shooter",
+      "slug": "shooter",
+      "games_count": 59642,
+      "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+    }
+  ],
+  "stores": [
+    {
+      "id": 2579,
+      "store": {
+        "id": 3,
+        "name": "PlayStation Store",
+        "slug": "playstation-store",
+        "domain": "store.playstation.com",
+        "games_count": 8084,
+        "image_background": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg"
+      }
+    }
+  ],
+  "clip": null,
+  "tags": [
+    {
+      "id": 13,
+      "name": "Atmospheric",
+      "slug": "atmospheric",
+      "language": "eng",
+      "games_count": 39763,
+      "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+    },
+    {
+      "id": 69,
+      "name": "Action-Adventure",
+      "slug": "action-adventure",
+      "language": "eng",
+      "games_count": 21062,
+      "image_background": "https://media.rawg.io/media/games/c50/c5085506fe4b5e20fc7aa5ace842c20b.jpg"
+    },
+    {
+      "id": 478,
+      "name": "3rd-Person Perspective",
+      "slug": "3rd-person-perspective",
+      "language": "eng",
+      "games_count": 87,
+      "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+    }
+  ],
+  "esrb_rating": {
+    "id": 3,
+    "name": "Teen",
+    "slug": "teen"
+  },
+  "short_screenshots": [
+    {
+      "id": -1,
+      "image": "https://media.rawg.io/media/games/709/709bf81f874ce5d25d625b37b014cb63.jpg"
+    },
+    {
+      "id": 22453,
+      "image": "https://media.rawg.io/media/screenshots/fd5/fd5451e27048c3e416de1737047e4684.jpg"
+    },
+    {
+      "id": 22455,
+      "image": "https://media.rawg.io/media/screenshots/63f/63f551c55bb44ec41dbcab6898cdd264.jpg"
+    },
+    {
+      "id": 22457,
+      "image": "https://media.rawg.io/media/screenshots/30b/30bfd42d8bfe46301dbef56ba526b3ed.jpg"
+    },
+    {
+      "id": 22458,
+      "image": "https://media.rawg.io/media/screenshots/fd2/fd2ae2bc22f4fefeeb6f4b6f1587e128.jpg"
+    },
+    {
+      "id": 22460,
+      "image": "https://media.rawg.io/media/screenshots/66c/66c2aecdd80e940ea7a2d64c17cff843.jpg"
+    },
+    {
+      "id": 22462,
+      "image": "https://media.rawg.io/media/screenshots/89c/89c96f28e032d3434bab7b9247e01fe3.jpg"
+    }
+  ]
+}

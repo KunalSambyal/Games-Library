@@ -1,0 +1,443 @@
+{
+  "id": 3841,
+  "slug": "assassins-creed-iv-black-flag",
+  "name": "Assassin’s Creed IV: Black Flag",
+  "released": "2013-10-29",
+  "tba": false,
+  "background_image": "https://media.rawg.io/media/games/849/849414b978db37d4563ff9e4b0d3a787.jpg",
+  "rating": 4.16,
+  "rating_top": 4,
+  "ratings": [
+    {
+      "id": 4,
+      "title": "recommended",
+      "count": 1278,
+      "percent": 47.6
+    },
+    {
+      "id": 5,
+      "title": "exceptional",
+      "count": 995,
+      "percent": 37.06
+    },
+    {
+      "id": 3,
+      "title": "meh",
+      "count": 333,
+      "percent": 12.4
+    },
+    {
+      "id": 1,
+      "title": "skip",
+      "count": 79,
+      "percent": 2.94
+    }
+  ],
+  "ratings_count": 2659,
+  "reviews_text_count": 17,
+  "added": 9813,
+  "added_by_status": {
+    "yet": 485,
+    "owned": 5337,
+    "beaten": 2880,
+    "toplay": 286,
+    "dropped": 704,
+    "playing": 121
+  },
+  "metacritic": 85,
+  "playtime": 25,
+  "suggestions_count": 715,
+  "updated": "2026-06-14T21:07:37",
+  "user_game": null,
+  "reviews_count": 2685,
+  "saturated_color": "0f0f0f",
+  "dominant_color": "0f0f0f",
+  "platforms": [
+    {
+      "platform": {
+        "id": 14,
+        "name": "Xbox 360",
+        "slug": "xbox360",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 2831,
+        "image_background": "https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg"
+      },
+      "released_at": "2013-10-29",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 1,
+        "name": "Xbox One",
+        "slug": "xbox-one",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 5743,
+        "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+      },
+      "released_at": "2013-10-29",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 4,
+        "name": "PC",
+        "slug": "pc",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 561169,
+        "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+      },
+      "released_at": "2013-10-29",
+      "requirements_en": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows Vista SP2 or Windows 7 SP1 or Windows 8 (both 32/64bit versions)<br></li><li><strong>Processor:</strong> Intel Core2Quad Q8400 @ 2.6 GHz or AMD Athlon II X4 620 @ 2.6 GHz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Nvidia Geforce GTX 260 or AMD Radeon HD 4870 (512MB VRAM with shader Model 4.0 or higher)<br></li><li><strong>Storage:</strong> 30 GB available space<br></li><li><strong>Sound Card:</strong> DirectX Compatible Sound Card with latest drivers<br></li><li><strong>Additional Notes:</strong> Windows-Compatible keyboard and mouse required, controller optional.</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows Vista SP2 or Windows 7 SP1 or Windows 8 (both 32/64bit versions)<br></li><li><strong>Processor:</strong> Intel Core i5 2400S @ 2.5 GHz or better or AMD Phenom II x4 940 @ 3.0 GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Nvidia GeForce GTX 470 or AMD Radeon HD 5850 (1024MB VRAM with Shader Model 5.0) or better<br></li><li><strong>Storage:</strong> 30 GB available space<br></li><li><strong>Sound Card:</strong> DirectX Compatible Sound Card with latest drivers<br></li><li><strong>Additional Notes:</strong> Supported video cards at the time of release: Nvidia GeForce GTX 260 or better and GeForce GTX 400, GTX 500, GTX 600 and GTX 700 series. AMD Radeon HD4870 or better and Radeon HD5000, HD6000 and HD7000 series. Note: Latest GeForce drivers tested: 327.23 for all series. Latest Radeon drivers tested: 13.1 for Radeon HD4000, 13.4 for Radeon HD5000, HD6000 and HD7000 series on Vista and 13.9 for Radeon HD5000, HD6000 and HD7000 series on Win7 and Win8. Laptop versions of these cards may work but are NOT officially supported.</li></ul>"
+      },
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 7,
+        "name": "Nintendo Switch",
+        "slug": "nintendo-switch",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 5780,
+        "image_background": "https://media.rawg.io/media/games/8a0/8a02f84a5916ede2f923b88d5f8217ba.jpg"
+      },
+      "released_at": "2013-10-29",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 10,
+        "name": "Wii U",
+        "slug": "wii-u",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 1114,
+        "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+      },
+      "released_at": "2013-10-29",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 16,
+        "name": "PlayStation 3",
+        "slug": "playstation3",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 3209,
+        "image_background": "https://media.rawg.io/media/games/8e4/8e4de3f54ac659e08a7ba6a2b731682a.jpg"
+      },
+      "released_at": "2013-10-29",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 18,
+        "name": "PlayStation 4",
+        "slug": "playstation4",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 7037,
+        "image_background": "https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg"
+      },
+      "released_at": "2013-10-29",
+      "requirements_en": null,
+      "requirements_ru": null
+    }
+  ],
+  "parent_platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      }
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation",
+        "slug": "playstation"
+      }
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox",
+        "slug": "xbox"
+      }
+    },
+    {
+      "platform": {
+        "id": 7,
+        "name": "Nintendo",
+        "slug": "nintendo"
+      }
+    }
+  ],
+  "genres": [
+    {
+      "id": 4,
+      "name": "Action",
+      "slug": "action",
+      "games_count": 191772,
+      "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+    }
+  ],
+  "stores": [
+    {
+      "id": 4154,
+      "store": {
+        "id": 3,
+        "name": "PlayStation Store",
+        "slug": "playstation-store",
+        "domain": "store.playstation.com",
+        "games_count": 8084,
+        "image_background": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg"
+      }
+    },
+    {
+      "id": 17541,
+      "store": {
+        "id": 1,
+        "name": "Steam",
+        "slug": "steam",
+        "domain": "store.steampowered.com",
+        "games_count": 123696,
+        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+      }
+    },
+    {
+      "id": 10261,
+      "store": {
+        "id": 2,
+        "name": "Xbox Store",
+        "slug": "xbox-store",
+        "domain": "microsoft.com",
+        "games_count": 4942,
+        "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+      }
+    },
+    {
+      "id": 44141,
+      "store": {
+        "id": 7,
+        "name": "Xbox 360 Store",
+        "slug": "xbox360",
+        "domain": "marketplace.xbox.com",
+        "games_count": 1915,
+        "image_background": "https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg"
+      }
+    },
+    {
+      "id": 295640,
+      "store": {
+        "id": 6,
+        "name": "Nintendo Store",
+        "slug": "nintendo",
+        "domain": "nintendo.com",
+        "games_count": 9153,
+        "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+      }
+    }
+  ],
+  "clip": null,
+  "tags": [
+    {
+      "id": 31,
+      "name": "Singleplayer",
+      "slug": "singleplayer",
+      "language": "eng",
+      "games_count": 251054,
+      "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Multiplayer",
+      "slug": "multiplayer",
+      "language": "eng",
+      "games_count": 42598,
+      "image_background": "https://media.rawg.io/media/games/960/960b601d9541cec776c5fa42a00bf6c4.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Atmospheric",
+      "slug": "atmospheric",
+      "language": "eng",
+      "games_count": 39763,
+      "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+    },
+    {
+      "id": 24,
+      "name": "RPG",
+      "slug": "rpg",
+      "language": "eng",
+      "games_count": 26681,
+      "image_background": "https://media.rawg.io/media/games/d82/d82990b9c67ba0d2d09d4e6fa88885a7.jpg"
+    },
+    {
+      "id": 118,
+      "name": "Story Rich",
+      "slug": "story-rich",
+      "language": "eng",
+      "games_count": 27297,
+      "image_background": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Open World",
+      "slug": "open-world",
+      "language": "eng",
+      "games_count": 9281,
+      "image_background": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg"
+    },
+    {
+      "id": 149,
+      "name": "Third Person",
+      "slug": "third-person",
+      "language": "eng",
+      "games_count": 14734,
+      "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Exploration",
+      "slug": "exploration",
+      "language": "eng",
+      "games_count": 29300,
+      "image_background": "https://media.rawg.io/media/games/737/737ea5662211d2e0bbd6f5989189e4f1.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Sandbox",
+      "slug": "sandbox",
+      "language": "eng",
+      "games_count": 8523,
+      "image_background": "https://media.rawg.io/media/games/095/0953bf01cd4e4dd204aba85489ac9868.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Stealth",
+      "slug": "stealth",
+      "language": "eng",
+      "games_count": 7172,
+      "image_background": "https://media.rawg.io/media/games/7ac/7aca7ccf0e70cd0974cb899ab9e5158e.jpg"
+    },
+    {
+      "id": 69,
+      "name": "Action-Adventure",
+      "slug": "action-adventure",
+      "language": "eng",
+      "games_count": 21062,
+      "image_background": "https://media.rawg.io/media/games/c50/c5085506fe4b5e20fc7aa5ace842c20b.jpg"
+    },
+    {
+      "id": 97,
+      "name": "Action RPG",
+      "slug": "action-rpg",
+      "language": "eng",
+      "games_count": 8703,
+      "image_background": "https://media.rawg.io/media/games/67f/67f62d1f062a6164f57575e0604ee9f6.jpg"
+    },
+    {
+      "id": 192,
+      "name": "Mature",
+      "slug": "mature",
+      "language": "eng",
+      "games_count": 4784,
+      "image_background": "https://media.rawg.io/media/games/471/4712c9ac591f556f553556b864a7e92b.jpg"
+    },
+    {
+      "id": 89,
+      "name": "Historical",
+      "slug": "historical",
+      "language": "eng",
+      "games_count": 3993,
+      "image_background": "https://media.rawg.io/media/games/39a/39a8aa7798b685f9625e857bc394259d.jpg"
+    },
+    {
+      "id": 188,
+      "name": "Parkour",
+      "slug": "parkour",
+      "language": "eng",
+      "games_count": 4110,
+      "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+    },
+    {
+      "id": 278,
+      "name": "Assassin",
+      "slug": "assassin",
+      "language": "eng",
+      "games_count": 962,
+      "image_background": "https://media.rawg.io/media/games/0bc/0bcc108295a244b488d5c25f7d867220.jpg"
+    },
+    {
+      "id": 255,
+      "name": "Pirates",
+      "slug": "pirates",
+      "language": "eng",
+      "games_count": 2343,
+      "image_background": "https://media.rawg.io/media/games/41a/41a648b954d9a750b2595995b113e684.jpg"
+    },
+    {
+      "id": 256,
+      "name": "Naval",
+      "slug": "naval",
+      "language": "eng",
+      "games_count": 424,
+      "image_background": "https://media.rawg.io/media/screenshots/dd1/dd1dd3d1016473e6e1799fd2562a6d48.jpg"
+    }
+  ],
+  "esrb_rating": {
+    "id": 4,
+    "name": "Mature",
+    "slug": "mature"
+  },
+  "short_screenshots": [
+    {
+      "id": -1,
+      "image": "https://media.rawg.io/media/games/849/849414b978db37d4563ff9e4b0d3a787.jpg"
+    },
+    {
+      "id": 32698,
+      "image": "https://media.rawg.io/media/screenshots/46d/46de97777c05efb26597b215735dcd84.jpg"
+    },
+    {
+      "id": 32699,
+      "image": "https://media.rawg.io/media/screenshots/162/162503bb903edd7cfddf2a49ecdf5b7d.jpg"
+    },
+    {
+      "id": 32700,
+      "image": "https://media.rawg.io/media/screenshots/9ad/9ad8aa17d3f2be9545273f895e481280.jpg"
+    },
+    {
+      "id": 32701,
+      "image": "https://media.rawg.io/media/screenshots/b02/b02b168d04889304aac23e47f5314721.jpg"
+    },
+    {
+      "id": 32702,
+      "image": "https://media.rawg.io/media/screenshots/ad8/ad8439bc9ed7d2f88deb836c9cff23d2.jpg"
+    },
+    {
+      "id": 32703,
+      "image": "https://media.rawg.io/media/screenshots/398/398abeb965880c1c3310a6a4ad9c71b8.jpg"
+    }
+  ]
+}

@@ -1,0 +1,522 @@
+{
+  "id": 766,
+  "slug": "warframe",
+  "name": "Warframe",
+  "released": "2013-03-25",
+  "tba": false,
+  "background_image": "https://media.rawg.io/media/games/f87/f87457e8347484033cb34cde6101d08d.jpg",
+  "rating": 3.42,
+  "rating_top": 4,
+  "ratings": [
+    {
+      "id": 4,
+      "title": "recommended",
+      "count": 868,
+      "percent": 40.75
+    },
+    {
+      "id": 3,
+      "title": "meh",
+      "count": 674,
+      "percent": 31.64
+    },
+    {
+      "id": 5,
+      "title": "exceptional",
+      "count": 298,
+      "percent": 13.99
+    },
+    {
+      "id": 1,
+      "title": "skip",
+      "count": 290,
+      "percent": 13.62
+    }
+  ],
+  "ratings_count": 2115,
+  "reviews_text_count": 12,
+  "added": 13158,
+  "added_by_status": {
+    "yet": 314,
+    "owned": 10551,
+    "beaten": 286,
+    "toplay": 85,
+    "dropped": 1642,
+    "playing": 280
+  },
+  "metacritic": 73,
+  "playtime": 8,
+  "suggestions_count": 739,
+  "updated": "2026-06-02T12:31:56",
+  "user_game": null,
+  "reviews_count": 2130,
+  "saturated_color": "0f0f0f",
+  "dominant_color": "0f0f0f",
+  "platforms": [
+    {
+      "platform": {
+        "id": 3,
+        "name": "iOS",
+        "slug": "ios",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 77452,
+        "image_background": "https://media.rawg.io/media/games/283/283e7e600366b0da7021883d27159b27.jpg"
+      },
+      "released_at": "2024-02-20",
+      "requirements_en": {
+        "minimum": "iPhone X S, iPhone X S Max, iPhone X R, iPad 8 1 2, iPad 8 3 4, iPad 8 5 6, iPad 8 7 8, iPad Mini 5, iPad Mini 5 Cellular, iPad Air 3, iPad Air 3 Cellular, iPhone 1 1, iPhone 1 1 Pro, iPhone 1 1 Pro Max, iPhone SE Second Gen, iPad Pro Second Gen, iPad Pro Second Gen Cellular, iPad Pro Fourth Gen, iPad Pro Fourth Gen Cellular, iPhone 1 2 Mini, iPhone 1 2, iPhone 1 2 Pro, iPhone 1 2 Pro Max, iPad Air 4, iPad Air 4 Cellular, iPad Eighth Gen, iPad Eighth Gen Cellular, iPad Pro Third Gen, iPad Pro Third Gen Cellular, iPad Pro Fifth Gen, iPad Pro Fifth Gen Cellular, iPhone 1 3 Pro, iPhone 1 3 Pro Max, iPhone 1 3 Mini, iPhone 1 3, iPad Mini Sixth Gen, iPad Mini Sixth Gen Cellular, iPad Ninth Gen, iPad Ninth Gen Cellular, iPhone SE Third Gen, iPad Air Fifth Gen, iPad Air Fifth Gen Cellular, iPhone 1 4, iPhone 1 4 Plus, iPhone 1 4 Pro, iPhone 1 4 Pro Max, iPad Tenth Gen, iPad Tenth Gen Cellular, iPad Pro 1 1 Fourth Gen, iPad Pro 1 1 Fourth Gen Cellular, iPad Pro Sixth Gen, iPad Pro Sixth Gen Cellular, iPhone 1 5, iPhone 1 5 Plus, iPhone 1 5 Pro, iPhone 1 5 Pro Max"
+      },
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 186,
+        "name": "Xbox Series S/X",
+        "slug": "xbox-series-x",
+        "image": null,
+        "year_end": null,
+        "year_start": 2020,
+        "games_count": 1277,
+        "image_background": "https://media.rawg.io/media/games/b34/b3419c2706f8f8dbe40d08e23642ad06.jpg"
+      },
+      "released_at": "2013-03-25",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 187,
+        "name": "PlayStation 5",
+        "slug": "playstation5",
+        "image": null,
+        "year_end": null,
+        "year_start": 2020,
+        "games_count": 1520,
+        "image_background": "https://media.rawg.io/media/games/152/152e788b7504aa2753c86dae912fb34c.jpg"
+      },
+      "released_at": "2013-03-25",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 18,
+        "name": "PlayStation 4",
+        "slug": "playstation4",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 7037,
+        "image_background": "https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg"
+      },
+      "released_at": "2013-03-25",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 1,
+        "name": "Xbox One",
+        "slug": "xbox-one",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 5743,
+        "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+      },
+      "released_at": "2013-03-25",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 7,
+        "name": "Nintendo Switch",
+        "slug": "nintendo-switch",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 5780,
+        "image_background": "https://media.rawg.io/media/games/8a0/8a02f84a5916ede2f923b88d5f8217ba.jpg"
+      },
+      "released_at": "2013-03-25",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 4,
+        "name": "PC",
+        "slug": "pc",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 561169,
+        "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+      },
+      "released_at": "2013-03-25",
+      "requirements_en": {
+        "minimum": "OS: Windows 7/8/10 64-Bit (32-bit not supported)\r\n    Processor: Intel Core 2 Duo e6400 or AMD Athlon x64 4000+ (~2.2Ghz dual core CPU)\r\n    Memory: 4 GB System RAM.\r\n    Graphics: DirectX 10+ compatible video card.\r\n    Hard Drive: 35 GB free HD space."
+      },
+      "requirements_ru": {
+        "minimum": "Win Xp 32\nCore 2 Duo E4300/Athlon 64 X2 Dual 4200+\nGeForce 605/Radeon HD 5450\n2 GB RAM\n7.5 GB HDD",
+        "recommended": "Win 7 64\nCore 2 Quad Q6400/Athlon II X4 605e\nGeForce GTS 450/Radeon HD 5750\n4 GB RAM\n7.5 GB HDD"
+      }
+    }
+  ],
+  "parent_platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      }
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation",
+        "slug": "playstation"
+      }
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox",
+        "slug": "xbox"
+      }
+    },
+    {
+      "platform": {
+        "id": 4,
+        "name": "iOS",
+        "slug": "ios"
+      }
+    },
+    {
+      "platform": {
+        "id": 7,
+        "name": "Nintendo",
+        "slug": "nintendo"
+      }
+    }
+  ],
+  "genres": [
+    {
+      "id": 4,
+      "name": "Action",
+      "slug": "action",
+      "games_count": 191772,
+      "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Shooter",
+      "slug": "shooter",
+      "games_count": 59642,
+      "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+    },
+    {
+      "id": 5,
+      "name": "RPG",
+      "slug": "role-playing-games-rpg",
+      "games_count": 62046,
+      "image_background": "https://media.rawg.io/media/games/a6c/a6ccd34125c594abf1a9c9821b9a715d.jpg"
+    },
+    {
+      "id": 59,
+      "name": "Massively Multiplayer",
+      "slug": "massively-multiplayer",
+      "games_count": 4259,
+      "image_background": "https://media.rawg.io/media/games/6fc/6fcf4cd3b17c288821388e6085bb0fc9.jpg"
+    }
+  ],
+  "stores": [
+    {
+      "id": 982513,
+      "store": {
+        "id": 4,
+        "name": "App Store",
+        "slug": "apple-appstore",
+        "domain": "apps.apple.com",
+        "games_count": 75593,
+        "image_background": "https://media.rawg.io/media/games/095/0953bf01cd4e4dd204aba85489ac9868.jpg"
+      }
+    },
+    {
+      "id": 761149,
+      "store": {
+        "id": 11,
+        "name": "Epic Games",
+        "slug": "epic-games",
+        "domain": "epicgames.com",
+        "games_count": 1454,
+        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+      }
+    },
+    {
+      "id": 4171,
+      "store": {
+        "id": 3,
+        "name": "PlayStation Store",
+        "slug": "playstation-store",
+        "domain": "store.playstation.com",
+        "games_count": 8084,
+        "image_background": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg"
+      }
+    },
+    {
+      "id": 12122,
+      "store": {
+        "id": 1,
+        "name": "Steam",
+        "slug": "steam",
+        "domain": "store.steampowered.com",
+        "games_count": 123696,
+        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+      }
+    },
+    {
+      "id": 776,
+      "store": {
+        "id": 2,
+        "name": "Xbox Store",
+        "slug": "xbox-store",
+        "domain": "microsoft.com",
+        "games_count": 4942,
+        "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+      }
+    },
+    {
+      "id": 49441,
+      "store": {
+        "id": 6,
+        "name": "Nintendo Store",
+        "slug": "nintendo",
+        "domain": "nintendo.com",
+        "games_count": 9153,
+        "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+      }
+    }
+  ],
+  "clip": null,
+  "tags": [
+    {
+      "id": 31,
+      "name": "Singleplayer",
+      "slug": "singleplayer",
+      "language": "eng",
+      "games_count": 251054,
+      "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Multiplayer",
+      "slug": "multiplayer",
+      "language": "eng",
+      "games_count": 42598,
+      "image_background": "https://media.rawg.io/media/games/960/960b601d9541cec776c5fa42a00bf6c4.jpg"
+    },
+    {
+      "id": 7808,
+      "name": "steam-trading-cards",
+      "slug": "steam-trading-cards",
+      "language": "eng",
+      "games_count": 7568,
+      "image_background": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+    },
+    {
+      "id": 24,
+      "name": "RPG",
+      "slug": "rpg",
+      "language": "eng",
+      "games_count": 26681,
+      "image_background": "https://media.rawg.io/media/games/d82/d82990b9c67ba0d2d09d4e6fa88885a7.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Co-op",
+      "slug": "co-op",
+      "language": "eng",
+      "games_count": 14420,
+      "image_background": "https://media.rawg.io/media/games/da1/da1b267764d77221f07a4386b6548e5a.jpg"
+    },
+    {
+      "id": 411,
+      "name": "cooperative",
+      "slug": "cooperative",
+      "language": "eng",
+      "games_count": 6603,
+      "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+      "id": 149,
+      "name": "Third Person",
+      "slug": "third-person",
+      "language": "eng",
+      "games_count": 14734,
+      "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Sci-fi",
+      "slug": "sci-fi",
+      "language": "eng",
+      "games_count": 22084,
+      "image_background": "https://media.rawg.io/media/games/2ba/2bac0e87cf45e5b508f227d281c9252a.jpg"
+    },
+    {
+      "id": 40845,
+      "name": "Partial Controller Support",
+      "slug": "partial-controller-support",
+      "language": "eng",
+      "games_count": 14005,
+      "image_background": "https://media.rawg.io/media/games/960/960b601d9541cec776c5fa42a00bf6c4.jpg"
+    },
+    {
+      "id": 30,
+      "name": "FPS",
+      "slug": "fps",
+      "language": "eng",
+      "games_count": 15007,
+      "image_background": "https://media.rawg.io/media/games/120/1201a40e4364557b124392ee50317b99.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Online Co-Op",
+      "slug": "online-co-op",
+      "language": "eng",
+      "games_count": 7705,
+      "image_background": "https://media.rawg.io/media/games/4e0/4e0e7b6d6906a131307c94266e5c9a1c.jpg"
+    },
+    {
+      "id": 79,
+      "name": "Free to Play",
+      "slug": "free-to-play",
+      "language": "eng",
+      "games_count": 9898,
+      "image_background": "https://media.rawg.io/media/games/ec3/ec3a7db7b8ab5a71aad622fe7c62632f.jpg"
+    },
+    {
+      "id": 150,
+      "name": "Third-Person Shooter",
+      "slug": "third-person-shooter",
+      "language": "eng",
+      "games_count": 4169,
+      "image_background": "https://media.rawg.io/media/games/b49/b4912b5dbfc7ed8927b65f05b8507f6c.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Space",
+      "slug": "space",
+      "language": "eng",
+      "games_count": 44248,
+      "image_background": "https://media.rawg.io/media/games/5f4/5f4780690dbf04900cbac5f05b9305f3.jpg"
+    },
+    {
+      "id": 468,
+      "name": "role-playing",
+      "slug": "role-playing",
+      "language": "eng",
+      "games_count": 1657,
+      "image_background": "https://media.rawg.io/media/games/840/8408ad3811289a6a5830cae60fb0b62a.jpg"
+    },
+    {
+      "id": 68,
+      "name": "Hack and Slash",
+      "slug": "hack-and-slash",
+      "language": "eng",
+      "games_count": 5359,
+      "image_background": "https://media.rawg.io/media/games/1f4/1f47a270b8f241e4676b14d39ec620f7.jpg"
+    },
+    {
+      "id": 40837,
+      "name": "In-App Purchases",
+      "slug": "in-app-purchases",
+      "language": "eng",
+      "games_count": 3427,
+      "image_background": "https://media.rawg.io/media/screenshots/2b9/2b9a49e89c1ba892a648620194dcf327.jpg"
+    },
+    {
+      "id": 167,
+      "name": "Futuristic",
+      "slug": "futuristic",
+      "language": "eng",
+      "games_count": 6931,
+      "image_background": "https://media.rawg.io/media/games/e6d/e6de699bd788497f4b52e2f41f9698f2.jpg"
+    },
+    {
+      "id": 188,
+      "name": "Parkour",
+      "slug": "parkour",
+      "language": "eng",
+      "games_count": 4110,
+      "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+    },
+    {
+      "id": 226,
+      "name": "Cyberpunk",
+      "slug": "cyberpunk",
+      "language": "eng",
+      "games_count": 5232,
+      "image_background": "https://media.rawg.io/media/games/d1f/d1f872a48286b6b751670817d5c1e1be.jpg"
+    },
+    {
+      "id": 171,
+      "name": "PvE",
+      "slug": "pve",
+      "language": "eng",
+      "games_count": 8014,
+      "image_background": "https://media.rawg.io/media/games/26b/26b27e1da9e3727fcb12e3e4e86c8c19.jpg"
+    },
+    {
+      "id": 186,
+      "name": "Ninja",
+      "slug": "ninja",
+      "language": "eng",
+      "games_count": 2516,
+      "image_background": "https://media.rawg.io/media/games/f87/f87457e8347484033cb34cde6101d08d.jpg"
+    },
+    {
+      "id": 38844,
+      "name": "looter shooter",
+      "slug": "looter-shooter",
+      "language": "eng",
+      "games_count": 797,
+      "image_background": "https://media.rawg.io/media/games/bbe/bbec05fb0c57c24c92dbe09699d4968d.jpg"
+    }
+  ],
+  "esrb_rating": null,
+  "short_screenshots": [
+    {
+      "id": -1,
+      "image": "https://media.rawg.io/media/games/f87/f87457e8347484033cb34cde6101d08d.jpg"
+    },
+    {
+      "id": 6718,
+      "image": "https://media.rawg.io/media/screenshots/2e1/2e15c9f4cca692ebca67b7652e559f6d.jpg"
+    },
+    {
+      "id": 6730,
+      "image": "https://media.rawg.io/media/screenshots/70d/70de629465e39f8108aa533df9cff554.jpg"
+    },
+    {
+      "id": 6734,
+      "image": "https://media.rawg.io/media/screenshots/b3a/b3a368123558e7f4010e8b68518d6412.jpg"
+    },
+    {
+      "id": 6736,
+      "image": "https://media.rawg.io/media/screenshots/fd2/fd2225327c9dca60c9acea0edca8c5fc.jpg"
+    },
+    {
+      "id": 6740,
+      "image": "https://media.rawg.io/media/screenshots/34e/34e3c0d71551f07c3bb709fe12f18ca2.jpg"
+    },
+    {
+      "id": 6743,
+      "image": "https://media.rawg.io/media/screenshots/977/977735a2fad2bc47917424e20e9dff56.jpg"
+    }
+  ]
+}

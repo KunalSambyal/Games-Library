@@ -1,0 +1,404 @@
+{
+  "id": 10141,
+  "slug": "nierautomata",
+  "name": "NieR:Automata",
+  "released": "2017-03-17",
+  "tba": false,
+  "background_image": "https://media.rawg.io/media/games/5a4/5a44112251d70a25291cc33757220fce.jpg",
+  "rating": 4.37,
+  "rating_top": 5,
+  "ratings": [
+    {
+      "id": 5,
+      "title": "exceptional",
+      "count": 1322,
+      "percent": 59.95
+    },
+    {
+      "id": 4,
+      "title": "recommended",
+      "count": 574,
+      "percent": 26.03
+    },
+    {
+      "id": 3,
+      "title": "meh",
+      "count": 211,
+      "percent": 9.57
+    },
+    {
+      "id": 1,
+      "title": "skip",
+      "count": 98,
+      "percent": 4.44
+    }
+  ],
+  "ratings_count": 2169,
+  "reviews_text_count": 27,
+  "added": 9092,
+  "added_by_status": {
+    "yet": 683,
+    "owned": 4863,
+    "beaten": 1775,
+    "toplay": 950,
+    "dropped": 553,
+    "playing": 268
+  },
+  "metacritic": 86,
+  "playtime": 13,
+  "suggestions_count": 669,
+  "updated": "2026-06-15T20:16:01",
+  "user_game": null,
+  "reviews_count": 2205,
+  "saturated_color": "0f0f0f",
+  "dominant_color": "0f0f0f",
+  "platforms": [
+    {
+      "platform": {
+        "id": 18,
+        "name": "PlayStation 4",
+        "slug": "playstation4",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 7037,
+        "image_background": "https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg"
+      },
+      "released_at": "2017-03-17",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 7,
+        "name": "Nintendo Switch",
+        "slug": "nintendo-switch",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 5780,
+        "image_background": "https://media.rawg.io/media/games/8a0/8a02f84a5916ede2f923b88d5f8217ba.jpg"
+      },
+      "released_at": "2017-03-17",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 4,
+        "name": "PC",
+        "slug": "pc",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 561169,
+        "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+      },
+      "released_at": "2017-03-17",
+      "requirements_en": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 7 /8.1 /10 64bit<br></li><li><strong>Processor:</strong> Intel Core i3 2100 or AMD A8-6500<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 770 VRAM 2GB or AMD Radeon R9 270X VRAM 2GB<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 50 GB available space<br></li><li><strong>Sound Card:</strong> DirectX® 11 supported<br></li><li><strong>Additional Notes:</strong> Mouse, keyboard and game pad (XInput only). Screen resolution: 1280x720. This product only supports MS-IME keyboard input. There is a possibility that other IME will not function correctly with it.</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 8.1 /10 64bit<br></li><li><strong>Processor:</strong> Intel Core i5 4670 or AMD A10-7850K<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 980 VRAM 4GB or AMD Radeon R9 380X VRAM 4GB<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 50 GB available space<br></li><li><strong>Sound Card:</strong> DirectX® 11 supported<br></li><li><strong>Additional Notes:</strong> Mouse, keyboard and game pad (XInput only). Screen resolution: 1920x1080. Depending on the monitor and PC graphics card environment and setup used, this title can expand its display resolution to 4K. However, please be aware that 4K resolutions are not officially supported. This product only supports MS-IME keyboard input. There is a possibility that other IME will not function correctly with it.</li></ul>"
+      },
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 1,
+        "name": "Xbox One",
+        "slug": "xbox-one",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 5743,
+        "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+      },
+      "released_at": "2017-03-17",
+      "requirements_en": null,
+      "requirements_ru": null
+    }
+  ],
+  "parent_platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      }
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation",
+        "slug": "playstation"
+      }
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox",
+        "slug": "xbox"
+      }
+    },
+    {
+      "platform": {
+        "id": 7,
+        "name": "Nintendo",
+        "slug": "nintendo"
+      }
+    }
+  ],
+  "genres": [
+    {
+      "id": 4,
+      "name": "Action",
+      "slug": "action",
+      "games_count": 191772,
+      "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+    },
+    {
+      "id": 5,
+      "name": "RPG",
+      "slug": "role-playing-games-rpg",
+      "games_count": 62046,
+      "image_background": "https://media.rawg.io/media/games/a6c/a6ccd34125c594abf1a9c9821b9a715d.jpg"
+    }
+  ],
+  "stores": [
+    {
+      "id": 11071,
+      "store": {
+        "id": 1,
+        "name": "Steam",
+        "slug": "steam",
+        "domain": "store.steampowered.com",
+        "games_count": 123695,
+        "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+      }
+    },
+    {
+      "id": 238012,
+      "store": {
+        "id": 2,
+        "name": "Xbox Store",
+        "slug": "xbox-store",
+        "domain": "microsoft.com",
+        "games_count": 4942,
+        "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+      }
+    }
+  ],
+  "clip": null,
+  "tags": [
+    {
+      "id": 31,
+      "name": "Singleplayer",
+      "slug": "singleplayer",
+      "language": "eng",
+      "games_count": 251054,
+      "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+      "id": 40847,
+      "name": "Steam Achievements",
+      "slug": "steam-achievements",
+      "language": "eng",
+      "games_count": 51835,
+      "image_background": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+    },
+    {
+      "id": 40849,
+      "name": "Steam Cloud",
+      "slug": "steam-cloud",
+      "language": "eng",
+      "games_count": 25804,
+      "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Atmospheric",
+      "slug": "atmospheric",
+      "language": "eng",
+      "games_count": 39763,
+      "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+    },
+    {
+      "id": 7808,
+      "name": "steam-trading-cards",
+      "slug": "steam-trading-cards",
+      "language": "eng",
+      "games_count": 7568,
+      "image_background": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Great Soundtrack",
+      "slug": "great-soundtrack",
+      "language": "eng",
+      "games_count": 3450,
+      "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+    },
+    {
+      "id": 24,
+      "name": "RPG",
+      "slug": "rpg",
+      "language": "eng",
+      "games_count": 26681,
+      "image_background": "https://media.rawg.io/media/games/d82/d82990b9c67ba0d2d09d4e6fa88885a7.jpg"
+    },
+    {
+      "id": 118,
+      "name": "Story Rich",
+      "slug": "story-rich",
+      "language": "eng",
+      "games_count": 27297,
+      "image_background": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Open World",
+      "slug": "open-world",
+      "language": "eng",
+      "games_count": 9281,
+      "image_background": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Sci-fi",
+      "slug": "sci-fi",
+      "language": "eng",
+      "games_count": 22084,
+      "image_background": "https://media.rawg.io/media/games/2ba/2bac0e87cf45e5b508f227d281c9252a.jpg"
+    },
+    {
+      "id": 40845,
+      "name": "Partial Controller Support",
+      "slug": "partial-controller-support",
+      "language": "eng",
+      "games_count": 14005,
+      "image_background": "https://media.rawg.io/media/games/960/960b601d9541cec776c5fa42a00bf6c4.jpg"
+    },
+    {
+      "id": 189,
+      "name": "Female Protagonist",
+      "slug": "female-protagonist",
+      "language": "eng",
+      "games_count": 15569,
+      "image_background": "https://media.rawg.io/media/games/2ba/2bac0e87cf45e5b508f227d281c9252a.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Violent",
+      "slug": "violent",
+      "language": "eng",
+      "games_count": 7865,
+      "image_background": "https://media.rawg.io/media/games/13a/13a528ac9cf48bbb6be5d35fe029336d.jpg"
+    },
+    {
+      "id": 134,
+      "name": "Anime",
+      "slug": "anime",
+      "language": "eng",
+      "games_count": 17087,
+      "image_background": "https://media.rawg.io/media/games/21a/21ad672cedee9b4378abb6c2d2e626ee.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Nudity",
+      "slug": "nudity",
+      "language": "eng",
+      "games_count": 8851,
+      "image_background": "https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg"
+    },
+    {
+      "id": 68,
+      "name": "Hack and Slash",
+      "slug": "hack-and-slash",
+      "language": "eng",
+      "games_count": 5359,
+      "image_background": "https://media.rawg.io/media/games/1f4/1f47a270b8f241e4676b14d39ec620f7.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Post-apocalyptic",
+      "slug": "post-apocalyptic",
+      "language": "eng",
+      "games_count": 4949,
+      "image_background": "https://media.rawg.io/media/games/c73/c73c4ffebfe968ba0982a56c2b5020ef.jpg"
+    },
+    {
+      "id": 233,
+      "name": "JRPG",
+      "slug": "jrpg",
+      "language": "eng",
+      "games_count": 5276,
+      "image_background": "https://media.rawg.io/media/games/5a4/5a44112251d70a25291cc33757220fce.jpg"
+    },
+    {
+      "id": 197,
+      "name": "Robots",
+      "slug": "robots",
+      "language": "eng",
+      "games_count": 8880,
+      "image_background": "https://media.rawg.io/media/games/cd3/cd3c9c7d3e95cb1608fd6250f1b90b7a.jpg"
+    },
+    {
+      "id": 57,
+      "name": "Bullet Hell",
+      "slug": "bullet-hell",
+      "language": "eng",
+      "games_count": 10662,
+      "image_background": "https://media.rawg.io/media/games/3ac/3ac2b5356ad764a87092d15cdcbee809.jpg"
+    },
+    {
+      "id": 304,
+      "name": "Character Action Game",
+      "slug": "character-action-game",
+      "language": "eng",
+      "games_count": 642,
+      "image_background": "https://media.rawg.io/media/games/61e/61e3d39225c5761eb51cf035a508a91b.jpg"
+    },
+    {
+      "id": 254,
+      "name": "Spectacle fighter",
+      "slug": "spectacle-fighter",
+      "language": "eng",
+      "games_count": 842,
+      "image_background": "https://media.rawg.io/media/games/f6c/f6cfffdb246351c35b6f07a8bcf6e748.jpg"
+    }
+  ],
+  "esrb_rating": {
+    "id": 4,
+    "name": "Mature",
+    "slug": "mature"
+  },
+  "short_screenshots": [
+    {
+      "id": -1,
+      "image": "https://media.rawg.io/media/games/5a4/5a44112251d70a25291cc33757220fce.jpg"
+    },
+    {
+      "id": 77414,
+      "image": "https://media.rawg.io/media/screenshots/286/28651ead277f96a8b950ded95b617b25.jpg"
+    },
+    {
+      "id": 77415,
+      "image": "https://media.rawg.io/media/screenshots/818/8186c49e4788cb1a9d346689afeff9e4.jpg"
+    },
+    {
+      "id": 77416,
+      "image": "https://media.rawg.io/media/screenshots/974/9747126200ff91b7b9515c4484e562a5.jpg"
+    },
+    {
+      "id": 77417,
+      "image": "https://media.rawg.io/media/screenshots/f49/f498382127612aaa8d834e3c3eb2be33.jpg"
+    },
+    {
+      "id": 77418,
+      "image": "https://media.rawg.io/media/screenshots/667/667f82af0d448aaec6cc119eb7ab6909.jpg"
+    },
+    {
+      "id": 77419,
+      "image": "https://media.rawg.io/media/screenshots/48f/48fdff19cfe1dc37d86a20af01cc4bb8.jpg"
+    }
+  ]
+}

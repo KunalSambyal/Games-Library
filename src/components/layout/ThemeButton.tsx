@@ -10,7 +10,7 @@ function ThemeButton() {
     useEffect(() => {
         const rootElement = window.document.documentElement;
 
-        if (theme === "light") {
+        if (theme === "dark") {
             rootElement.classList.add("dark");
         } else {
             rootElement.classList.remove("dark");
@@ -23,7 +23,7 @@ function ThemeButton() {
     }
 
     const themeButtonIcon: ReactElement =
-        theme === "light" ? (
+        theme === "dark" ? (
             <i className="fa-regular fa-sun"></i>
         ) : (
             <i className="fa-regular fa-moon"></i>

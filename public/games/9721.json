@@ -1,0 +1,406 @@
+{
+  "id": 9721,
+  "slug": "garrys-mod",
+  "name": "Garry's Mod",
+  "released": "2004-12-24",
+  "tba": false,
+  "background_image": "https://media.rawg.io/media/games/48c/48cb04ca483be865e3a83119c94e6097.jpg",
+  "rating": 3.81,
+  "rating_top": 4,
+  "ratings": [
+    {
+      "id": 4,
+      "title": "recommended",
+      "count": 803,
+      "percent": 49.51
+    },
+    {
+      "id": 5,
+      "title": "exceptional",
+      "count": 397,
+      "percent": 24.48
+    },
+    {
+      "id": 3,
+      "title": "meh",
+      "count": 278,
+      "percent": 17.14
+    },
+    {
+      "id": 1,
+      "title": "skip",
+      "count": 144,
+      "percent": 8.88
+    }
+  ],
+  "ratings_count": 1609,
+  "reviews_text_count": 11,
+  "added": 10452,
+  "added_by_status": {
+    "yet": 196,
+    "owned": 8353,
+    "beaten": 571,
+    "toplay": 53,
+    "dropped": 1144,
+    "playing": 135
+  },
+  "metacritic": null,
+  "playtime": 14,
+  "suggestions_count": 494,
+  "updated": "2026-06-06T10:55:46",
+  "user_game": null,
+  "reviews_count": 1622,
+  "saturated_color": "0f0f0f",
+  "dominant_color": "0f0f0f",
+  "platforms": [
+    {
+      "platform": {
+        "id": 6,
+        "name": "Linux",
+        "slug": "linux",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 80440,
+        "image_background": "https://media.rawg.io/media/games/48c/48cb04ca483be865e3a83119c94e6097.jpg"
+      },
+      "released_at": "2004-12-24",
+      "requirements_en": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 12.04<br></li><li><strong>Processor:</strong> 1.8 GHz Processor<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> 512MB<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 5 GB available space<br></li><li><strong>Additional Notes:</strong> Mouse, Keyboard, Monitor</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>Processor:</strong> 2.5 GHz Processor or better<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> 1GB dedicated VRAM or better<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 10 GB available space</li></ul>"
+      },
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 5,
+        "name": "macOS",
+        "slug": "macos",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 108098,
+        "image_background": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg"
+      },
+      "released_at": "2004-12-24",
+      "requirements_en": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> OS X version Snow Leopard 10.6.3<br></li><li><strong>Processor:</strong> 1.8 GHz Processor<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce 8 or higher, ATI X1600 or higher, or Intel HD 3000 or higher<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 5 GB available space<br></li><li><strong>Additional Notes:</strong> Mouse, Keyboard, Monitor</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>Processor:</strong> 2.5 GHz Processor or better<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> 1GB dedicated VRAM or better<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 10 GB available space</li></ul>"
+      },
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 4,
+        "name": "PC",
+        "slug": "pc",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 561169,
+        "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+      },
+      "released_at": "2004-12-24",
+      "requirements_en": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows® Vista/XP<br></li><li><strong>Processor:</strong> 1.8 GHz Processor<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> DirectX® 9 level Graphics Card (Requires support for SSE)<br></li><li><strong>DirectX:</strong> Version 9.0c<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 5 GB available space<br></li><li><strong>Sound Card:</strong> DirectX® 9 compatible<br></li><li><strong>Additional Notes:</strong> Mouse, Keyboard, Monitor</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows® 7/8/8.1/10<br></li><li><strong>Processor:</strong> 2.5 GHz Processor or better<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> 1GB dedicated VRAM or better<br></li><li><strong>DirectX:</strong> Version 9.0c<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 10 GB available space</li></ul>"
+      },
+      "requirements_ru": null
+    }
+  ],
+  "parent_platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      }
+    },
+    {
+      "platform": {
+        "id": 5,
+        "name": "Apple Macintosh",
+        "slug": "mac"
+      }
+    },
+    {
+      "platform": {
+        "id": 6,
+        "name": "Linux",
+        "slug": "linux"
+      }
+    }
+  ],
+  "genres": [
+    {
+      "id": 4,
+      "name": "Action",
+      "slug": "action",
+      "games_count": 191772,
+      "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Adventure",
+      "slug": "adventure",
+      "games_count": 152095,
+      "image_background": "https://media.rawg.io/media/games/48c/48cb04ca483be865e3a83119c94e6097.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Simulation",
+      "slug": "simulation",
+      "games_count": 77025,
+      "image_background": "https://media.rawg.io/media/games/e40/e40cc9d1957b0a0ed7e389834457b524.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Casual",
+      "slug": "casual",
+      "games_count": 67788,
+      "image_background": "https://media.rawg.io/media/games/e44/e445335e611b4ccf03af71fffcbd30a4.jpg"
+    },
+    {
+      "id": 51,
+      "name": "Indie",
+      "slug": "indie",
+      "games_count": 86653,
+      "image_background": "https://media.rawg.io/media/games/63f/63f0e68688cad279ed38cde931dbfcdb.jpg"
+    }
+  ],
+  "stores": [
+    {
+      "id": 10594,
+      "store": {
+        "id": 1,
+        "name": "Steam",
+        "slug": "steam",
+        "domain": "store.steampowered.com",
+        "games_count": 123696,
+        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+      }
+    }
+  ],
+  "clip": null,
+  "tags": [
+    {
+      "id": 31,
+      "name": "Singleplayer",
+      "slug": "singleplayer",
+      "language": "eng",
+      "games_count": 251054,
+      "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+      "id": 40847,
+      "name": "Steam Achievements",
+      "slug": "steam-achievements",
+      "language": "eng",
+      "games_count": 51835,
+      "image_background": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Multiplayer",
+      "slug": "multiplayer",
+      "language": "eng",
+      "games_count": 42598,
+      "image_background": "https://media.rawg.io/media/games/960/960b601d9541cec776c5fa42a00bf6c4.jpg"
+    },
+    {
+      "id": 40849,
+      "name": "Steam Cloud",
+      "slug": "steam-cloud",
+      "language": "eng",
+      "games_count": 25804,
+      "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+    },
+    {
+      "id": 7808,
+      "name": "steam-trading-cards",
+      "slug": "steam-trading-cards",
+      "language": "eng",
+      "games_count": 7568,
+      "image_background": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Co-op",
+      "slug": "co-op",
+      "language": "eng",
+      "games_count": 14420,
+      "image_background": "https://media.rawg.io/media/games/da1/da1b267764d77221f07a4386b6548e5a.jpg"
+    },
+    {
+      "id": 8,
+      "name": "First-Person",
+      "slug": "first-person",
+      "language": "eng",
+      "games_count": 37444,
+      "image_background": "https://media.rawg.io/media/games/15c/15c95a4915f88a3e89c821526afe05fc.jpg"
+    },
+    {
+      "id": 30,
+      "name": "FPS",
+      "slug": "fps",
+      "language": "eng",
+      "games_count": 15007,
+      "image_background": "https://media.rawg.io/media/games/120/1201a40e4364557b124392ee50317b99.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Online Co-Op",
+      "slug": "online-co-op",
+      "language": "eng",
+      "games_count": 7705,
+      "image_background": "https://media.rawg.io/media/games/4e0/4e0e7b6d6906a131307c94266e5c9a1c.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Funny",
+      "slug": "funny",
+      "language": "eng",
+      "games_count": 28871,
+      "image_background": "https://media.rawg.io/media/games/25c/25c4776ab5723d5d735d8bf617ca12d9.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Sandbox",
+      "slug": "sandbox",
+      "language": "eng",
+      "games_count": 8523,
+      "image_background": "https://media.rawg.io/media/games/095/0953bf01cd4e4dd204aba85489ac9868.jpg"
+    },
+    {
+      "id": 123,
+      "name": "Comedy",
+      "slug": "comedy",
+      "language": "eng",
+      "games_count": 14882,
+      "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+    },
+    {
+      "id": 40852,
+      "name": "Steam Workshop",
+      "slug": "steam-workshop",
+      "language": "eng",
+      "games_count": 1772,
+      "image_background": "https://media.rawg.io/media/games/149/149bbed9d90dc09328ba79bbacfda3c8.jpg"
+    },
+    {
+      "id": 40832,
+      "name": "Cross-Platform Multiplayer",
+      "slug": "cross-platform-multiplayer",
+      "language": "eng",
+      "games_count": 3168,
+      "image_background": "https://media.rawg.io/media/games/dd5/dd50d4266915d56dd5b63ae1bf72606a.jpg"
+    },
+    {
+      "id": 40838,
+      "name": "Includes level editor",
+      "slug": "includes-level-editor",
+      "language": "eng",
+      "games_count": 2220,
+      "image_background": "https://media.rawg.io/media/games/18c/18ca24ed4b700668c36b11ebc35f3d23.jpg"
+    },
+    {
+      "id": 62,
+      "name": "Moddable",
+      "slug": "moddable",
+      "language": "eng",
+      "games_count": 1139,
+      "image_background": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+    },
+    {
+      "id": 40833,
+      "name": "Captions available",
+      "slug": "captions-available",
+      "language": "eng",
+      "games_count": 1486,
+      "image_background": "https://media.rawg.io/media/games/c6b/c6bd26767c1053fef2b10bb852943559.jpg"
+    },
+    {
+      "id": 114,
+      "name": "Physics",
+      "slug": "physics",
+      "language": "eng",
+      "games_count": 21603,
+      "image_background": "https://media.rawg.io/media/screenshots/570/5704316c673fab6994db582e0f43f924.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Building",
+      "slug": "building",
+      "language": "eng",
+      "games_count": 7544,
+      "image_background": "https://media.rawg.io/media/games/d03/d030347839f74454afcd1008248b08ae.jpg"
+    },
+    {
+      "id": 40856,
+      "name": "Valve Anti-Cheat enabled",
+      "slug": "valve-anti-cheat-enabled",
+      "language": "eng",
+      "games_count": 105,
+      "image_background": "https://media.rawg.io/media/games/78d/78dfae12fb8c5b16cd78648553071e0a.jpg"
+    },
+    {
+      "id": 62349,
+      "name": "vr mod",
+      "slug": "vr-mod",
+      "language": "eng",
+      "games_count": 17,
+      "image_background": "https://media.rawg.io/media/screenshots/1bb/1bb3f78f0fe43b5d5ca2f3da5b638840.jpg"
+    },
+    {
+      "id": 244,
+      "name": "Mod",
+      "slug": "mod",
+      "language": "eng",
+      "games_count": 1419,
+      "image_background": "https://media.rawg.io/media/games/295/2959ee1a7bb55a7258cc5406b91c50bc.jpg"
+    },
+    {
+      "id": 95,
+      "name": "Animation & Modeling",
+      "slug": "animation-modeling",
+      "language": "eng",
+      "games_count": 348,
+      "image_background": "https://media.rawg.io/media/screenshots/f24/f24122a8e3d30ec3e99472e3e826d0cb.jpg"
+    }
+  ],
+  "esrb_rating": {
+    "id": 6,
+    "name": "Rating Pending",
+    "slug": "rating-pending"
+  },
+  "short_screenshots": [
+    {
+      "id": -1,
+      "image": "https://media.rawg.io/media/games/48c/48cb04ca483be865e3a83119c94e6097.jpg"
+    },
+    {
+      "id": 72010,
+      "image": "https://media.rawg.io/media/screenshots/cbf/cbf0e5c6fa2b8a8c653074b9258884df.jpg"
+    },
+    {
+      "id": 72011,
+      "image": "https://media.rawg.io/media/screenshots/01b/01b5cb2ad3f6fa69b70790094bfd3372.jpg"
+    },
+    {
+      "id": 72012,
+      "image": "https://media.rawg.io/media/screenshots/b31/b3141dbd80cd27a1d7b335e3b5956f89.jpg"
+    },
+    {
+      "id": 72013,
+      "image": "https://media.rawg.io/media/screenshots/40b/40bcfff9760f368d158e92d05f4a0d9b.jpg"
+    },
+    {
+      "id": 72014,
+      "image": "https://media.rawg.io/media/screenshots/6eb/6ebc3896184e94ebe617d2cb224eee2a.jpg"
+    },
+    {
+      "id": 72015,
+      "image": "https://media.rawg.io/media/screenshots/e68/e6800252d7fc63fcb794af70ec28c8fc.jpg"
+    }
+  ]
+}

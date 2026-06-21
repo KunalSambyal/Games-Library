@@ -1,0 +1,395 @@
+{
+  "id": 257201,
+  "slug": "jedi-the-fallen-order",
+  "name": "Star Wars Jedi: Fallen Order",
+  "released": "2019-11-15",
+  "tba": false,
+  "background_image": "https://media.rawg.io/media/games/559/559bc0768f656ad0c63c54b80a82d680.jpg",
+  "rating": 4.13,
+  "rating_top": 4,
+  "ratings": [
+    {
+      "id": 4,
+      "title": "recommended",
+      "count": 1244,
+      "percent": 53
+    },
+    {
+      "id": 5,
+      "title": "exceptional",
+      "count": 753,
+      "percent": 32.08
+    },
+    {
+      "id": 3,
+      "title": "meh",
+      "count": 305,
+      "percent": 13
+    },
+    {
+      "id": 1,
+      "title": "skip",
+      "count": 45,
+      "percent": 1.92
+    }
+  ],
+  "ratings_count": 2283,
+  "reviews_text_count": 47,
+  "added": 9680,
+  "added_by_status": {
+    "yet": 464,
+    "owned": 5369,
+    "beaten": 2242,
+    "toplay": 866,
+    "dropped": 467,
+    "playing": 272
+  },
+  "metacritic": 80,
+  "playtime": 8,
+  "suggestions_count": 586,
+  "updated": "2026-06-12T09:50:31",
+  "user_game": null,
+  "reviews_count": 2347,
+  "saturated_color": "0f0f0f",
+  "dominant_color": "0f0f0f",
+  "platforms": [
+    {
+      "platform": {
+        "id": 18,
+        "name": "PlayStation 4",
+        "slug": "playstation4",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 7037,
+        "image_background": "https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg"
+      },
+      "released_at": "2019-11-15",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 4,
+        "name": "PC",
+        "slug": "pc",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 561164,
+        "image_background": "https://media.rawg.io/media/games/736/73619bd336c894d6941d926bfd563946.jpg"
+      },
+      "released_at": "2019-11-15",
+      "requirements_en": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> 64-bit Windows 7/8.1/10<br></li><li><strong>Processor:</strong> AMD FX-6100/Intel i3-3220 or Equivalent<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> AMD Radeon HD 7750/NVIDIA GeForce GTX 650 or Equivalent<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 55 GB available space</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> 64-bit Windows 7/8.1/10<br></li><li><strong>Processor:</strong> AMD Ryzen 7 1700/Intel  i7-6700K or Equivalent<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> AMD RX Vega 56/ Nvidia GTX 1070 or Equivalent<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 55 GB available space</li></ul>"
+      },
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 187,
+        "name": "PlayStation 5",
+        "slug": "playstation5",
+        "image": null,
+        "year_end": null,
+        "year_start": 2020,
+        "games_count": 1520,
+        "image_background": "https://media.rawg.io/media/games/152/152e788b7504aa2753c86dae912fb34c.jpg"
+      },
+      "released_at": "2019-11-15",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 1,
+        "name": "Xbox One",
+        "slug": "xbox-one",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 5743,
+        "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+      },
+      "released_at": "2019-11-15",
+      "requirements_en": null,
+      "requirements_ru": null
+    }
+  ],
+  "parent_platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      }
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation",
+        "slug": "playstation"
+      }
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox",
+        "slug": "xbox"
+      }
+    }
+  ],
+  "genres": [
+    {
+      "id": 4,
+      "name": "Action",
+      "slug": "action",
+      "games_count": 191772,
+      "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Adventure",
+      "slug": "adventure",
+      "games_count": 152094,
+      "image_background": "https://media.rawg.io/media/games/21c/21cc15d233117c6809ec86870559e105.jpg"
+    }
+  ],
+  "stores": [
+    {
+      "id": 380662,
+      "store": {
+        "id": 11,
+        "name": "Epic Games",
+        "slug": "epic-games",
+        "domain": "epicgames.com",
+        "games_count": 1454,
+        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+      }
+    },
+    {
+      "id": 376301,
+      "store": {
+        "id": 1,
+        "name": "Steam",
+        "slug": "steam",
+        "domain": "store.steampowered.com",
+        "games_count": 123691,
+        "image_background": "https://media.rawg.io/media/games/587/587588c64afbff80e6f444eb2e46f9da.jpg"
+      }
+    },
+    {
+      "id": 310603,
+      "store": {
+        "id": 3,
+        "name": "PlayStation Store",
+        "slug": "playstation-store",
+        "domain": "store.playstation.com",
+        "games_count": 8084,
+        "image_background": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg"
+      }
+    },
+    {
+      "id": 310604,
+      "store": {
+        "id": 2,
+        "name": "Xbox Store",
+        "slug": "xbox-store",
+        "domain": "microsoft.com",
+        "games_count": 4942,
+        "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+      }
+    }
+  ],
+  "clip": null,
+  "tags": [
+    {
+      "id": 31,
+      "name": "Singleplayer",
+      "slug": "singleplayer",
+      "language": "eng",
+      "games_count": 251054,
+      "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+      "id": 40836,
+      "name": "Full controller support",
+      "slug": "full-controller-support",
+      "language": "eng",
+      "games_count": 24190,
+      "image_background": "https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Atmospheric",
+      "slug": "atmospheric",
+      "language": "eng",
+      "games_count": 39763,
+      "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+    },
+    {
+      "id": 118,
+      "name": "Story Rich",
+      "slug": "story-rich",
+      "language": "eng",
+      "games_count": 27297,
+      "image_background": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg"
+    },
+    {
+      "id": 149,
+      "name": "Third Person",
+      "slug": "third-person",
+      "language": "eng",
+      "games_count": 14734,
+      "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Sci-fi",
+      "slug": "sci-fi",
+      "language": "eng",
+      "games_count": 22084,
+      "image_background": "https://media.rawg.io/media/games/2ba/2bac0e87cf45e5b508f227d281c9252a.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Exploration",
+      "slug": "exploration",
+      "language": "eng",
+      "games_count": 29300,
+      "image_background": "https://media.rawg.io/media/games/737/737ea5662211d2e0bbd6f5989189e4f1.jpg"
+    },
+    {
+      "id": 49,
+      "name": "Difficult",
+      "slug": "difficult",
+      "language": "eng",
+      "games_count": 14317,
+      "image_background": "https://media.rawg.io/media/games/21c/21cc15d233117c6809ec86870559e105.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Space",
+      "slug": "space",
+      "language": "eng",
+      "games_count": 44248,
+      "image_background": "https://media.rawg.io/media/games/5f4/5f4780690dbf04900cbac5f05b9305f3.jpg"
+    },
+    {
+      "id": 68,
+      "name": "Hack and Slash",
+      "slug": "hack-and-slash",
+      "language": "eng",
+      "games_count": 5359,
+      "image_background": "https://media.rawg.io/media/games/1f4/1f47a270b8f241e4676b14d39ec620f7.jpg"
+    },
+    {
+      "id": 259,
+      "name": "Metroidvania",
+      "slug": "metroidvania",
+      "language": "eng",
+      "games_count": 4723,
+      "image_background": "https://media.rawg.io/media/screenshots/2ff/2ffe731b3388bd795f94c38e9afed60f.jpg"
+    },
+    {
+      "id": 478,
+      "name": "3rd-Person Perspective",
+      "slug": "3rd-person-perspective",
+      "language": "eng",
+      "games_count": 87,
+      "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+    },
+    {
+      "id": 216,
+      "name": "Heist",
+      "slug": "heist",
+      "language": "eng",
+      "games_count": 603,
+      "image_background": "https://media.rawg.io/media/games/d2b/d2b33b26e0d61aca35d434c8a69e3711.jpg"
+    },
+    {
+      "id": 580,
+      "name": "Souls-like",
+      "slug": "souls-like",
+      "language": "eng",
+      "games_count": 1874,
+      "image_background": "https://media.rawg.io/media/games/3e4/3e43e29ae126ef951842393f5ff7f33a.jpg"
+    },
+    {
+      "id": 318,
+      "name": "Star Wars",
+      "slug": "star-wars",
+      "language": "eng",
+      "games_count": 41,
+      "image_background": "https://media.rawg.io/media/screenshots/55f/55f3e8983c17a0ef9e6b18aedd4f6794.jpg"
+    },
+    {
+      "id": 84157,
+      "name": "ea play",
+      "slug": "ea-play",
+      "language": "eng",
+      "games_count": 3,
+      "image_background": "https://media.rawg.io/media/games/64e/64e2a77f37ddc48d102127234af99886.jpg"
+    },
+    {
+      "id": 3459,
+      "name": "cinema",
+      "slug": "cinema",
+      "language": "eng",
+      "games_count": 35,
+      "image_background": "https://media.rawg.io/media/screenshots/f92/f92e82f5790afc8f405fa0a44c84ec92.jpg"
+    },
+    {
+      "id": 21400,
+      "name": "lightsaber",
+      "slug": "lightsaber",
+      "language": "eng",
+      "games_count": 12,
+      "image_background": "https://media.rawg.io/media/screenshots/678/67812cfd90e9a2160b987295131380b9.jpg"
+    },
+    {
+      "id": 503,
+      "name": "Singe-player",
+      "slug": "singe-player",
+      "language": "eng",
+      "games_count": 6,
+      "image_background": "https://media.rawg.io/media/screenshots/698/698035fcf1c70274a2b8d2a23306a489.jpg"
+    }
+  ],
+  "esrb_rating": {
+    "id": 3,
+    "name": "Teen",
+    "slug": "teen"
+  },
+  "short_screenshots": [
+    {
+      "id": -1,
+      "image": "https://media.rawg.io/media/games/559/559bc0768f656ad0c63c54b80a82d680.jpg"
+    },
+    {
+      "id": 1934861,
+      "image": "https://media.rawg.io/media/screenshots/1c0/1c0016ec0441e86648bd7f751c8e5adf.jpg"
+    },
+    {
+      "id": 1934862,
+      "image": "https://media.rawg.io/media/screenshots/4fd/4fd551e67bc9fd9eb4c855604838d10f.jpg"
+    },
+    {
+      "id": 1934863,
+      "image": "https://media.rawg.io/media/screenshots/dd6/dd69cc02ef3d56dabbe62f06ddea8569.jpg"
+    },
+    {
+      "id": 1934864,
+      "image": "https://media.rawg.io/media/screenshots/b2c/b2cdb1843349dd5db358a4b214a00f2c.jpg"
+    },
+    {
+      "id": 1934865,
+      "image": "https://media.rawg.io/media/screenshots/c60/c6065f618a7304016db7fa02d563084a_rSIdAmV.jpg"
+    },
+    {
+      "id": 1934866,
+      "image": "https://media.rawg.io/media/screenshots/99f/99f9710b7305817f44866b7a61b77dd0.jpg"
+    }
+  ]
+}

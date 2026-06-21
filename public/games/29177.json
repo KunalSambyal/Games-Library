@@ -1,0 +1,451 @@
+{
+  "id": 29177,
+  "slug": "detroit-become-human",
+  "name": "Detroit: Become Human",
+  "released": "2018-05-25",
+  "tba": false,
+  "background_image": "https://media.rawg.io/media/games/951/951572a3dd1e42544bd39a5d5b42d234.jpg",
+  "rating": 4.34,
+  "rating_top": 5,
+  "ratings": [
+    {
+      "id": 5,
+      "title": "exceptional",
+      "count": 1649,
+      "percent": 48.41
+    },
+    {
+      "id": 4,
+      "title": "recommended",
+      "count": 1414,
+      "percent": 41.51
+    },
+    {
+      "id": 3,
+      "title": "meh",
+      "count": 269,
+      "percent": 7.9
+    },
+    {
+      "id": 1,
+      "title": "skip",
+      "count": 74,
+      "percent": 2.17
+    }
+  ],
+  "ratings_count": 3336,
+  "reviews_text_count": 52,
+  "added": 10477,
+  "added_by_status": {
+    "yet": 606,
+    "owned": 5208,
+    "beaten": 3353,
+    "toplay": 900,
+    "dropped": 222,
+    "playing": 188
+  },
+  "metacritic": 79,
+  "playtime": 10,
+  "suggestions_count": 519,
+  "updated": "2026-06-15T20:21:17",
+  "user_game": null,
+  "reviews_count": 3406,
+  "saturated_color": "0f0f0f",
+  "dominant_color": "0f0f0f",
+  "platforms": [
+    {
+      "platform": {
+        "id": 4,
+        "name": "PC",
+        "slug": "pc",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 561167,
+        "image_background": "https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg"
+      },
+      "released_at": "2018-05-25",
+      "requirements_en": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 (64 bit)<br></li><li><strong>Processor:</strong> Intel Core i5-2300 @ 2.8 GHz or AMD Ryzen 3 1200 @ 3.1GHz or AMD FX-8350 @ 4.2GHz<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Nvidia GeForce GTX 780 or AMD HD 7950 with 3GB VRAM minimum (Support of Vulkan 1.1 required)<br></li><li><strong>Storage:</strong> 55 GB available space</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 (64 bit)<br></li><li><strong>Processor:</strong> Intel Core i5-6600 @ 3.3 GHz or AMD Ryzen 3 1300 X @ 3.4 GHz<br></li><li><strong>Memory:</strong> 12 GB RAM<br></li><li><strong>Graphics:</strong> Nvidia GeForce GTX 1060 or AMD Radeon RX 580 with 4GB VRAM minimum (Support of Vulkan 1.1 required)<br></li><li><strong>Storage:</strong> 55 GB available space</li></ul>"
+      },
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 18,
+        "name": "PlayStation 4",
+        "slug": "playstation4",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 7037,
+        "image_background": "https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg"
+      },
+      "released_at": "2018-05-25",
+      "requirements_en": null,
+      "requirements_ru": null
+    }
+  ],
+  "parent_platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      }
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation",
+        "slug": "playstation"
+      }
+    }
+  ],
+  "genres": [
+    {
+      "id": 4,
+      "name": "Action",
+      "slug": "action",
+      "games_count": 191772,
+      "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Adventure",
+      "slug": "adventure",
+      "games_count": 152095,
+      "image_background": "https://media.rawg.io/media/games/48c/48cb04ca483be865e3a83119c94e6097.jpg"
+    }
+  ],
+  "stores": [
+    {
+      "id": 438987,
+      "store": {
+        "id": 1,
+        "name": "Steam",
+        "slug": "steam",
+        "domain": "store.steampowered.com",
+        "games_count": 123694,
+        "image_background": "https://media.rawg.io/media/games/736/73619bd336c894d6941d926bfd563946.jpg"
+      }
+    },
+    {
+      "id": 34966,
+      "store": {
+        "id": 3,
+        "name": "PlayStation Store",
+        "slug": "playstation-store",
+        "domain": "store.playstation.com",
+        "games_count": 8084,
+        "image_background": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg"
+      }
+    },
+    {
+      "id": 303962,
+      "store": {
+        "id": 11,
+        "name": "Epic Games",
+        "slug": "epic-games",
+        "domain": "epicgames.com",
+        "games_count": 1454,
+        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+      }
+    }
+  ],
+  "clip": null,
+  "tags": [
+    {
+      "id": 31,
+      "name": "Singleplayer",
+      "slug": "singleplayer",
+      "language": "eng",
+      "games_count": 251054,
+      "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+      "id": 40847,
+      "name": "Steam Achievements",
+      "slug": "steam-achievements",
+      "language": "eng",
+      "games_count": 51835,
+      "image_background": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+    },
+    {
+      "id": 40836,
+      "name": "Full controller support",
+      "slug": "full-controller-support",
+      "language": "eng",
+      "games_count": 24190,
+      "image_background": "https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg"
+    },
+    {
+      "id": 40849,
+      "name": "Steam Cloud",
+      "slug": "steam-cloud",
+      "language": "eng",
+      "games_count": 25804,
+      "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Atmospheric",
+      "slug": "atmospheric",
+      "language": "eng",
+      "games_count": 39763,
+      "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Great Soundtrack",
+      "slug": "great-soundtrack",
+      "language": "eng",
+      "games_count": 3450,
+      "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+    },
+    {
+      "id": 118,
+      "name": "Story Rich",
+      "slug": "story-rich",
+      "language": "eng",
+      "games_count": 27297,
+      "image_background": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg"
+    },
+    {
+      "id": 149,
+      "name": "Third Person",
+      "slug": "third-person",
+      "language": "eng",
+      "games_count": 14734,
+      "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Sci-fi",
+      "slug": "sci-fi",
+      "language": "eng",
+      "games_count": 22084,
+      "image_background": "https://media.rawg.io/media/games/2ba/2bac0e87cf45e5b508f227d281c9252a.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Exploration",
+      "slug": "exploration",
+      "language": "eng",
+      "games_count": 29300,
+      "image_background": "https://media.rawg.io/media/games/737/737ea5662211d2e0bbd6f5989189e4f1.jpg"
+    },
+    {
+      "id": 189,
+      "name": "Female Protagonist",
+      "slug": "female-protagonist",
+      "language": "eng",
+      "games_count": 15569,
+      "image_background": "https://media.rawg.io/media/games/2ba/2bac0e87cf45e5b508f227d281c9252a.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Violent",
+      "slug": "violent",
+      "language": "eng",
+      "games_count": 7865,
+      "image_background": "https://media.rawg.io/media/games/13a/13a528ac9cf48bbb6be5d35fe029336d.jpg"
+    },
+    {
+      "id": 69,
+      "name": "Action-Adventure",
+      "slug": "action-adventure",
+      "language": "eng",
+      "games_count": 21062,
+      "image_background": "https://media.rawg.io/media/games/c50/c5085506fe4b5e20fc7aa5ace842c20b.jpg"
+    },
+    {
+      "id": 37796,
+      "name": "exclusive",
+      "slug": "exclusive",
+      "language": "eng",
+      "games_count": 4491,
+      "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Replay Value",
+      "slug": "replay-value",
+      "language": "eng",
+      "games_count": 2265,
+      "image_background": "https://media.rawg.io/media/games/951/951572a3dd1e42544bd39a5d5b42d234.jpg"
+    },
+    {
+      "id": 145,
+      "name": "Choices Matter",
+      "slug": "choices-matter",
+      "language": "eng",
+      "games_count": 8386,
+      "image_background": "https://media.rawg.io/media/games/283/283e7e600366b0da7021883d27159b27.jpg"
+    },
+    {
+      "id": 110,
+      "name": "Cinematic",
+      "slug": "cinematic",
+      "language": "eng",
+      "games_count": 3389,
+      "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+    },
+    {
+      "id": 167,
+      "name": "Futuristic",
+      "slug": "futuristic",
+      "language": "eng",
+      "games_count": 6931,
+      "image_background": "https://media.rawg.io/media/games/e6d/e6de699bd788497f4b52e2f41f9698f2.jpg"
+    },
+    {
+      "id": 218,
+      "name": "Multiple Endings",
+      "slug": "multiple-endings",
+      "language": "eng",
+      "games_count": 11584,
+      "image_background": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg"
+    },
+    {
+      "id": 226,
+      "name": "Cyberpunk",
+      "slug": "cyberpunk",
+      "language": "eng",
+      "games_count": 5232,
+      "image_background": "https://media.rawg.io/media/games/d1f/d1f872a48286b6b751670817d5c1e1be.jpg"
+    },
+    {
+      "id": 197,
+      "name": "Robots",
+      "slug": "robots",
+      "language": "eng",
+      "games_count": 8880,
+      "image_background": "https://media.rawg.io/media/games/cd3/cd3c9c7d3e95cb1608fd6250f1b90b7a.jpg"
+    },
+    {
+      "id": 478,
+      "name": "3rd-Person Perspective",
+      "slug": "3rd-person-perspective",
+      "language": "eng",
+      "games_count": 87,
+      "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+    },
+    {
+      "id": 142,
+      "name": "Detective",
+      "slug": "detective",
+      "language": "eng",
+      "games_count": 4085,
+      "image_background": "https://media.rawg.io/media/games/23b/23b42b7a896140f4ce1d0df8c42fa012.jpg"
+    },
+    {
+      "id": 209,
+      "name": "Drama",
+      "slug": "drama",
+      "language": "eng",
+      "games_count": 5994,
+      "image_background": "https://media.rawg.io/media/games/0f4/0f4f4764555736eebfeb01571e44e99e.jpg"
+    },
+    {
+      "id": 200,
+      "name": "Narration",
+      "slug": "narration",
+      "language": "eng",
+      "games_count": 3047,
+      "image_background": "https://media.rawg.io/media/games/ceb/ceb68aef14fbe54f0610acd8de480f64.jpg"
+    },
+    {
+      "id": 78,
+      "name": "America",
+      "slug": "america",
+      "language": "eng",
+      "games_count": 976,
+      "image_background": "https://media.rawg.io/media/screenshots/794/7943eb38a763c014c84ddae7378b865c.jpg"
+    },
+    {
+      "id": 572,
+      "name": "Emotional",
+      "slug": "emotional",
+      "language": "eng",
+      "games_count": 4566,
+      "image_background": "https://media.rawg.io/media/games/0af/0af85e8edddfa55368e47c539914a220.jpg"
+    },
+    {
+      "id": 577,
+      "name": "Beautiful",
+      "slug": "beautiful",
+      "language": "eng",
+      "games_count": 1875,
+      "image_background": "https://media.rawg.io/media/games/c24/c24f4434882ae9c2c8d9d38de82cb7a5.jpg"
+    },
+    {
+      "id": 309,
+      "name": "Dynamic Narration",
+      "slug": "dynamic-narration",
+      "language": "eng",
+      "games_count": 674,
+      "image_background": "https://media.rawg.io/media/screenshots/4d1/4d17635ba9841dffabd88c7200cf4d96.jpg"
+    },
+    {
+      "id": 43374,
+      "name": "Remote Play on TV",
+      "slug": "remote-play-on-tv",
+      "language": "eng",
+      "games_count": 658,
+      "image_background": "https://media.rawg.io/media/games/c8c/c8c156591d6e88bb685177c1c44c945a.jpg"
+    },
+    {
+      "id": 19728,
+      "name": "european",
+      "slug": "european",
+      "language": "eng",
+      "games_count": 12,
+      "image_background": "https://media.rawg.io/media/screenshots/d14/d148f8ffc332b1d0f70be9bad91c2171.jpg"
+    },
+    {
+      "id": 2071,
+      "name": "futurism",
+      "slug": "futurism",
+      "language": "eng",
+      "games_count": 4,
+      "image_background": "https://media.rawg.io/media/games/47c/47c4398d9f910210ecb2114f1f82a2bf.jpg"
+    }
+  ],
+  "esrb_rating": {
+    "id": 4,
+    "name": "Mature",
+    "slug": "mature"
+  },
+  "short_screenshots": [
+    {
+      "id": -1,
+      "image": "https://media.rawg.io/media/games/951/951572a3dd1e42544bd39a5d5b42d234.jpg"
+    },
+    {
+      "id": 287043,
+      "image": "https://media.rawg.io/media/screenshots/fb7/fb7490f7764ba05e7984a970ee1918d5.jpg"
+    },
+    {
+      "id": 287044,
+      "image": "https://media.rawg.io/media/screenshots/586/586a30aeef1b41a80d781c742ab4fe68.jpg"
+    },
+    {
+      "id": 287045,
+      "image": "https://media.rawg.io/media/screenshots/5e2/5e2affea5ffc1a5c1ae8c5cc0c0c3ce1.jpg"
+    },
+    {
+      "id": 287046,
+      "image": "https://media.rawg.io/media/screenshots/631/6319d4cc8955831dfa50dcc4f231dc9b.jpg"
+    },
+    {
+      "id": 287047,
+      "image": "https://media.rawg.io/media/screenshots/9c3/9c33b6424ced85f84271a62356b74950.jpg"
+    },
+    {
+      "id": 287048,
+      "image": "https://media.rawg.io/media/screenshots/2d3/2d36bd87554caba0ae7462c6d17e605a.jpg"
+    }
+  ]
+}

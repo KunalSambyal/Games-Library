@@ -1,0 +1,319 @@
+{
+  "id": 19103,
+  "slug": "half-life-2-lost-coast",
+  "name": "Half-Life 2: Lost Coast",
+  "released": "2005-10-27",
+  "tba": false,
+  "background_image": "https://media.rawg.io/media/games/b7b/b7b8381707152afc7d91f5d95de70e39.jpg",
+  "rating": 3.46,
+  "rating_top": 4,
+  "ratings": [
+    {
+      "id": 4,
+      "title": "recommended",
+      "count": 556,
+      "percent": 47.24
+    },
+    {
+      "id": 3,
+      "title": "meh",
+      "count": 263,
+      "percent": 22.34
+    },
+    {
+      "id": 1,
+      "title": "skip",
+      "count": 184,
+      "percent": 15.63
+    },
+    {
+      "id": 5,
+      "title": "exceptional",
+      "count": 174,
+      "percent": 14.78
+    }
+  ],
+  "ratings_count": 1174,
+  "reviews_text_count": 2,
+  "added": 11697,
+  "added_by_status": {
+    "yet": 713,
+    "owned": 9637,
+    "beaten": 1082,
+    "toplay": 82,
+    "dropped": 177,
+    "playing": 6
+  },
+  "metacritic": null,
+  "playtime": 1,
+  "suggestions_count": 291,
+  "updated": "2026-06-06T10:55:47",
+  "user_game": null,
+  "reviews_count": 1177,
+  "saturated_color": "0f0f0f",
+  "dominant_color": "0f0f0f",
+  "platforms": [
+    {
+      "platform": {
+        "id": 5,
+        "name": "macOS",
+        "slug": "macos",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 108098,
+        "image_background": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg"
+      },
+      "released_at": "2005-10-27",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 6,
+        "name": "Linux",
+        "slug": "linux",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 80440,
+        "image_background": "https://media.rawg.io/media/games/48c/48cb04ca483be865e3a83119c94e6097.jpg"
+      },
+      "released_at": "2005-10-27",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 4,
+        "name": "PC",
+        "slug": "pc",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 561167,
+        "image_background": "https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg"
+      },
+      "released_at": "2005-10-27",
+      "requirements_en": {
+        "minimum": "\r\n\t\t\t<p><strong>Minimum:</strong> Pentium 4 2.4GHz or AMD 2800+ Processor, 1GB RAM, DirectX 9 level graphics card, Windows XP, Mouse, Keyboard, Internet Connection<br /></p>\r\n\t\t\t"
+      },
+      "requirements_ru": null
+    }
+  ],
+  "parent_platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      }
+    },
+    {
+      "platform": {
+        "id": 5,
+        "name": "Apple Macintosh",
+        "slug": "mac"
+      }
+    },
+    {
+      "platform": {
+        "id": 6,
+        "name": "Linux",
+        "slug": "linux"
+      }
+    }
+  ],
+  "genres": [
+    {
+      "id": 4,
+      "name": "Action",
+      "slug": "action",
+      "games_count": 191772,
+      "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+    }
+  ],
+  "stores": [
+    {
+      "id": 21361,
+      "store": {
+        "id": 1,
+        "name": "Steam",
+        "slug": "steam",
+        "domain": "store.steampowered.com",
+        "games_count": 123694,
+        "image_background": "https://media.rawg.io/media/games/736/73619bd336c894d6941d926bfd563946.jpg"
+      }
+    }
+  ],
+  "clip": null,
+  "tags": [
+    {
+      "id": 31,
+      "name": "Singleplayer",
+      "slug": "singleplayer",
+      "language": "eng",
+      "games_count": 251054,
+      "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Multiplayer",
+      "slug": "multiplayer",
+      "language": "eng",
+      "games_count": 42598,
+      "image_background": "https://media.rawg.io/media/games/960/960b601d9541cec776c5fa42a00bf6c4.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Atmospheric",
+      "slug": "atmospheric",
+      "language": "eng",
+      "games_count": 39763,
+      "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Great Soundtrack",
+      "slug": "great-soundtrack",
+      "language": "eng",
+      "games_count": 3450,
+      "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+    },
+    {
+      "id": 8,
+      "name": "First-Person",
+      "slug": "first-person",
+      "language": "eng",
+      "games_count": 37444,
+      "image_background": "https://media.rawg.io/media/games/15c/15c95a4915f88a3e89c821526afe05fc.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Sci-fi",
+      "slug": "sci-fi",
+      "language": "eng",
+      "games_count": 22084,
+      "image_background": "https://media.rawg.io/media/games/2ba/2bac0e87cf45e5b508f227d281c9252a.jpg"
+    },
+    {
+      "id": 30,
+      "name": "FPS",
+      "slug": "fps",
+      "language": "eng",
+      "games_count": 15007,
+      "image_background": "https://media.rawg.io/media/games/120/1201a40e4364557b124392ee50317b99.jpg"
+    },
+    {
+      "id": 193,
+      "name": "Classic",
+      "slug": "classic",
+      "language": "eng",
+      "games_count": 1839,
+      "image_background": "https://media.rawg.io/media/games/9c4/9c47f320eb73c9a02d462e12f6206b26.jpg"
+    },
+    {
+      "id": 79,
+      "name": "Free to Play",
+      "slug": "free-to-play",
+      "language": "eng",
+      "games_count": 9898,
+      "image_background": "https://media.rawg.io/media/games/ec3/ec3a7db7b8ab5a71aad622fe7c62632f.jpg"
+    },
+    {
+      "id": 111,
+      "name": "Short",
+      "slug": "short",
+      "language": "eng",
+      "games_count": 58222,
+      "image_background": "https://media.rawg.io/media/games/8a0/8a02f84a5916ede2f923b88d5f8217ba.jpg"
+    },
+    {
+      "id": 167,
+      "name": "Futuristic",
+      "slug": "futuristic",
+      "language": "eng",
+      "games_count": 6931,
+      "image_background": "https://media.rawg.io/media/games/e6d/e6de699bd788497f4b52e2f41f9698f2.jpg"
+    },
+    {
+      "id": 172,
+      "name": "Aliens",
+      "slug": "aliens",
+      "language": "eng",
+      "games_count": 7540,
+      "image_background": "https://media.rawg.io/media/games/238/2383a172b4d50a7b44e07980eb7141ea.jpg"
+    },
+    {
+      "id": 119,
+      "name": "Dystopian",
+      "slug": "dystopian",
+      "language": "eng",
+      "games_count": 2704,
+      "image_background": "https://media.rawg.io/media/games/bcd/bcd9896b7c3b9fa80e5dcb67c961e2be.jpg"
+    },
+    {
+      "id": 40834,
+      "name": "Commentary available",
+      "slug": "commentary-available",
+      "language": "eng",
+      "games_count": 300,
+      "image_background": "https://media.rawg.io/media/games/a12/a12f806432cb385bc286f0935c49cd14.jpg"
+    },
+    {
+      "id": 178,
+      "name": "Illuminati",
+      "slug": "illuminati",
+      "language": "eng",
+      "games_count": 378,
+      "image_background": "https://media.rawg.io/media/games/214/2140885d34e3a3398b45036e5d870971.jpg"
+    },
+    {
+      "id": 319,
+      "name": "Silent Protagonist",
+      "slug": "silent-protagonist",
+      "language": "eng",
+      "games_count": 111,
+      "image_background": "https://media.rawg.io/media/games/5fa/5fae5fec3c943179e09da67a4427d68f.jpg"
+    },
+    {
+      "id": 296,
+      "name": "Benchmark",
+      "slug": "benchmark",
+      "language": "eng",
+      "games_count": 32,
+      "image_background": "https://media.rawg.io/media/screenshots/570/57077c4c6cb86fed7f6bae24e8376517.jpg"
+    }
+  ],
+  "esrb_rating": {
+    "id": 4,
+    "name": "Mature",
+    "slug": "mature"
+  },
+  "short_screenshots": [
+    {
+      "id": -1,
+      "image": "https://media.rawg.io/media/games/b7b/b7b8381707152afc7d91f5d95de70e39.jpg"
+    },
+    {
+      "id": 177800,
+      "image": "https://media.rawg.io/media/screenshots/9bf/9bf18c7c6759805fc79aad53f3df6f7d.jpg"
+    },
+    {
+      "id": 177801,
+      "image": "https://media.rawg.io/media/screenshots/9c5/9c5ac8722a23212460d1536e03c5562d.jpg"
+    },
+    {
+      "id": 177802,
+      "image": "https://media.rawg.io/media/screenshots/59d/59d81fcb1b2bff1e56bfe5c489638a46.jpg"
+    },
+    {
+      "id": 177803,
+      "image": "https://media.rawg.io/media/screenshots/259/259239f48f9e32210774b5641527071f.jpg"
+    },
+    {
+      "id": 177804,
+      "image": "https://media.rawg.io/media/screenshots/12b/12b9a7c1311586328718da042e5c16f3.jpg"
+    }
+  ]
+}

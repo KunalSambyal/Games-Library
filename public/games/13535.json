@@ -1,0 +1,427 @@
+{
+  "id": 13535,
+  "slug": "left-4-dead",
+  "name": "Left 4 Dead",
+  "released": "2008-11-17",
+  "tba": false,
+  "background_image": "https://media.rawg.io/media/games/476/476178ef18ab0534771d099f51cdc694.jpg",
+  "rating": 4.11,
+  "rating_top": 4,
+  "ratings": [
+    {
+      "id": 4,
+      "title": "recommended",
+      "count": 984,
+      "percent": 57.44
+    },
+    {
+      "id": 5,
+      "title": "exceptional",
+      "count": 509,
+      "percent": 29.71
+    },
+    {
+      "id": 3,
+      "title": "meh",
+      "count": 167,
+      "percent": 9.75
+    },
+    {
+      "id": 1,
+      "title": "skip",
+      "count": 53,
+      "percent": 3.09
+    }
+  ],
+  "ratings_count": 1698,
+  "reviews_text_count": 13,
+  "added": 9244,
+  "added_by_status": {
+    "yet": 235,
+    "owned": 6713,
+    "beaten": 1659,
+    "toplay": 84,
+    "dropped": 518,
+    "playing": 35
+  },
+  "metacritic": 89,
+  "playtime": 5,
+  "suggestions_count": 615,
+  "updated": "2026-06-10T17:45:00",
+  "user_game": null,
+  "reviews_count": 1713,
+  "saturated_color": "0f0f0f",
+  "dominant_color": "0f0f0f",
+  "platforms": [
+    {
+      "platform": {
+        "id": 4,
+        "name": "PC",
+        "slug": "pc",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 561168,
+        "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+      },
+      "released_at": "2008-11-17",
+      "requirements_en": {
+        "minimum": "<strong>Minimum:</strong>                    <br>\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>Supported OS:</strong> Windows® 7 32/64-bit / Vista 32/64 / XP                    <br>\t\t\t\t\t</li><li><strong>Processor:</strong> Pentium 4 3.0GHz                     <br>\t\t\t\t\t</li><li><strong>Memory:</strong> 1 GB                    <br>\t\t\t\t\t</li><li><strong>Graphics:</strong> 128 MB, Shader model 2.0, ATI 9600, NVidia 6600 or better                     <br>\t\t\t\t\t</li><li><strong>Hard Drive:</strong> At least 7.5 GB of free space                    <br>\t\t\t\t\t</li><li><strong>Sound Card:</strong> DirectX 9.0c compatible sound card                    </li></ul>",
+        "recommended": "<strong>Recommended:</strong>                    <br>\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>Supported OS:</strong> Windows® 7 32/64-bit / Vista 32/64 / XP                    <br>\t\t\t\t\t</li><li><strong>Processor:</strong> Intel core 2 duo 2.4GHz                    <br>\t\t\t\t\t</li><li><strong>Memory:</strong> 1 GB                     <br>\t\t\t\t\t</li><li><strong>Graphics:</strong> Shader model 3.0, NVidia 7600, ATI X1600 or better                     </li></ul>"
+      },
+      "requirements_ru": {
+        "minimum": "Pentium 4/Athlon XP 3 ГГц,1 Гб памяти,GeForce 6600/Radeon 9600,8 Гб на винчестере,интернет-соединение",
+        "recommended": "Core 2 Duo/Athlon X2 64 2.5 ГГц,2 Гб памяти,GeForce 8600/Radeon X1600,8 Гб на винчестере,интернет-соединение"
+      }
+    },
+    {
+      "platform": {
+        "id": 14,
+        "name": "Xbox 360",
+        "slug": "xbox360",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 2831,
+        "image_background": "https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg"
+      },
+      "released_at": "2008-11-17",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 5,
+        "name": "macOS",
+        "slug": "macos",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 108098,
+        "image_background": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg"
+      },
+      "released_at": "2008-11-17",
+      "requirements_en": {
+        "minimum": "<ul class=\"bb_ul\"><li><strong>OS:</strong> MacOS X 10.6.4 or higher (Snow Leopard Graphics Update required)<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Dual core Intel processor, 2GHz or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> ATI Radeon 2400 or higher / NVIDIA 8600M or higher / Intel HD Graphics 3000<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Not supported:</strong> OS X 10.5.x, ATI X1600 or X1900 graphics, NVIDIA GeForce 7 graphics or Intel graphics less than Intel HD 3000.<br>\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>"
+      },
+      "requirements_ru": null
+    }
+  ],
+  "parent_platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      }
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox",
+        "slug": "xbox"
+      }
+    },
+    {
+      "platform": {
+        "id": 5,
+        "name": "Apple Macintosh",
+        "slug": "mac"
+      }
+    }
+  ],
+  "genres": [
+    {
+      "id": 4,
+      "name": "Action",
+      "slug": "action",
+      "games_count": 191772,
+      "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Shooter",
+      "slug": "shooter",
+      "games_count": 59642,
+      "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+    }
+  ],
+  "stores": [
+    {
+      "id": 14889,
+      "store": {
+        "id": 1,
+        "name": "Steam",
+        "slug": "steam",
+        "domain": "store.steampowered.com",
+        "games_count": 123695,
+        "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+      }
+    },
+    {
+      "id": 33819,
+      "store": {
+        "id": 7,
+        "name": "Xbox 360 Store",
+        "slug": "xbox360",
+        "domain": "marketplace.xbox.com",
+        "games_count": 1915,
+        "image_background": "https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg"
+      }
+    }
+  ],
+  "clip": null,
+  "tags": [
+    {
+      "id": 31,
+      "name": "Singleplayer",
+      "slug": "singleplayer",
+      "language": "eng",
+      "games_count": 251054,
+      "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+      "id": 40847,
+      "name": "Steam Achievements",
+      "slug": "steam-achievements",
+      "language": "eng",
+      "games_count": 51835,
+      "image_background": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Multiplayer",
+      "slug": "multiplayer",
+      "language": "eng",
+      "games_count": 42598,
+      "image_background": "https://media.rawg.io/media/games/960/960b601d9541cec776c5fa42a00bf6c4.jpg"
+    },
+    {
+      "id": 40836,
+      "name": "Full controller support",
+      "slug": "full-controller-support",
+      "language": "eng",
+      "games_count": 24190,
+      "image_background": "https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg"
+    },
+    {
+      "id": 40849,
+      "name": "Steam Cloud",
+      "slug": "steam-cloud",
+      "language": "eng",
+      "games_count": 25804,
+      "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Atmospheric",
+      "slug": "atmospheric",
+      "language": "eng",
+      "games_count": 39763,
+      "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Co-op",
+      "slug": "co-op",
+      "language": "eng",
+      "games_count": 14420,
+      "image_background": "https://media.rawg.io/media/games/da1/da1b267764d77221f07a4386b6548e5a.jpg"
+    },
+    {
+      "id": 411,
+      "name": "cooperative",
+      "slug": "cooperative",
+      "language": "eng",
+      "games_count": 6603,
+      "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+      "id": 8,
+      "name": "First-Person",
+      "slug": "first-person",
+      "language": "eng",
+      "games_count": 37444,
+      "image_background": "https://media.rawg.io/media/games/15c/15c95a4915f88a3e89c821526afe05fc.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Horror",
+      "slug": "horror",
+      "language": "eng",
+      "games_count": 49217,
+      "image_background": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg"
+    },
+    {
+      "id": 30,
+      "name": "FPS",
+      "slug": "fps",
+      "language": "eng",
+      "games_count": 15007,
+      "image_background": "https://media.rawg.io/media/games/120/1201a40e4364557b124392ee50317b99.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Online Co-Op",
+      "slug": "online-co-op",
+      "language": "eng",
+      "games_count": 7705,
+      "image_background": "https://media.rawg.io/media/games/4e0/4e0e7b6d6906a131307c94266e5c9a1c.jpg"
+    },
+    {
+      "id": 40850,
+      "name": "Steam Leaderboards",
+      "slug": "steam-leaderboards",
+      "language": "eng",
+      "games_count": 8479,
+      "image_background": "https://media.rawg.io/media/games/234/23410661770ae13eac11066980834367.jpg"
+    },
+    {
+      "id": 189,
+      "name": "Female Protagonist",
+      "slug": "female-protagonist",
+      "language": "eng",
+      "games_count": 15569,
+      "image_background": "https://media.rawg.io/media/games/2ba/2bac0e87cf45e5b508f227d281c9252a.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Survival",
+      "slug": "survival",
+      "language": "eng",
+      "games_count": 10856,
+      "image_background": "https://media.rawg.io/media/games/bce/bce62fbc7cf74bf6a1a37340993ec148.jpg"
+    },
+    {
+      "id": 80,
+      "name": "Tactical",
+      "slug": "tactical",
+      "language": "eng",
+      "games_count": 6631,
+      "image_background": "https://media.rawg.io/media/games/476/476178ef18ab0534771d099f51cdc694.jpg"
+    },
+    {
+      "id": 11669,
+      "name": "stats",
+      "slug": "stats",
+      "language": "eng",
+      "games_count": 6049,
+      "image_background": "https://media.rawg.io/media/games/179/179245a3693049a11a25b900ab18f8f7.jpg"
+    },
+    {
+      "id": 63,
+      "name": "Zombies",
+      "slug": "zombies",
+      "language": "eng",
+      "games_count": 11217,
+      "image_background": "https://media.rawg.io/media/games/4cb/4cb463b5588adc672124fb041f09e91c.jpg"
+    },
+    {
+      "id": 62,
+      "name": "Moddable",
+      "slug": "moddable",
+      "language": "eng",
+      "games_count": 1139,
+      "image_background": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Post-apocalyptic",
+      "slug": "post-apocalyptic",
+      "language": "eng",
+      "games_count": 4949,
+      "image_background": "https://media.rawg.io/media/games/c73/c73c4ffebfe968ba0982a56c2b5020ef.jpg"
+    },
+    {
+      "id": 40833,
+      "name": "Captions available",
+      "slug": "captions-available",
+      "language": "eng",
+      "games_count": 1486,
+      "image_background": "https://media.rawg.io/media/games/c6b/c6bd26767c1053fef2b10bb852943559.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Replay Value",
+      "slug": "replay-value",
+      "language": "eng",
+      "games_count": 2265,
+      "image_background": "https://media.rawg.io/media/games/951/951572a3dd1e42544bd39a5d5b42d234.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Team-Based",
+      "slug": "team-based",
+      "language": "eng",
+      "games_count": 2078,
+      "image_background": "https://media.rawg.io/media/games/476/476178ef18ab0534771d099f51cdc694.jpg"
+    },
+    {
+      "id": 170,
+      "name": "Competitive",
+      "slug": "competitive",
+      "language": "eng",
+      "games_count": 1314,
+      "image_background": "https://media.rawg.io/media/games/abd/abdb7e589f0a8ccd36c0582673120b1e.jpg"
+    },
+    {
+      "id": 40856,
+      "name": "Valve Anti-Cheat enabled",
+      "slug": "valve-anti-cheat-enabled",
+      "language": "eng",
+      "games_count": 105,
+      "image_background": "https://media.rawg.io/media/games/78d/78dfae12fb8c5b16cd78648553071e0a.jpg"
+    },
+    {
+      "id": 40834,
+      "name": "Commentary available",
+      "slug": "commentary-available",
+      "language": "eng",
+      "games_count": 300,
+      "image_background": "https://media.rawg.io/media/games/a12/a12f806432cb385bc286f0935c49cd14.jpg"
+    },
+    {
+      "id": 40839,
+      "name": "Includes Source SDK",
+      "slug": "includes-source-sdk",
+      "language": "eng",
+      "games_count": 66,
+      "image_background": "https://media.rawg.io/media/screenshots/e79/e7935d0c8fcd497c6824f490455988c7.jpg"
+    }
+  ],
+  "esrb_rating": {
+    "id": 4,
+    "name": "Mature",
+    "slug": "mature"
+  },
+  "short_screenshots": [
+    {
+      "id": -1,
+      "image": "https://media.rawg.io/media/games/476/476178ef18ab0534771d099f51cdc694.jpg"
+    },
+    {
+      "id": 115781,
+      "image": "https://media.rawg.io/media/screenshots/570/5706e81cef6e3974795d9d92ad503ce7.jpg"
+    },
+    {
+      "id": 115782,
+      "image": "https://media.rawg.io/media/screenshots/e4f/e4fa138927a69d378f162801fee9245e.jpg"
+    },
+    {
+      "id": 115783,
+      "image": "https://media.rawg.io/media/screenshots/44c/44c688a8122f4e31cf85c219ab790075.jpg"
+    },
+    {
+      "id": 115784,
+      "image": "https://media.rawg.io/media/screenshots/4b3/4b347aa08324581b9be4333e4e0ea8a3.jpg"
+    },
+    {
+      "id": 115785,
+      "image": "https://media.rawg.io/media/screenshots/27c/27cee268a53a710821a499044d929b87.jpg"
+    },
+    {
+      "id": 115786,
+      "image": "https://media.rawg.io/media/screenshots/e50/e50c0f7e266bb87e8d7b29597923e717.jpg"
+    }
+  ]
+}

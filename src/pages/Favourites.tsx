@@ -1,7 +1,7 @@
 import { useSearchParams, Link } from "react-router-dom";
-import PageHeading from "../components/PageHeading";
-import FilterOptions from "../components/FilterOptions";
-import GamesCard from "../components/GamesCard";
+import PageHeading from "../components/common/PageHeading";
+import FilterOptions from "../components/games/FilterOptions";
+import GamesCard from "../components/games/GamesCard";
 import { useFavourites } from "../context/FavouritesContext";
 
 function Favourites() {

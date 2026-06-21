@@ -1,0 +1,383 @@
+{
+  "id": 13633,
+  "slug": "civilization-v",
+  "name": "Sid Meier's Civilization V",
+  "released": "2010-09-21",
+  "tba": false,
+  "background_image": "https://media.rawg.io/media/games/55e/55ee6432ac2bf224610fa17e4c652107.jpg",
+  "rating": 4.29,
+  "rating_top": 4,
+  "ratings": [
+    {
+      "id": 4,
+      "title": "recommended",
+      "count": 977,
+      "percent": 47.92
+    },
+    {
+      "id": 5,
+      "title": "exceptional",
+      "count": 884,
+      "percent": 43.35
+    },
+    {
+      "id": 3,
+      "title": "meh",
+      "count": 124,
+      "percent": 6.08
+    },
+    {
+      "id": 1,
+      "title": "skip",
+      "count": 54,
+      "percent": 2.65
+    }
+  ],
+  "ratings_count": 2029,
+  "reviews_text_count": 7,
+  "added": 9782,
+  "added_by_status": {
+    "yet": 239,
+    "owned": 7373,
+    "beaten": 1163,
+    "toplay": 86,
+    "dropped": 761,
+    "playing": 160
+  },
+  "metacritic": 90,
+  "playtime": 27,
+  "suggestions_count": 456,
+  "updated": "2026-06-19T09:32:23",
+  "user_game": null,
+  "reviews_count": 2039,
+  "saturated_color": "0f0f0f",
+  "dominant_color": "0f0f0f",
+  "platforms": [
+    {
+      "platform": {
+        "id": 4,
+        "name": "PC",
+        "slug": "pc",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 561168,
+        "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+      },
+      "released_at": "2010-09-21",
+      "requirements_en": {
+        "minimum": "<strong>Minimum:</strong><br>\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS:</strong> Windows® Vista SP2/ Windows® 7 <br>\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core 2 Duo 1.8 GHz or AMD Athlon X2 64 2.0 GHz<br>\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB RAM <br>\t\t\t\t\t\t</li><li><strong>Graphics:</strong>256 MB ATI HD2600 XT or better, 256 MB nVidia 7900 GS or better, or Core i3 or better integrated graphics <br>\t\t\t\t\t\t</li><li><strong>DirectX®:</strong> DirectX® version 9.0c <br>\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 8 GB Free <br>\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c-compatible sound card <br>\t\t\t\t\t\t</li><li><strong>Note:</strong> Optimized for the touch-screen Ultrabook™ device<br>\t\t\t\t\t</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br>\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS:</strong> Windows® Vista SP2/ Windows® 7 <br>\t\t\t\t\t\t</li><li><strong>Processor:</strong> 1.8 GHz Quad Core CPU <br>\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4 GB RAM <br>\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 512 MB ATI 4800 series or better, 512 MB nVidia 9800 series or better<br>\t\t\t\t\t\t</li><li><strong>DirectX®:</strong> DirectX® version 11<br>\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 8 GB Free <br>\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c-compatible sound card <br>\t\t\t\t\t\t</li><li><strong>Note:</strong> Optimized for the touch-screen Ultrabook™ device<br>\t\t\t\t\t</li></ul>"
+      },
+      "requirements_ru": {
+        "minimum": "Core 2 Duo/Athlon X2 64 2.0 ГГц,2 Гб памяти,GeForce 7900/Radeon HD2600,8 Гб на винчестере,интернет-соединение",
+        "recommended": "Core 2 Quad/Phenom X4 2.4 ГГц,4 Гб памяти,GeForce 9800/Radeon 4800,8 Гб на винчестере,интернет-соединение"
+      }
+    },
+    {
+      "platform": {
+        "id": 5,
+        "name": "macOS",
+        "slug": "macos",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 108098,
+        "image_background": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg"
+      },
+      "released_at": "2010-09-21",
+      "requirements_en": {
+        "minimum": "<strong>Minimum:</strong><br>\t\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS:</strong> 10.8.5 (Mountain Lion), 10.9.5 (Mavericks), 10.10.5 (Yosemite), 10.11.1 (El Capitan)<br><strong>Processor:</strong> Intel Core 2 Duo (Dual-Core) CPU Speed: 2.4 GHz<br><strong>Memory:</strong> 2 GB RAM <br><strong>Hard Disk Space:</strong> 8 GB <br><strong>Video Card (ATI):</strong> Radeon HD 2600<br><strong>Video Card (NVidia):</strong> Geforce 8600<br><strong>Video Card (Intel):</strong> HD 4000<br><strong>Video Memory (VRam):</strong> 256MB<br><br><strong>Multiplayer:</strong> Internet (TCP/IP) and LAN (TCP/IP) play supported.  Please note, it is possible for Mac and PC to become out of sync during updates.  Within this short time period, Mac users will only be able to play other Mac users.<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>NOTICE:This game is not supported on volumes formatted as Mac OS Extended (Case Sensitive)<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</strong></li><li><strong>NOTICE:</strong> The following video chipsets are not supported for Civilization V:<br>ATI Radeon X1000 series, HD 2400<br>Nvidia GeForce 7000 series, 8600, 9400<br>Intel GMA (950/X3100), HD 3000<br><br><strong>NOTICE:</strong>The Mac version is only available in English, French, Italian, German, and Spanish.</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br>\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>Processor:</strong> Intel Quad Core<br>\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4GB<br>\t\t\t\t\t\t</li><li><strong>CPU Speed:</strong> 2.4 GHz<br>\t\t\t\t\t\t</li><li><strong>Video RAM:</strong> 1GB<br>\t<br>\t\t\t\t\t\t</li></ul>"
+      },
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 6,
+        "name": "Linux",
+        "slug": "linux",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 80440,
+        "image_background": "https://media.rawg.io/media/games/48c/48cb04ca483be865e3a83119c94e6097.jpg"
+      },
+      "released_at": "2010-09-21",
+      "requirements_en": {
+        "minimum": "<strong>Operating System:</strong> SteamOS, Ubuntu<br><strong>CPU Processor:</strong> Intel Core i3, AMD A10<br><strong>CPU Speed:</strong> 2.4GHz <br><strong>Memory:</strong> 4 GB RAM <br><strong>Hard Disk Space:</strong> 10 GB <br><strong>Video Card (ATI):</strong> Radeon HD 6450<br><strong>Video Card (NVidia):</strong> Geforce 640M<br><strong>Video Card (Intel):</strong> Iris Pro<br><strong>Video Memory (VRam):</strong> 1GB<br><br><strong>IMPORTANT NOTICE:</strong> Don't meet the above requirements? Running on Ubuntu? That doesn't mean your configuration wont run Civ V, it just means we have not tested and vetted your configuration. Visit the Civilization V community page to share your experience with other Linux players and learn about how to send bugs to Aspyr. Your feedback will help us improve Civ V Linux and future AAA Linux releases!<br><br><strong>NOTICE:</strong>  Intel Integrated video chipsets (GMA 9XX, HD 3XXX) will not run Civilization V for SteamOS and Linux, and are unsupported.<br><br><strong>NOTICE:</strong>The Linux version is only available in English, French, Italian, German, and Spanish.<br>[/list]"
+      },
+      "requirements_ru": null
+    }
+  ],
+  "parent_platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      }
+    },
+    {
+      "platform": {
+        "id": 5,
+        "name": "Apple Macintosh",
+        "slug": "mac"
+      }
+    },
+    {
+      "platform": {
+        "id": 6,
+        "name": "Linux",
+        "slug": "linux"
+      }
+    }
+  ],
+  "genres": [
+    {
+      "id": 10,
+      "name": "Strategy",
+      "slug": "strategy",
+      "games_count": 62487,
+      "image_background": "https://media.rawg.io/media/games/0fa/0fadc446fd1e9ae9e23a32793d9a5406.jpg"
+    }
+  ],
+  "stores": [
+    {
+      "id": 287618,
+      "store": {
+        "id": 4,
+        "name": "App Store",
+        "slug": "apple-appstore",
+        "domain": "apps.apple.com",
+        "games_count": 75593,
+        "image_background": "https://media.rawg.io/media/games/095/0953bf01cd4e4dd204aba85489ac9868.jpg"
+      }
+    },
+    {
+      "id": 15000,
+      "store": {
+        "id": 1,
+        "name": "Steam",
+        "slug": "steam",
+        "domain": "store.steampowered.com",
+        "games_count": 123695,
+        "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+      }
+    }
+  ],
+  "clip": null,
+  "tags": [
+    {
+      "id": 31,
+      "name": "Singleplayer",
+      "slug": "singleplayer",
+      "language": "eng",
+      "games_count": 251054,
+      "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+      "id": 40847,
+      "name": "Steam Achievements",
+      "slug": "steam-achievements",
+      "language": "eng",
+      "games_count": 51835,
+      "image_background": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Multiplayer",
+      "slug": "multiplayer",
+      "language": "eng",
+      "games_count": 42598,
+      "image_background": "https://media.rawg.io/media/games/960/960b601d9541cec776c5fa42a00bf6c4.jpg"
+    },
+    {
+      "id": 40849,
+      "name": "Steam Cloud",
+      "slug": "steam-cloud",
+      "language": "eng",
+      "games_count": 25804,
+      "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+    },
+    {
+      "id": 7808,
+      "name": "steam-trading-cards",
+      "slug": "steam-trading-cards",
+      "language": "eng",
+      "games_count": 7568,
+      "image_background": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Great Soundtrack",
+      "slug": "great-soundtrack",
+      "language": "eng",
+      "games_count": 3450,
+      "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Co-op",
+      "slug": "co-op",
+      "language": "eng",
+      "games_count": 14420,
+      "image_background": "https://media.rawg.io/media/games/da1/da1b267764d77221f07a4386b6548e5a.jpg"
+    },
+    {
+      "id": 411,
+      "name": "cooperative",
+      "slug": "cooperative",
+      "language": "eng",
+      "games_count": 6603,
+      "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+      "id": 193,
+      "name": "Classic",
+      "slug": "classic",
+      "language": "eng",
+      "games_count": 1839,
+      "image_background": "https://media.rawg.io/media/games/9c4/9c47f320eb73c9a02d462e12f6206b26.jpg"
+    },
+    {
+      "id": 80,
+      "name": "Tactical",
+      "slug": "tactical",
+      "language": "eng",
+      "games_count": 6631,
+      "image_background": "https://media.rawg.io/media/games/476/476178ef18ab0534771d099f51cdc694.jpg"
+    },
+    {
+      "id": 62,
+      "name": "Moddable",
+      "slug": "moddable",
+      "language": "eng",
+      "games_count": 1139,
+      "image_background": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+    },
+    {
+      "id": 102,
+      "name": "Turn-Based",
+      "slug": "turn-based",
+      "language": "eng",
+      "games_count": 5611,
+      "image_background": "https://media.rawg.io/media/games/3d8/3d8e76154123ef352d8d3216da061a2d.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Replay Value",
+      "slug": "replay-value",
+      "language": "eng",
+      "games_count": 2265,
+      "image_background": "https://media.rawg.io/media/games/951/951572a3dd1e42544bd39a5d5b42d234.jpg"
+    },
+    {
+      "id": 89,
+      "name": "Historical",
+      "slug": "historical",
+      "language": "eng",
+      "games_count": 3993,
+      "image_background": "https://media.rawg.io/media/games/39a/39a8aa7798b685f9625e857bc394259d.jpg"
+    },
+    {
+      "id": 101,
+      "name": "Turn-Based Strategy",
+      "slug": "turn-based-strategy",
+      "language": "eng",
+      "games_count": 6650,
+      "image_background": "https://media.rawg.io/media/games/3d8/3d8e76154123ef352d8d3216da061a2d.jpg"
+    },
+    {
+      "id": 195,
+      "name": "Economy",
+      "slug": "economy",
+      "language": "eng",
+      "games_count": 3313,
+      "image_background": "https://media.rawg.io/media/games/ce6/ce6c9b58be2ca76688a768cffcb043d1.jpg"
+    },
+    {
+      "id": 100,
+      "name": "Grand Strategy",
+      "slug": "grand-strategy",
+      "language": "eng",
+      "games_count": 996,
+      "image_background": "https://media.rawg.io/media/games/55e/55ee6432ac2bf224610fa17e4c652107.jpg"
+    },
+    {
+      "id": 60,
+      "name": "Touch-Friendly",
+      "slug": "touch-friendly",
+      "language": "eng",
+      "games_count": 1695,
+      "image_background": "https://media.rawg.io/media/screenshots/c8a/c8a2d3c82dc11dcec380103d92580af2.jpeg"
+    },
+    {
+      "id": 86,
+      "name": "Education",
+      "slug": "education",
+      "language": "eng",
+      "games_count": 3783,
+      "image_background": "https://media.rawg.io/media/games/2ac/2ac6f80402afe5afddcebb8d8b0780c4.jpeg"
+    },
+    {
+      "id": 212,
+      "name": "4X",
+      "slug": "4x",
+      "language": "eng",
+      "games_count": 682,
+      "image_background": "https://media.rawg.io/media/screenshots/39c/39c349127d69ef1b79d5819404ebd532.jpg"
+    },
+    {
+      "id": 103,
+      "name": "Hex Grid",
+      "slug": "hex-grid",
+      "language": "eng",
+      "games_count": 561,
+      "image_background": "https://media.rawg.io/media/screenshots/f05/f05b83b3e490b32f0e207359251c4b66.jpeg"
+    },
+    {
+      "id": 211,
+      "name": "Diplomacy",
+      "slug": "diplomacy",
+      "language": "eng",
+      "games_count": 351,
+      "image_background": "https://media.rawg.io/media/screenshots/ec1/ec1a24e21801b7c693153032d4f6f27c.jpg"
+    }
+  ],
+  "esrb_rating": {
+    "id": 2,
+    "name": "Everyone 10+",
+    "slug": "everyone-10-plus"
+  },
+  "short_screenshots": [
+    {
+      "id": -1,
+      "image": "https://media.rawg.io/media/games/55e/55ee6432ac2bf224610fa17e4c652107.jpg"
+    },
+    {
+      "id": 116841,
+      "image": "https://media.rawg.io/media/screenshots/880/880379d04f089c128f51be511c882de1.jpg"
+    },
+    {
+      "id": 116842,
+      "image": "https://media.rawg.io/media/screenshots/739/73928ce08a6a9a9480faf65bedf8611c.jpg"
+    },
+    {
+      "id": 116843,
+      "image": "https://media.rawg.io/media/screenshots/ccc/cccc59229370b01ba6f5bad75702c713.jpg"
+    },
+    {
+      "id": 116844,
+      "image": "https://media.rawg.io/media/screenshots/03e/03e69844696cb587c06fc058020a7255.jpg"
+    },
+    {
+      "id": 116845,
+      "image": "https://media.rawg.io/media/screenshots/608/6087a2a1e66102d146021cf10fcb69bd.jpg"
+    },
+    {
+      "id": 1825624,
+      "image": "https://media.rawg.io/media/screenshots/a2a/a2a207282454944eba73cbff6c82526e.jpg"
+    }
+  ]
+}

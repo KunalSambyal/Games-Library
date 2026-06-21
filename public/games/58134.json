@@ -1,0 +1,301 @@
+{
+  "id": 58134,
+  "slug": "marvels-spider-man",
+  "name": "Marvel's Spider-Man",
+  "released": "2018-09-07",
+  "tba": false,
+  "background_image": "https://media.rawg.io/media/games/9aa/9aa42d16d425fa6f179fc9dc2f763647.jpg",
+  "rating": 4.45,
+  "rating_top": 5,
+  "ratings": [
+    {
+      "id": 5,
+      "title": "exceptional",
+      "count": 2197,
+      "percent": 57.82
+    },
+    {
+      "id": 4,
+      "title": "recommended",
+      "count": 1289,
+      "percent": 33.92
+    },
+    {
+      "id": 3,
+      "title": "meh",
+      "count": 221,
+      "percent": 5.82
+    },
+    {
+      "id": 1,
+      "title": "skip",
+      "count": 93,
+      "percent": 2.45
+    }
+  ],
+  "ratings_count": 3726,
+  "reviews_text_count": 55,
+  "added": 10524,
+  "added_by_status": {
+    "yet": 382,
+    "owned": 5116,
+    "beaten": 3522,
+    "toplay": 987,
+    "dropped": 240,
+    "playing": 277
+  },
+  "metacritic": 87,
+  "playtime": 6,
+  "suggestions_count": 609,
+  "updated": "2026-06-18T18:45:09",
+  "user_game": null,
+  "reviews_count": 3800,
+  "saturated_color": "0f0f0f",
+  "dominant_color": "0f0f0f",
+  "platforms": [
+    {
+      "platform": {
+        "id": 18,
+        "name": "PlayStation 4",
+        "slug": "playstation4",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 7037,
+        "image_background": "https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg"
+      },
+      "released_at": "2018-09-07",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 4,
+        "name": "PC",
+        "slug": "pc",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 561167,
+        "image_background": "https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg"
+      },
+      "released_at": "2018-09-07",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 187,
+        "name": "PlayStation 5",
+        "slug": "playstation5",
+        "image": null,
+        "year_end": null,
+        "year_start": 2020,
+        "games_count": 1520,
+        "image_background": "https://media.rawg.io/media/games/152/152e788b7504aa2753c86dae912fb34c.jpg"
+      },
+      "released_at": "2018-09-07",
+      "requirements_en": null,
+      "requirements_ru": null
+    }
+  ],
+  "parent_platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      }
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation",
+        "slug": "playstation"
+      }
+    }
+  ],
+  "genres": [
+    {
+      "id": 4,
+      "name": "Action",
+      "slug": "action",
+      "games_count": 191772,
+      "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+    }
+  ],
+  "stores": [
+    {
+      "id": 46837,
+      "store": {
+        "id": 3,
+        "name": "PlayStation Store",
+        "slug": "playstation-store",
+        "domain": "store.playstation.com",
+        "games_count": 8084,
+        "image_background": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg"
+      }
+    },
+    {
+      "id": 958559,
+      "store": {
+        "id": 1,
+        "name": "Steam",
+        "slug": "steam",
+        "domain": "store.steampowered.com",
+        "games_count": 123694,
+        "image_background": "https://media.rawg.io/media/games/736/73619bd336c894d6941d926bfd563946.jpg"
+      }
+    }
+  ],
+  "clip": null,
+  "tags": [
+    {
+      "id": 31,
+      "name": "Singleplayer",
+      "slug": "singleplayer",
+      "language": "eng",
+      "games_count": 251054,
+      "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Atmospheric",
+      "slug": "atmospheric",
+      "language": "eng",
+      "games_count": 39763,
+      "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Open World",
+      "slug": "open-world",
+      "language": "eng",
+      "games_count": 9281,
+      "image_background": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Exploration",
+      "slug": "exploration",
+      "language": "eng",
+      "games_count": 29300,
+      "image_background": "https://media.rawg.io/media/games/737/737ea5662211d2e0bbd6f5989189e4f1.jpg"
+    },
+    {
+      "id": 69,
+      "name": "Action-Adventure",
+      "slug": "action-adventure",
+      "language": "eng",
+      "games_count": 21062,
+      "image_background": "https://media.rawg.io/media/games/c50/c5085506fe4b5e20fc7aa5ace842c20b.jpg"
+    },
+    {
+      "id": 37796,
+      "name": "exclusive",
+      "slug": "exclusive",
+      "language": "eng",
+      "games_count": 4491,
+      "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+    },
+    {
+      "id": 110,
+      "name": "Cinematic",
+      "slug": "cinematic",
+      "language": "eng",
+      "games_count": 3389,
+      "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+    },
+    {
+      "id": 203,
+      "name": "Beat 'em up",
+      "slug": "beat-em-up",
+      "language": "eng",
+      "games_count": 3570,
+      "image_background": "https://media.rawg.io/media/games/556/556157feed9ee1f55f2b12b2973e30a3.jpg"
+    },
+    {
+      "id": 37797,
+      "name": "true exclusive",
+      "slug": "true-exclusive",
+      "language": "eng",
+      "games_count": 3981,
+      "image_background": "https://media.rawg.io/media/games/d30/d30ef0c7dd4878161b1f781e297ae6a0.jpg"
+    },
+    {
+      "id": 478,
+      "name": "3rd-Person Perspective",
+      "slug": "3rd-person-perspective",
+      "language": "eng",
+      "games_count": 87,
+      "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+    },
+    {
+      "id": 268,
+      "name": "Comic Book",
+      "slug": "comic-book",
+      "language": "eng",
+      "games_count": 2141,
+      "image_background": "https://media.rawg.io/media/games/234/23410661770ae13eac11066980834367.jpg"
+    },
+    {
+      "id": 78,
+      "name": "America",
+      "slug": "america",
+      "language": "eng",
+      "games_count": 976,
+      "image_background": "https://media.rawg.io/media/screenshots/794/7943eb38a763c014c84ddae7378b865c.jpg"
+    },
+    {
+      "id": 234,
+      "name": "Superhero",
+      "slug": "superhero",
+      "language": "eng",
+      "games_count": 1456,
+      "image_background": "https://media.rawg.io/media/screenshots/d4e/d4e0720282f967886af9cffd2ebb5e1d.jpg"
+    },
+    {
+      "id": 43369,
+      "name": "new york",
+      "slug": "new-york-2",
+      "language": "eng",
+      "games_count": 2,
+      "image_background": "https://media.rawg.io/media/screenshots/e3c/e3cc9dcd0d4779fcdc08a01d150ea7f9.jpg"
+    }
+  ],
+  "esrb_rating": {
+    "id": 3,
+    "name": "Teen",
+    "slug": "teen"
+  },
+  "short_screenshots": [
+    {
+      "id": -1,
+      "image": "https://media.rawg.io/media/games/9aa/9aa42d16d425fa6f179fc9dc2f763647.jpg"
+    },
+    {
+      "id": 1325929,
+      "image": "https://media.rawg.io/media/screenshots/331/331ba5164c5c53a5d59aad3fe9771ac7.jpg"
+    },
+    {
+      "id": 1325930,
+      "image": "https://media.rawg.io/media/screenshots/a15/a15b42bd8a652a3733c6ad419ebb24bd.jpg"
+    },
+    {
+      "id": 1325931,
+      "image": "https://media.rawg.io/media/screenshots/150/150589c127b28f287f992c2bd426b443.jpg"
+    },
+    {
+      "id": 1325932,
+      "image": "https://media.rawg.io/media/screenshots/f52/f526988f895b554dccf68767557a8518.jpg"
+    },
+    {
+      "id": 1325958,
+      "image": "https://media.rawg.io/media/screenshots/745/74589db2dee21101d7af690976fca902.jpg"
+    },
+    {
+      "id": 1325959,
+      "image": "https://media.rawg.io/media/screenshots/090/09063845f2efe6d0b9bc908e2652c1e1.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "id": 17822,
+  "slug": "the-witcher-enhanced-edition-directors-cut",
+  "name": "The Witcher: Enhanced Edition Director's Cut",
+  "released": "2008-09-16",
+  "tba": false,
+  "background_image": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg",
+  "rating": 4.06,
+  "rating_top": 4,
+  "ratings": [
+    {
+      "id": 4,
+      "title": "recommended",
+      "count": 888,
+      "percent": 42.9
+    },
+    {
+      "id": 5,
+      "title": "exceptional",
+      "count": 787,
+      "percent": 38.02
+    },
+    {
+      "id": 3,
+      "title": "meh",
+      "count": 258,
+      "percent": 12.46
+    },
+    {
+      "id": 1,
+      "title": "skip",
+      "count": 137,
+      "percent": 6.62
+    }
+  ],
+  "ratings_count": 2055,
+  "reviews_text_count": 7,
+  "added": 11942,
+  "added_by_status": {
+    "yet": 741,
+    "owned": 8698,
+    "beaten": 1646,
+    "toplay": 143,
+    "dropped": 609,
+    "playing": 105
+  },
+  "metacritic": 86,
+  "playtime": 5,
+  "suggestions_count": 696,
+  "updated": "2026-06-10T17:46:16",
+  "user_game": null,
+  "reviews_count": 2070,
+  "saturated_color": "0f0f0f",
+  "dominant_color": "0f0f0f",
+  "platforms": [
+    {
+      "platform": {
+        "id": 4,
+        "name": "PC",
+        "slug": "pc",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 561168,
+        "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+      },
+      "released_at": "2008-09-16",
+      "requirements_en": {
+        "minimum": "<strong>Minimum: </strong><br>\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>Supported OS: </strong>Microsoft® Windows® /XP/Vista<br>\t\t\t\t\t</li><li><strong>DirectX Version: </strong>DirectX 9.0c (included) or higher<br>\t\t\t\t\t</li><li><strong>Processor: </strong>Intel Pentium 4 2.4 GHz or Athlon 64 +2800 (Intel Pentium 4 3.0 GHz or AMD Athlon 64 +3000 recommended). Athlon XP series, such as the Athlon XP +2400, is not supported<br>\t\t\t\t\t</li><li><strong>Graphics: </strong>NVIDIA GeForce 6600 or ATI Radeon 9800 or better (NVIDIA GeForce 7800 GTX or ATI Radeon X1950 XT or better recommended)<br>\t\t\t\t\t</li><li><strong>Memory: </strong>1 GB RAM (2 GB RAM recommended)<br>\t\t\t\t\t</li><li><strong>Sound: </strong>DirectX version 9.0c-compatible sound card<br>\t\t\t\t\t</li><li><strong>Hard Drive: </strong>15 GB Free</li></ul>"
+      },
+      "requirements_ru": {
+        "minimum": "Pentium 4/Athlon 64 2.4 ГГц,1 Гб памяти,3D-ускоритель со 128 Мб памяти,8.5 Гб на винчестере",
+        "recommended": "Core 2 Duo E6400/Athlon 64 X2 4200+,2 Гб памяти,3D-ускоритель с 512 Мб памяти,12 Гб на винчестере"
+      }
+    },
+    {
+      "platform": {
+        "id": 5,
+        "name": "macOS",
+        "slug": "macos",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 108098,
+        "image_background": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg"
+      },
+      "released_at": "2008-09-16",
+      "requirements_en": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> OS X 10.8, 10.9, 10.10<br>\t</li><li><strong>Processor:</strong> Intel Core i5<br>\t</li><li><strong>Memory:</strong> 4 GB of RAM<br>\t</li><li><strong>Graphics:</strong> nVidia GeForce GT 650m (1440x900), AMD Radeon HD 6750M (1440x900) or Intel HD 5000 (1366x768)<br>\t</li><li><strong>Hard Drive:</strong> 14.25 GB free space<br><br>Display compatibility notice: 1440x900 resolution is the recommended resolution for best performance. It is not recommended to use native Retina resolutions.</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> OS X 10.8, 10.9, 10.10<br>\t</li><li><strong>Processor:</strong> Intel Core i5 or Core i7<br>\t</li><li><strong>Memory:</strong> 4GB RAM<br>\t</li><li><strong>Graphics:</strong> nVidia GeForce GT 650m (1440x900), AMD Radeon HD 6970M (1920x1080) or Intel Iris Pro 5200 (1440x900)<br>\t</li><li><strong>Hard Drive:</strong> 14.25 GB free space<br><br>Display compatibility notice: 1440x900 resolution is the recommended resolution for best performance. It is not recommended to use native Retina resolutions.</li></ul>"
+      },
+      "requirements_ru": null
+    }
+  ],
+  "parent_platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      }
+    },
+    {
+      "platform": {
+        "id": 5,
+        "name": "Apple Macintosh",
+        "slug": "mac"
+      }
+    }
+  ],
+  "genres": [
+    {
+      "id": 4,
+      "name": "Action",
+      "slug": "action",
+      "games_count": 191772,
+      "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+    },
+    {
+      "id": 5,
+      "name": "RPG",
+      "slug": "role-playing-games-rpg",
+      "games_count": 62046,
+      "image_background": "https://media.rawg.io/media/games/a6c/a6ccd34125c594abf1a9c9821b9a715d.jpg"
+    }
+  ],
+  "stores": [
+    {
+      "id": 302602,
+      "store": {
+        "id": 5,
+        "name": "GOG",
+        "slug": "gog",
+        "domain": "gog.com",
+        "games_count": 7397,
+        "image_background": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg"
+      }
+    },
+    {
+      "id": 19891,
+      "store": {
+        "id": 1,
+        "name": "Steam",
+        "slug": "steam",
+        "domain": "store.steampowered.com",
+        "games_count": 123695,
+        "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+      }
+    }
+  ],
+  "clip": null,
+  "tags": [
+    {
+      "id": 31,
+      "name": "Singleplayer",
+      "slug": "singleplayer",
+      "language": "eng",
+      "games_count": 251054,
+      "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+      "id": 40849,
+      "name": "Steam Cloud",
+      "slug": "steam-cloud",
+      "language": "eng",
+      "games_count": 25804,
+      "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Atmospheric",
+      "slug": "atmospheric",
+      "language": "eng",
+      "games_count": 39763,
+      "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Great Soundtrack",
+      "slug": "great-soundtrack",
+      "language": "eng",
+      "games_count": 3450,
+      "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+    },
+    {
+      "id": 24,
+      "name": "RPG",
+      "slug": "rpg",
+      "language": "eng",
+      "games_count": 26681,
+      "image_background": "https://media.rawg.io/media/games/d82/d82990b9c67ba0d2d09d4e6fa88885a7.jpg"
+    },
+    {
+      "id": 118,
+      "name": "Story Rich",
+      "slug": "story-rich",
+      "language": "eng",
+      "games_count": 27297,
+      "image_background": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Open World",
+      "slug": "open-world",
+      "language": "eng",
+      "games_count": 9281,
+      "image_background": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg"
+    },
+    {
+      "id": 149,
+      "name": "Third Person",
+      "slug": "third-person",
+      "language": "eng",
+      "games_count": 14734,
+      "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+    },
+    {
+      "id": 64,
+      "name": "Fantasy",
+      "slug": "fantasy",
+      "language": "eng",
+      "games_count": 33007,
+      "image_background": "https://media.rawg.io/media/games/b29/b294fdd866dcdb643e7bab370a552855.jpg"
+    },
+    {
+      "id": 193,
+      "name": "Classic",
+      "slug": "classic",
+      "language": "eng",
+      "games_count": 1839,
+      "image_background": "https://media.rawg.io/media/games/9c4/9c47f320eb73c9a02d462e12f6206b26.jpg"
+    },
+    {
+      "id": 97,
+      "name": "Action RPG",
+      "slug": "action-rpg",
+      "language": "eng",
+      "games_count": 8703,
+      "image_background": "https://media.rawg.io/media/games/67f/67f62d1f062a6164f57575e0604ee9f6.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Nudity",
+      "slug": "nudity",
+      "language": "eng",
+      "games_count": 8851,
+      "image_background": "https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg"
+    },
+    {
+      "id": 145,
+      "name": "Choices Matter",
+      "slug": "choices-matter",
+      "language": "eng",
+      "games_count": 8386,
+      "image_background": "https://media.rawg.io/media/games/283/283e7e600366b0da7021883d27159b27.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Dark Fantasy",
+      "slug": "dark-fantasy",
+      "language": "eng",
+      "games_count": 5694,
+      "image_background": "https://media.rawg.io/media/games/dc0/dc0926d3f84ffbcc00968fe8a6f0aed3.jpg"
+    },
+    {
+      "id": 192,
+      "name": "Mature",
+      "slug": "mature",
+      "language": "eng",
+      "games_count": 4784,
+      "image_background": "https://media.rawg.io/media/games/471/4712c9ac591f556f553556b864a7e92b.jpg"
+    },
+    {
+      "id": 66,
+      "name": "Medieval",
+      "slug": "medieval",
+      "language": "eng",
+      "games_count": 8094,
+      "image_background": "https://media.rawg.io/media/games/c22/c22d804ac753c72f2617b3708a625dec.jpg"
+    },
+    {
+      "id": 82,
+      "name": "Magic",
+      "slug": "magic",
+      "language": "eng",
+      "games_count": 11366,
+      "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+    },
+    {
+      "id": 218,
+      "name": "Multiple Endings",
+      "slug": "multiple-endings",
+      "language": "eng",
+      "games_count": 11584,
+      "image_background": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg"
+    },
+    {
+      "id": 283,
+      "name": "Based On A Novel",
+      "slug": "based-on-a-novel",
+      "language": "eng",
+      "games_count": 57,
+      "image_background": "https://media.rawg.io/media/screenshots/b26/b266ff6904fb407631bd53173c929826.jpg"
+    }
+  ],
+  "esrb_rating": {
+    "id": 4,
+    "name": "Mature",
+    "slug": "mature"
+  },
+  "short_screenshots": [
+    {
+      "id": -1,
+      "image": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg"
+    },
+    {
+      "id": 164262,
+      "image": "https://media.rawg.io/media/screenshots/6dc/6dc151862452fba8dfb510ba7131cefd.jpg"
+    },
+    {
+      "id": 164263,
+      "image": "https://media.rawg.io/media/screenshots/5c7/5c7f753ec6b9ca51eb477b016e1f6126.jpg"
+    },
+    {
+      "id": 164264,
+      "image": "https://media.rawg.io/media/screenshots/698/6983ac0ee603750b50212a0822a2cab7.jpg"
+    },
+    {
+      "id": 164265,
+      "image": "https://media.rawg.io/media/screenshots/7c5/7c545f5c7ae02355e8b76ee3d28bd12a.jpg"
+    },
+    {
+      "id": 164266,
+      "image": "https://media.rawg.io/media/screenshots/5bf/5bf40b1e7d50240c867a0ca1540b7b07.jpg"
+    },
+    {
+      "id": 164267,
+      "image": "https://media.rawg.io/media/screenshots/39c/39c47322a4dad4f3ac87cc97557c9a2d.jpg"
+    }
+  ]
+}

@@ -1,0 +1,554 @@
+{
+  "id": 3144,
+  "slug": "super-meat-boy",
+  "name": "Super Meat Boy",
+  "released": "2010-10-20",
+  "tba": false,
+  "background_image": "https://media.rawg.io/media/games/e04/e04963f3ac4c4fa83a1dc0b9231e50db.jpg",
+  "rating": 3.98,
+  "rating_top": 4,
+  "ratings": [
+    {
+      "id": 4,
+      "title": "recommended",
+      "count": 960,
+      "percent": 53.81
+    },
+    {
+      "id": 5,
+      "title": "exceptional",
+      "count": 483,
+      "percent": 27.07
+    },
+    {
+      "id": 3,
+      "title": "meh",
+      "count": 252,
+      "percent": 14.13
+    },
+    {
+      "id": 1,
+      "title": "skip",
+      "count": 89,
+      "percent": 4.99
+    }
+  ],
+  "ratings_count": 1773,
+  "reviews_text_count": 10,
+  "added": 9703,
+  "added_by_status": {
+    "yet": 348,
+    "owned": 7111,
+    "beaten": 786,
+    "toplay": 147,
+    "dropped": 1222,
+    "playing": 89
+  },
+  "metacritic": 87,
+  "playtime": 3,
+  "suggestions_count": 288,
+  "updated": "2026-06-06T22:29:46",
+  "user_game": null,
+  "reviews_count": 1784,
+  "saturated_color": "0f0f0f",
+  "dominant_color": "0f0f0f",
+  "platforms": [
+    {
+      "platform": {
+        "id": 6,
+        "name": "Linux",
+        "slug": "linux",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 80440,
+        "image_background": "https://media.rawg.io/media/games/48c/48cb04ca483be865e3a83119c94e6097.jpg"
+      },
+      "released_at": "2010-10-20",
+      "requirements_en": {
+        "minimum": "<ul class=\"bb_ul\"><li><strong>OS:</strong> If you're running the Steam client, you're good<br>\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 1.4GHz or faster<br>\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1 GB RAM <br>\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> Graphics Card made within the last 4 years (Pixel Shader 3.0, Vertex Shader 3.0)<br>\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 300 MB <br>\t\t\t\t\t\t\t</li><li><strong>Controller Support:</strong> Microsoft Xbox 360 Controller or Direct Input compatible controller<br>\t\t\t\t\t\t</li></ul>"
+      },
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 7,
+        "name": "Nintendo Switch",
+        "slug": "nintendo-switch",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 5780,
+        "image_background": "https://media.rawg.io/media/games/8a0/8a02f84a5916ede2f923b88d5f8217ba.jpg"
+      },
+      "released_at": "2010-10-20",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 10,
+        "name": "Wii U",
+        "slug": "wii-u",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 1114,
+        "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+      },
+      "released_at": "2010-10-20",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 14,
+        "name": "Xbox 360",
+        "slug": "xbox360",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 2831,
+        "image_background": "https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg"
+      },
+      "released_at": "2010-10-20",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 18,
+        "name": "PlayStation 4",
+        "slug": "playstation4",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 7037,
+        "image_background": "https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg"
+      },
+      "released_at": "2010-10-20",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 19,
+        "name": "PS Vita",
+        "slug": "ps-vita",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 1461,
+        "image_background": "https://media.rawg.io/media/games/f99/f9979698c43fd84c3ab69280576dd3af.jpg"
+      },
+      "released_at": "2010-10-20",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 21,
+        "name": "Android",
+        "slug": "android",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 52534,
+        "image_background": "https://media.rawg.io/media/games/e04/e04963f3ac4c4fa83a1dc0b9231e50db.jpg"
+      },
+      "released_at": "2010-10-20",
+      "requirements_en": {
+        "minimum": "5.1 and up"
+      },
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 171,
+        "name": "Web",
+        "slug": "web",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 260067,
+        "image_background": "https://media.rawg.io/media/games/8ba/8ba1178d043aa752838d68b14fffb922.jpg"
+      },
+      "released_at": "2010-10-20",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 4,
+        "name": "PC",
+        "slug": "pc",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 561169,
+        "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+      },
+      "released_at": "2010-10-20",
+      "requirements_en": {
+        "minimum": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Microsoft® Windows® XP / Vista / 7 (Windows 8 is not officially supported)<br>\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 1.4GHz or faster<br>\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1 GB RAM <br>\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> Graphics Card made within the last 4 years (Pixel Shader 3.0, Vertex Shader 3.0)<br>\t\t\t\t\t\t\t</li><li><strong>DirectX®:</strong> DirectX® 9.0c<br>\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 300 MB <br>\t\t\t\t\t\t\t</li><li><strong>Controller Support:</strong> Microsoft Xbox 360 Controller or Direct Input compatible controller<br>\t\t\t\t\t\t</li></ul>"
+      },
+      "requirements_ru": {
+        "minimum": "Pentium III/Athlon 1.4 ГГц,256 Мб памяти,3D-ускоритель с 32 Мб памяти,300 Мб на винчестере",
+        "recommended": "Pentium III/Athlon 1.4 ГГц,1 Гб памяти,3D-ускоритель с 64 Мб памяти,300 Мб на винчестере"
+      }
+    },
+    {
+      "platform": {
+        "id": 5,
+        "name": "macOS",
+        "slug": "macos",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 108098,
+        "image_background": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg"
+      },
+      "released_at": "2010-10-20",
+      "requirements_en": {
+        "minimum": "<ul class=\"bb_ul\"><li><strong>OS:</strong> 10.7 through 10.9 have been tested.<br>\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel based Macs only.<br>\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1 GB RAM <br>\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> Graphics Card made within the last 4 years (Pixel Shader 3.0, Vertex Shader 3.0)<br>\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 300 MB <br>\t\t\t\t\t\t\t</li><li><strong>Controller Support:</strong> Microsoft Xbox 360 Controller or Direct Input compatible controller<br>\t\t\t\t\t\t</li></ul>"
+      },
+      "requirements_ru": null
+    }
+  ],
+  "parent_platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      }
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation",
+        "slug": "playstation"
+      }
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox",
+        "slug": "xbox"
+      }
+    },
+    {
+      "platform": {
+        "id": 8,
+        "name": "Android",
+        "slug": "android"
+      }
+    },
+    {
+      "platform": {
+        "id": 5,
+        "name": "Apple Macintosh",
+        "slug": "mac"
+      }
+    },
+    {
+      "platform": {
+        "id": 6,
+        "name": "Linux",
+        "slug": "linux"
+      }
+    },
+    {
+      "platform": {
+        "id": 7,
+        "name": "Nintendo",
+        "slug": "nintendo"
+      }
+    },
+    {
+      "platform": {
+        "id": 14,
+        "name": "Web",
+        "slug": "web"
+      }
+    }
+  ],
+  "genres": [
+    {
+      "id": 51,
+      "name": "Indie",
+      "slug": "indie",
+      "games_count": 86653,
+      "image_background": "https://media.rawg.io/media/games/63f/63f0e68688cad279ed38cde931dbfcdb.jpg"
+    },
+    {
+      "id": 83,
+      "name": "Platformer",
+      "slug": "platformer",
+      "games_count": 100945,
+      "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+    }
+  ],
+  "stores": [
+    {
+      "id": 3337,
+      "store": {
+        "id": 3,
+        "name": "PlayStation Store",
+        "slug": "playstation-store",
+        "domain": "store.playstation.com",
+        "games_count": 8084,
+        "image_background": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg"
+      }
+    },
+    {
+      "id": 11116,
+      "store": {
+        "id": 1,
+        "name": "Steam",
+        "slug": "steam",
+        "domain": "store.steampowered.com",
+        "games_count": 123696,
+        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+      }
+    },
+    {
+      "id": 33634,
+      "store": {
+        "id": 7,
+        "name": "Xbox 360 Store",
+        "slug": "xbox360",
+        "domain": "marketplace.xbox.com",
+        "games_count": 1915,
+        "image_background": "https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg"
+      }
+    },
+    {
+      "id": 27938,
+      "store": {
+        "id": 6,
+        "name": "Nintendo Store",
+        "slug": "nintendo",
+        "domain": "nintendo.com",
+        "games_count": 9153,
+        "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+      }
+    },
+    {
+      "id": 218054,
+      "store": {
+        "id": 8,
+        "name": "Google Play",
+        "slug": "google-play",
+        "domain": "play.google.com",
+        "games_count": 17128,
+        "image_background": "https://media.rawg.io/media/games/35b/35b47c4d85cd6e08f3e2ca43ea5ce7bb.jpg"
+      }
+    },
+    {
+      "id": 295662,
+      "store": {
+        "id": 11,
+        "name": "Epic Games",
+        "slug": "epic-games",
+        "domain": "epicgames.com",
+        "games_count": 1454,
+        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+      }
+    }
+  ],
+  "clip": null,
+  "tags": [
+    {
+      "id": 31,
+      "name": "Singleplayer",
+      "slug": "singleplayer",
+      "language": "eng",
+      "games_count": 251054,
+      "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+      "id": 40847,
+      "name": "Steam Achievements",
+      "slug": "steam-achievements",
+      "language": "eng",
+      "games_count": 51835,
+      "image_background": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+    },
+    {
+      "id": 40836,
+      "name": "Full controller support",
+      "slug": "full-controller-support",
+      "language": "eng",
+      "games_count": 24190,
+      "image_background": "https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg"
+    },
+    {
+      "id": 7808,
+      "name": "steam-trading-cards",
+      "slug": "steam-trading-cards",
+      "language": "eng",
+      "games_count": 7568,
+      "image_background": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Great Soundtrack",
+      "slug": "great-soundtrack",
+      "language": "eng",
+      "games_count": 3450,
+      "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+    },
+    {
+      "id": 45,
+      "name": "2D",
+      "slug": "2d",
+      "language": "eng",
+      "games_count": 207863,
+      "image_background": "https://media.rawg.io/media/games/ffe/ffed87105b14f5beff72ff44a7793fd5.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Funny",
+      "slug": "funny",
+      "language": "eng",
+      "games_count": 28871,
+      "image_background": "https://media.rawg.io/media/games/25c/25c4776ab5723d5d735d8bf617ca12d9.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Gore",
+      "slug": "gore",
+      "language": "eng",
+      "games_count": 6683,
+      "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+    },
+    {
+      "id": 49,
+      "name": "Difficult",
+      "slug": "difficult",
+      "language": "eng",
+      "games_count": 14317,
+      "image_background": "https://media.rawg.io/media/games/21c/21cc15d233117c6809ec86870559e105.jpg"
+    },
+    {
+      "id": 40850,
+      "name": "Steam Leaderboards",
+      "slug": "steam-leaderboards",
+      "language": "eng",
+      "games_count": 8479,
+      "image_background": "https://media.rawg.io/media/games/234/23410661770ae13eac11066980834367.jpg"
+    },
+    {
+      "id": 123,
+      "name": "Comedy",
+      "slug": "comedy",
+      "language": "eng",
+      "games_count": 14882,
+      "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+    },
+    {
+      "id": 122,
+      "name": "Pixel Graphics",
+      "slug": "pixel-graphics",
+      "language": "eng",
+      "games_count": 99378,
+      "image_background": "https://media.rawg.io/media/screenshots/2fc/2fc6994425146f9dba3133400b414e29.jpg"
+    },
+    {
+      "id": 115,
+      "name": "Controller",
+      "slug": "controller",
+      "language": "eng",
+      "games_count": 15060,
+      "image_background": "https://media.rawg.io/media/games/8ee/8eed88e297441ef9202b5d1d35d7d86f.jpg"
+    },
+    {
+      "id": 74,
+      "name": "Retro",
+      "slug": "retro",
+      "language": "eng",
+      "games_count": 44680,
+      "image_background": "https://media.rawg.io/media/games/fd7/fd794a9f0ffe816038d981b3acc3eec9.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Replay Value",
+      "slug": "replay-value",
+      "language": "eng",
+      "games_count": 2265,
+      "image_background": "https://media.rawg.io/media/games/951/951572a3dd1e42544bd39a5d5b42d234.jpg"
+    },
+    {
+      "id": 113,
+      "name": "Side Scroller",
+      "slug": "side-scroller",
+      "language": "eng",
+      "games_count": 11856,
+      "image_background": "https://media.rawg.io/media/screenshots/12e/12ee2600684863837596c0dbb1923fca.jpg"
+    },
+    {
+      "id": 131,
+      "name": "Fast-Paced",
+      "slug": "fast-paced",
+      "language": "eng",
+      "games_count": 10824,
+      "image_background": "https://media.rawg.io/media/games/e04/e04963f3ac4c4fa83a1dc0b9231e50db.jpg"
+    },
+    {
+      "id": 266,
+      "name": "Level Editor",
+      "slug": "level-editor",
+      "language": "eng",
+      "games_count": 2111,
+      "image_background": "https://media.rawg.io/media/screenshots/fba/fbad5c48939e7887872754c9167c3f68.jpeg"
+    },
+    {
+      "id": 280,
+      "name": "Time Attack",
+      "slug": "time-attack",
+      "language": "eng",
+      "games_count": 1818,
+      "image_background": "https://media.rawg.io/media/screenshots/dd5/dd5264ce0b5c7dc464f923b2f85c9091.jpg"
+    },
+    {
+      "id": 49963,
+      "name": "Precision Platformer",
+      "slug": "precision-platformer-2",
+      "language": "eng",
+      "games_count": 2842,
+      "image_background": "https://media.rawg.io/media/games/859/859bf45f635a04fa16eab64b9d02da03.jpg"
+    }
+  ],
+  "esrb_rating": null,
+  "short_screenshots": [
+    {
+      "id": -1,
+      "image": "https://media.rawg.io/media/games/e04/e04963f3ac4c4fa83a1dc0b9231e50db.jpg"
+    },
+    {
+      "id": 28594,
+      "image": "https://media.rawg.io/media/screenshots/b1e/b1e6c4d530035326da66fb85ae57519b.jpg"
+    },
+    {
+      "id": 28595,
+      "image": "https://media.rawg.io/media/screenshots/09f/09f743bc5acc26aba844b3a092cdcddf.jpg"
+    },
+    {
+      "id": 28596,
+      "image": "https://media.rawg.io/media/screenshots/995/9951726156ed69933ec1eff9a65c0e60.jpg"
+    },
+    {
+      "id": 28597,
+      "image": "https://media.rawg.io/media/screenshots/db4/db4747c3913bd81e3e6754bb51a34838.jpg"
+    },
+    {
+      "id": 28598,
+      "image": "https://media.rawg.io/media/screenshots/e1d/e1d4006f82564f0d654f2959042a3acc.jpg"
+    },
+    {
+      "id": 28599,
+      "image": "https://media.rawg.io/media/screenshots/14c/14c8b551343374231fa07987e5a2d9e3.jpg"
+    }
+  ]
+}
