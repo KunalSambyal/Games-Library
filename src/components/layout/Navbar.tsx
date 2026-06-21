@@ -38,11 +38,11 @@ const Navbar = ({ logoIcon }: NavbarProps) => {
     };
 
     return (
-        <div className="relative dark:bg-neutral-950 dark:text-white flex h-14 items-center justify-between px-3 sm:px-6 gap-x-4 shadow-sm">
+        <div className="relative bg-nav text-main flex h-14 items-center justify-between px-3 sm:px-6 gap-x-4 shadow-sm">
             {/* Logo */}
             <Link
                 to={"/"}
-                className="sm:text-2xl text-xl cursor-pointer dark:hover:text-yellow-200 hover:text-yellow-400 duration-200"
+                className="sm:text-2xl text-xl cursor-pointer hover:text-brand duration-200"
             >
                 {logoIcon}
             </Link>
@@ -56,7 +56,7 @@ const Navbar = ({ logoIcon }: NavbarProps) => {
             <div className="flex items-center max-w-xl w-full gap-x-1 ">
                 <form
                     onSubmit={handleSearchSubmit}
-                    className="w-full dark:bg-neutral-700 bg-neutral-200 rounded-full flex "
+                    className="w-full bg-input rounded-full flex "
                 >
                     {/* Input For Search */}
                     <input
@@ -72,14 +72,14 @@ const Navbar = ({ logoIcon }: NavbarProps) => {
                         <button
                             type="button"
                             onClick={handleClearSearch}
-                            className="h-8 px-2 text-neutral-400 dark:hover:text-amber-200 hover:text-amber-400 cursor-pointer flex items-center justify-center text-sm"
+                            className="h-8 px-2 text-muted hover:text-brand-hover cursor-pointer flex items-center justify-center text-sm"
                         >
                             <i className="fa-solid fa-xmark"></i>
                         </button>
                     )}
                     <button
                         type="submit"
-                        className="bg-none duration-200 dark:hover:text-amber-200 hover:text-amber-400 hover:cursor-pointer border-l border-neutral-400 w-10 h-8 flex items-center justify-center"
+                        className="bg-none duration-200 hover:text-brand-hover hover:cursor-pointer border-l border-accent-border w-10 h-8 flex items-center justify-center"
                     >
                         <i className="fa-solid fa-magnifying-glass"></i>
                     </button>
@@ -97,7 +97,7 @@ const Navbar = ({ logoIcon }: NavbarProps) => {
 
             {/* Mobile Menu Dropdown Menu */}
             {isMobileMenuOpen && (
-                <div className="absolute top-14 left-0 w-full dark:bg-neutral-900 bg-amber-100 border-b dark:border-neutral-800 border-amber-300 md:hidden block z-50  shadow-md">
+                <div className="absolute top-14 left-0 w-full bg-card border-b border-accent-border md:hidden block z-50  shadow-md">
                     <NavLinks
                         className="flex flex-col gap-y-3 p-4 text-center font-bold"
                         onLinkClick={() => setIsMobileMenuOpen(false)}

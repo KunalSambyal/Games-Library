@@ -15,12 +15,13 @@ function NavLinks({
             {navbarLinks.map((link, index) => (
                 <li key={link}>
                     <NavLink
+                        viewTransition
                         onClick={onLinkClick}
                         className={({ isActive }) =>
                             `duration-200 px-3 py-1.5 rounded-lg font-semibold transition-all ${
                                 isActive
-                                    ? "bg-amber-400 text-neutral-900 dark:bg-amber-300 dark:text-neutral-950 font-bold"
-                                    : "dark:text-neutral-300 text-neutral-600 dark:hover:bg-neutral-800 hover:bg-neutral-200 hover:text-neutral-900 dark:hover:text-white"
+                                    ? "bg-brand text-neutral-950 font-bold"
+                                    : "text-muted hover:bg-input hover:text-main"
                             }`
                         }
                         to={index === 0 ? "/" : "/" + link.toLocaleLowerCase()}

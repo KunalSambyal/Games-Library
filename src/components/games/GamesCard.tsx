@@ -9,13 +9,21 @@ function GamesCard({ Game }: Props) {
     const { toggleFavourite, isFavourite } = useFavourites();
     const isFav = isFavourite(Game.id);
 
+    const getCroppedImageUrl = (url: string) => {
+        if (!url) return "";
+        const target = "media/";
+        if (!url.includes(target)) return url;
+        const index = url.indexOf(target) + target.length;
+        return url.slice(0, index) + "crop/600/400/" + url.slice(index);
+    };
+
     return (
         <div
             key={Game.id}
-            className="dark:bg-neutral-800 bg-amber-100 dark:text-neutral-50 rounded-2xl relative hover:scale-[1.02] duration-200 group"
+            className="bg-card text-main rounded-2xl relative hover:scale-[1.02] transition-transform duration-200 group"
         >
             <img
-                src={Game.background_image}
+                src={getCroppedImageUrl(Game.background_image)}
                 alt={Game.name}
                 loading="lazy"
                 className="rounded-t-2xl w-full aspect-video object-cover"
@@ -30,7 +38,7 @@ function GamesCard({ Game }: Props) {
                         {Game.genres.map((g: { name: string }) => (
                             <span
                                 key={g.name}
-                                className="text-xs px-2 py-0.5 rounded-lg dark:bg-neutral-700 bg-amber-300 dark:text-neutral-300 text-neutral-700"
+                                className="text-xs px-2 py-0.5 rounded-lg bg-brand-muted text-accent-text"
                             >
                                 {g.name}
                             </span>
@@ -46,8 +54,8 @@ function GamesCard({ Game }: Props) {
                         onClick={() => toggleFavourite(Game)}
                         className={`transition-colors duration-200 cursor-pointer text-lg shrink-0 ${
                             isFav
-                                ? "text-amber-500 hover:text-amber-600 dark:text-amber-400 dark:hover:text-amber-300 animate-like"
-                                : "text-neutral-400 hover:text-amber-500 dark:text-neutral-500 dark:hover:text-amber-400"
+                                ? "text-brand hover:text-brand-hover animate-like"
+                                : "text-muted hover:text-brand"
                         }`}
                         title={
                             isFav
