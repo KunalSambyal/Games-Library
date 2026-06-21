@@ -1,54 +1,74 @@
-# Game Search Library
+# Games library Bay
 
-A responsive game search application built with **React**, **TypeScript**, **Tailwind CSS**, and the **FreeToGame API**.
+A responsive game search and filtering Single Page Application (SPA) built with React, TypeScript, and Tailwind CSS. It allows users to search, filter by genre, and maintain a persistent list of favourite games.
+
+---
 
 ## Features
 
-- Search games by title
-- Responsive design for desktop, tablet, and mobile
-- Dynamic data fetching using API
-- Clean and modern user interface
+- **Search & Filtering**: Search and filter by genre, synced directly to the URL query parameters for shareable search links.
+- **Infinite Scroll**: Efficient pagination loading using the Intersection Observer API.
+- **Favourites System**: Global favourites list persisted in localStorage with optimized O(1) lookup speeds.
+- **Theme Toggler**: Persisted dark and light theme selection using localStorage.
+- **Accessibility**: Structured layout landmarks, screen-reader labels, and custom focus indicators.
+- **Error Handling**: Root-level ErrorBoundary prevents blank screen crashes on layout or API failures.
+- **Responsive Layout**: Designed for mobile, tablet, and desktop screens.
+
+---
 
 ## Tech Stack
 
 - React
-- Tailwind CSS
 - TypeScript
-- rawg.io API
+- Tailwind CSS
+- Vite
+- React Router
 
-<!-- ## Installation
+---
 
-1. Clone the repository
+## Folder Structure
 
-```bash
-git clone https://github.com/your-username/game-search-library.git
+```text
+src/
+├── components/
+│   ├── common/        # Shared components (ErrorBoundary, PageHeading)
+│   ├── games/         # Games modules (FilterOptions, GamesCard, GamesGrid)
+│   └── layout/        # Site layout shell (Navbar, HamMenu, NavLinks, ThemeButton)
+├── context/           # Favourites state context, provider, and consumer hook
+├── pages/             # Page components (Home, Favourites, WishList, NotFound)
+├── services/          # API fetch request handlers
+├── types/             # TypeScript type definitions
+├── App.tsx            # Routes definition and layout configuration
+├── index.css          # Styling entry point
+└── main.tsx           # Application entry mount wrapper
 ```
 
-2. Navigate to the project directory
+---
 
-```bash
-cd game-search-library
-```
+## Installation & Setup
 
-3. Install dependencies
+1. **Clone the Repository**
 
-```bash
-npm install
-```
+    ```bash
+    git clone https://github.com/KunalSambyal/Games-Library.git
+    cd Games-Library
+    ```
 
-4. Start the development server
+2. **Install Dependencies**
 
-```bash
-npm run dev
-``` -->
+    ```bash
+    npm install
+    ```
 
-## Future Improvements
+3. **Start the Local Development Server**
 
-- Add advanced search functionality
-- Add game filtering options
-- Implement pagination
-- Display more games in the grid
-- Improve loading and error states
+    ```bash
+    npm run dev
+    ```
+
+    Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
 
 ## Author
 
