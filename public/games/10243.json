@@ -1,0 +1,378 @@
+{
+  "id": 10243,
+  "slug": "company-of-heroes-2",
+  "name": "Company of Heroes 2",
+  "released": "2013-06-25",
+  "tba": false,
+  "background_image": "https://media.rawg.io/media/games/0bd/0bd5646a3d8ee0ac3314bced91ea306d.jpg",
+  "rating": 3.1,
+  "rating_top": 4,
+  "ratings": [
+    {
+      "id": 4,
+      "title": "recommended",
+      "count": 365,
+      "percent": 41.62
+    },
+    {
+      "id": 3,
+      "title": "meh",
+      "count": 220,
+      "percent": 25.09
+    },
+    {
+      "id": 1,
+      "title": "skip",
+      "count": 216,
+      "percent": 24.63
+    },
+    {
+      "id": 5,
+      "title": "exceptional",
+      "count": 76,
+      "percent": 8.67
+    }
+  ],
+  "ratings_count": 873,
+  "reviews_text_count": 2,
+  "added": 9878,
+  "added_by_status": {
+    "yet": 711,
+    "owned": 8509,
+    "beaten": 223,
+    "toplay": 67,
+    "dropped": 334,
+    "playing": 34
+  },
+  "metacritic": 80,
+  "playtime": 4,
+  "suggestions_count": 626,
+  "updated": "2026-05-24T10:40:25",
+  "user_game": null,
+  "reviews_count": 877,
+  "saturated_color": "0f0f0f",
+  "dominant_color": "0f0f0f",
+  "platforms": [
+    {
+      "platform": {
+        "id": 6,
+        "name": "Linux",
+        "slug": "linux",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 80440,
+        "image_background": "https://media.rawg.io/media/games/48c/48cb04ca483be865e3a83119c94e6097.jpg"
+      },
+      "released_at": "2013-06-25",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 5,
+        "name": "macOS",
+        "slug": "macos",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 108098,
+        "image_background": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg"
+      },
+      "released_at": "2013-06-25",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 4,
+        "name": "PC",
+        "slug": "pc",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 561169,
+        "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+      },
+      "released_at": "2013-06-25",
+      "requirements_en": {
+        "minimum": "Minimum:<br><ul class=\"bb_ul\"><li><strong>Memory:</strong> 2GB RAM<br>\t</li><li><strong>Processor:</strong> 2Ghz Intel Core2 Duo or equivalent<br>\t</li><li><strong>Graphics:</strong> 512MB Direct3D 10 capable video card (GeForce 8800 GT or Radeon HD 2900XT)<br>\t</li><li><strong>OS:</strong> 32bit Vista<br>        </li><li><strong>Internet:</strong> Broadband Internet connection<br>\t</li><li><strong>Hard Drive:</strong> 30GB free Hard disc space</li></ul>",
+        "recommended": "Recommended:<br><ul class=\"bb_ul\"><li><strong>Memory:</strong> 4GB RAM<br></li><li><strong>Processor:</strong> 3Ghz Intel i5 quad core or equivalent<br></li><li><strong>Graphics:</strong> 1024 MB Direct3D 11 capable video card (GeForce GTX 470 or Radeon HD 5850)<br></li><li><strong>OS:</strong> 64bit Windows 7 and above<br></li><li><strong>Internet:</strong> Broadband Internet connection<br></li><li><strong>Hard Drive:</strong> 30GB free Hard disc space</li></ul>"
+      },
+      "requirements_ru": {
+        "minimum": "Win Vista 32\nDual Core CPU 2.0 GHz\nGeForce 8800 GS/Radeon HD 2900\n2 GB\tRAM\n11 GB HDD",
+        "recommended": "Win 7 64\nQuad-Core CPU 2.2GHz\nGeForce GTS 450/Radeon 4850 HD\n4 GB RAM\n11 GB HDD"
+      }
+    }
+  ],
+  "parent_platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      }
+    },
+    {
+      "platform": {
+        "id": 5,
+        "name": "Apple Macintosh",
+        "slug": "mac"
+      }
+    },
+    {
+      "platform": {
+        "id": 6,
+        "name": "Linux",
+        "slug": "linux"
+      }
+    }
+  ],
+  "genres": [
+    {
+      "id": 10,
+      "name": "Strategy",
+      "slug": "strategy",
+      "games_count": 62487,
+      "image_background": "https://media.rawg.io/media/games/0fa/0fadc446fd1e9ae9e23a32793d9a5406.jpg"
+    }
+  ],
+  "stores": [
+    {
+      "id": 79547,
+      "store": {
+        "id": 4,
+        "name": "App Store",
+        "slug": "apple-appstore",
+        "domain": "apps.apple.com",
+        "games_count": 75593,
+        "image_background": "https://media.rawg.io/media/games/095/0953bf01cd4e4dd204aba85489ac9868.jpg"
+      }
+    },
+    {
+      "id": 11200,
+      "store": {
+        "id": 1,
+        "name": "Steam",
+        "slug": "steam",
+        "domain": "store.steampowered.com",
+        "games_count": 123695,
+        "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+      }
+    }
+  ],
+  "clip": null,
+  "tags": [
+    {
+      "id": 31,
+      "name": "Singleplayer",
+      "slug": "singleplayer",
+      "language": "eng",
+      "games_count": 251054,
+      "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+      "id": 40847,
+      "name": "Steam Achievements",
+      "slug": "steam-achievements",
+      "language": "eng",
+      "games_count": 51835,
+      "image_background": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Multiplayer",
+      "slug": "multiplayer",
+      "language": "eng",
+      "games_count": 42598,
+      "image_background": "https://media.rawg.io/media/games/960/960b601d9541cec776c5fa42a00bf6c4.jpg"
+    },
+    {
+      "id": 40849,
+      "name": "Steam Cloud",
+      "slug": "steam-cloud",
+      "language": "eng",
+      "games_count": 25804,
+      "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Atmospheric",
+      "slug": "atmospheric",
+      "language": "eng",
+      "games_count": 39763,
+      "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+    },
+    {
+      "id": 7808,
+      "name": "steam-trading-cards",
+      "slug": "steam-trading-cards",
+      "language": "eng",
+      "games_count": 7568,
+      "image_background": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Great Soundtrack",
+      "slug": "great-soundtrack",
+      "language": "eng",
+      "games_count": 3450,
+      "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Co-op",
+      "slug": "co-op",
+      "language": "eng",
+      "games_count": 14420,
+      "image_background": "https://media.rawg.io/media/games/da1/da1b267764d77221f07a4386b6548e5a.jpg"
+    },
+    {
+      "id": 411,
+      "name": "cooperative",
+      "slug": "cooperative",
+      "language": "eng",
+      "games_count": 6603,
+      "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Online Co-Op",
+      "slug": "online-co-op",
+      "language": "eng",
+      "games_count": 7705,
+      "image_background": "https://media.rawg.io/media/games/4e0/4e0e7b6d6906a131307c94266e5c9a1c.jpg"
+    },
+    {
+      "id": 80,
+      "name": "Tactical",
+      "slug": "tactical",
+      "language": "eng",
+      "games_count": 6631,
+      "image_background": "https://media.rawg.io/media/games/476/476178ef18ab0534771d099f51cdc694.jpg"
+    },
+    {
+      "id": 11669,
+      "name": "stats",
+      "slug": "stats",
+      "language": "eng",
+      "games_count": 6049,
+      "image_background": "https://media.rawg.io/media/games/179/179245a3693049a11a25b900ab18f8f7.jpg"
+    },
+    {
+      "id": 40852,
+      "name": "Steam Workshop",
+      "slug": "steam-workshop",
+      "language": "eng",
+      "games_count": 1772,
+      "image_background": "https://media.rawg.io/media/games/149/149bbed9d90dc09328ba79bbacfda3c8.jpg"
+    },
+    {
+      "id": 70,
+      "name": "War",
+      "slug": "war",
+      "language": "eng",
+      "games_count": 10107,
+      "image_background": "https://media.rawg.io/media/games/0bd/0bd5646a3d8ee0ac3314bced91ea306d.jpg"
+    },
+    {
+      "id": 89,
+      "name": "Historical",
+      "slug": "historical",
+      "language": "eng",
+      "games_count": 3993,
+      "image_background": "https://media.rawg.io/media/games/39a/39a8aa7798b685f9625e857bc394259d.jpg"
+    },
+    {
+      "id": 168,
+      "name": "RTS",
+      "slug": "rts",
+      "language": "eng",
+      "games_count": 2979,
+      "image_background": "https://media.rawg.io/media/games/98c/98cd77a9f61b31a6ddab1670b079c841.jpg"
+    },
+    {
+      "id": 81,
+      "name": "Military",
+      "slug": "military",
+      "language": "eng",
+      "games_count": 2529,
+      "image_background": "https://media.rawg.io/media/games/ccc/ccc0d5396e3331d58e5eb58a6a1fa1b7.jpg"
+    },
+    {
+      "id": 180,
+      "name": "Base Building",
+      "slug": "base-building",
+      "language": "eng",
+      "games_count": 2987,
+      "image_background": "https://media.rawg.io/media/games/249/249cb9b8c402ed713358fcf434bcca11.jpg"
+    },
+    {
+      "id": 105,
+      "name": "World War II",
+      "slug": "world-war-ii",
+      "language": "eng",
+      "games_count": 1079,
+      "image_background": "https://media.rawg.io/media/games/f14/f1422eacab98c5f85a5123da4e9d9e89.jpg"
+    },
+    {
+      "id": 194,
+      "name": "Real-Time with Pause",
+      "slug": "real-time-with-pause",
+      "language": "eng",
+      "games_count": 247,
+      "image_background": "https://media.rawg.io/media/games/789/7896837ec22a83e4007018ddd55e8c9a.jpg"
+    },
+    {
+      "id": 210,
+      "name": "Real-Time",
+      "slug": "real-time",
+      "language": "eng",
+      "games_count": 1243,
+      "image_background": "https://media.rawg.io/media/games/0fa/0fadc446fd1e9ae9e23a32793d9a5406.jpg"
+    },
+    {
+      "id": 55,
+      "name": "Tanks",
+      "slug": "tanks",
+      "language": "eng",
+      "games_count": 2947,
+      "image_background": "https://media.rawg.io/media/games/2ee/2eeed8524931b4fae1e4a40d0e5443b5.jpg"
+    }
+  ],
+  "esrb_rating": {
+    "id": 4,
+    "name": "Mature",
+    "slug": "mature"
+  },
+  "short_screenshots": [
+    {
+      "id": -1,
+      "image": "https://media.rawg.io/media/games/0bd/0bd5646a3d8ee0ac3314bced91ea306d.jpg"
+    },
+    {
+      "id": 78687,
+      "image": "https://media.rawg.io/media/screenshots/260/260204d8d634ec55fdcc4050523d124f.jpg"
+    },
+    {
+      "id": 78688,
+      "image": "https://media.rawg.io/media/screenshots/79d/79d118350fab8531cee4ab7df5ea267a.jpg"
+    },
+    {
+      "id": 78689,
+      "image": "https://media.rawg.io/media/screenshots/f5f/f5ffdf62a5e5b78268e9e11d2ea64144.jpg"
+    },
+    {
+      "id": 78690,
+      "image": "https://media.rawg.io/media/screenshots/7b0/7b071155a6b6482b063096f626643b63.jpg"
+    },
+    {
+      "id": 78691,
+      "image": "https://media.rawg.io/media/screenshots/850/85019f1470023bb50671c8a1a4b6d7a7.jpg"
+    },
+    {
+      "id": 78692,
+      "image": "https://media.rawg.io/media/screenshots/3b2/3b2793e4c18ff62f07dd5747b38f07fb.jpg"
+    }
+  ]
+}

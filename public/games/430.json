@@ -1,0 +1,469 @@
+{
+  "id": 430,
+  "slug": "grand-theft-auto-vice-city",
+  "name": "Grand Theft Auto: Vice City",
+  "released": "2002-10-27",
+  "tba": false,
+  "background_image": "https://media.rawg.io/media/games/13a/13a528ac9cf48bbb6be5d35fe029336d.jpg",
+  "rating": 4.44,
+  "rating_top": 5,
+  "ratings": [
+    {
+      "id": 5,
+      "title": "exceptional",
+      "count": 1751,
+      "percent": 55.91
+    },
+    {
+      "id": 4,
+      "title": "recommended",
+      "count": 1153,
+      "percent": 36.81
+    },
+    {
+      "id": 3,
+      "title": "meh",
+      "count": 162,
+      "percent": 5.17
+    },
+    {
+      "id": 1,
+      "title": "skip",
+      "count": 66,
+      "percent": 2.11
+    }
+  ],
+  "ratings_count": 3114,
+  "reviews_text_count": 12,
+  "added": 9926,
+  "added_by_status": {
+    "yet": 281,
+    "owned": 5367,
+    "beaten": 3114,
+    "toplay": 178,
+    "dropped": 921,
+    "playing": 65
+  },
+  "metacritic": 94,
+  "playtime": 2,
+  "suggestions_count": 401,
+  "updated": "2026-06-19T09:34:56",
+  "user_game": null,
+  "reviews_count": 3132,
+  "saturated_color": "0f0f0f",
+  "dominant_color": "0f0f0f",
+  "platforms": [
+    {
+      "platform": {
+        "id": 21,
+        "name": "Android",
+        "slug": "android",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 52534,
+        "image_background": "https://media.rawg.io/media/games/e04/e04963f3ac4c4fa83a1dc0b9231e50db.jpg"
+      },
+      "released_at": "2002-10-27",
+      "requirements_en": {
+        "minimum": "7.0 and up"
+      },
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 5,
+        "name": "macOS",
+        "slug": "macos",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 108098,
+        "image_background": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg"
+      },
+      "released_at": "2002-10-27",
+      "requirements_en": {
+        "minimum": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X Snow Leopard 10.6.8 or higher<br>\t</li><li><strong>Processor:</strong> Intel Core 2 Duo Processor or better<br>\t</li><li><strong>Memory:</strong> 1GB of RAM<br>\t</li><li><strong>Hard Disk Space:</strong> 1.7GB of free hard disk space \t<br>\t</li><li><strong>Video Card:</strong> ATI X1600, NVIDIA 7300GT, Intel X3100 integrated graphics chip, or better<br>\t</li><li><strong>Additional:</strong> This game will NOT run on PowerPC (G3/G4/G5) based Mac systems (PowerMac)\t</li></ul>"
+      },
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 4,
+        "name": "PC",
+        "slug": "pc",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 561169,
+        "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+      },
+      "released_at": "2002-10-27",
+      "requirements_en": {
+        "minimum": "<strong>Minimum:</strong><br>\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS:</strong> Microsoft® Windows® 2000/XP<br>\t\t\t\t\t</li><li><strong>Processor:</strong> 800 MHz Intel Pentium III or 800 MHz AMD Athlon or 1.2GHz Intel Celeron or 1.2 GHz AMD Duron processor<br>\t\t\t\t\t</li><li><strong>Memory:</strong> 128 MB of RAM<br>\t\t\t\t\t</li><li><strong>Graphics:</strong> 32 MB video card with DirectX 9.0 compatible drivers (&quot;GeForce&quot; or better)<br>\t\t\t\t\t</li><li><strong>DirectX Version:</strong> Microsoft DirectX® 9.0<br>\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 915 MB of free hard disk space (+ 635 MB if video card does NOT support DirectX Texture Compression)<br>\t\t\t\t\t</li><li><strong>Sound Card:</strong> Sound Card with DirectX 9.0</li></ul><strong>Recommended:</strong><br>\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>Processor:</strong> Intel Pentium IV or AMD Athlon XP processor 256(+) MB of RAM<br>\t\t\t\t\t</li><li><strong>Memory:</strong> 1.55 GB of free hard disk space(+ 635 MB if video card does NOT support DirectX Texture Compression)<br>\t\t\t\t\t</li><li><strong>Graphics:</strong> 64(+) MB video card with DirectX 9.0 compatible drivers (&quot;GeForce 3&quot; / &quot;Radeon 8500&quot; or better with DirectX Texture Compression support)</li></ul>"
+      },
+      "requirements_ru": {
+        "minimum": "Pentium III/Athlon 1.2 ГГц, 128 Мб памяти, GeForce 2",
+        "recommended": "Pentium 4/Athlon XP 1.7 ГГц, 256 Мб памяти, GeForce 3 или выше"
+      }
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "iOS",
+        "slug": "ios",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 77452,
+        "image_background": "https://media.rawg.io/media/games/283/283e7e600366b0da7021883d27159b27.jpg"
+      },
+      "released_at": "2002-10-27",
+      "requirements_en": {
+        "minimum": "iPad 2 Wifi, iPad 2 3G, iPhone 4S, iPad Third Gen, iPad Third Gen 4G, iPhone 5, iPod Touch Fifth Gen, iPad Fourth Gen, iPad Fourth Gen 4G, iPad Mini, iPad Mini 4G, iPhone 5c, iPhone 5s, iPad Air, iPad Air Cellular, iPad Mini Retina, iPad Mini Retina Cellular, iPhone 6, iPhone 6 Plus, iPad Air 2, iPad Air 2 Cellular, iPad Mini 3, iPad Mini 3 Cellular, iPod Touch Sixth Gen, iPhone 6s, iPhone 6s Plus, iPad Mini 4, iPad Mini 4 Cellular, iPad Pro, iPad Pro Cellular, iPad Pro 9.7, iPad Pro 9.7 Cellular, iPhone SE, iPhone 7, iPhone 7 Plus, iPad 6 1 1, iPad 6 1 2, iPad 7 1, iPad 7 2, iPad 7 3, iPad 7 4, iPhone 8, iPhone 8 Plus, iPhone X, iPad 7 5, iPad 7 6, iPhone X S, iPhone X S Max, iPhone X R, iPad 8 1 2, iPad 8 3 4, iPad 8 5 6, iPad 8 7 8,  Watch 4, iPad Mini 5, iPad Mini 5 Cellular, iPad Air 3, iPad Air 3 Cellular, iPod Touch Seventh Gen"
+      },
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 18,
+        "name": "PlayStation 4",
+        "slug": "playstation4",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 7037,
+        "image_background": "https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg"
+      },
+      "released_at": "2002-10-27",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 19,
+        "name": "PS Vita",
+        "slug": "ps-vita",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 1461,
+        "image_background": "https://media.rawg.io/media/games/f99/f9979698c43fd84c3ab69280576dd3af.jpg"
+      },
+      "released_at": "2002-10-27",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 15,
+        "name": "PlayStation 2",
+        "slug": "playstation2",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 3124,
+        "image_background": "https://media.rawg.io/media/games/459/459ac8745027643ed7338516c0025cf7.jpg"
+      },
+      "released_at": "2002-10-27",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 80,
+        "name": "Xbox",
+        "slug": "xbox-old",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 881,
+        "image_background": "https://media.rawg.io/media/games/662/6625a20ca1d13699ee7c191b20a02408.jpg"
+      },
+      "released_at": "2002-10-27",
+      "requirements_en": null,
+      "requirements_ru": null
+    }
+  ],
+  "parent_platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      }
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation",
+        "slug": "playstation"
+      }
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox",
+        "slug": "xbox"
+      }
+    },
+    {
+      "platform": {
+        "id": 4,
+        "name": "iOS",
+        "slug": "ios"
+      }
+    },
+    {
+      "platform": {
+        "id": 8,
+        "name": "Android",
+        "slug": "android"
+      }
+    },
+    {
+      "platform": {
+        "id": 5,
+        "name": "Apple Macintosh",
+        "slug": "mac"
+      }
+    }
+  ],
+  "genres": [
+    {
+      "id": 4,
+      "name": "Action",
+      "slug": "action",
+      "games_count": 191772,
+      "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+    }
+  ],
+  "stores": [
+    {
+      "id": 3160,
+      "store": {
+        "id": 3,
+        "name": "PlayStation Store",
+        "slug": "playstation-store",
+        "domain": "store.playstation.com",
+        "games_count": 8084,
+        "image_background": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg"
+      }
+    },
+    {
+      "id": 18613,
+      "store": {
+        "id": 1,
+        "name": "Steam",
+        "slug": "steam",
+        "domain": "store.steampowered.com",
+        "games_count": 123696,
+        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+      }
+    },
+    {
+      "id": 39984,
+      "store": {
+        "id": 8,
+        "name": "Google Play",
+        "slug": "google-play",
+        "domain": "play.google.com",
+        "games_count": 17128,
+        "image_background": "https://media.rawg.io/media/games/35b/35b47c4d85cd6e08f3e2ca43ea5ce7bb.jpg"
+      }
+    },
+    {
+      "id": 434,
+      "store": {
+        "id": 4,
+        "name": "App Store",
+        "slug": "apple-appstore",
+        "domain": "apps.apple.com",
+        "games_count": 75593,
+        "image_background": "https://media.rawg.io/media/games/095/0953bf01cd4e4dd204aba85489ac9868.jpg"
+      }
+    }
+  ],
+  "clip": null,
+  "tags": [
+    {
+      "id": 31,
+      "name": "Singleplayer",
+      "slug": "singleplayer",
+      "language": "eng",
+      "games_count": 251054,
+      "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Multiplayer",
+      "slug": "multiplayer",
+      "language": "eng",
+      "games_count": 42598,
+      "image_background": "https://media.rawg.io/media/games/960/960b601d9541cec776c5fa42a00bf6c4.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Atmospheric",
+      "slug": "atmospheric",
+      "language": "eng",
+      "games_count": 39763,
+      "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Great Soundtrack",
+      "slug": "great-soundtrack",
+      "language": "eng",
+      "games_count": 3450,
+      "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Open World",
+      "slug": "open-world",
+      "language": "eng",
+      "games_count": 9281,
+      "image_background": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg"
+    },
+    {
+      "id": 149,
+      "name": "Third Person",
+      "slug": "third-person",
+      "language": "eng",
+      "games_count": 14734,
+      "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+    },
+    {
+      "id": 40845,
+      "name": "Partial Controller Support",
+      "slug": "partial-controller-support",
+      "language": "eng",
+      "games_count": 14005,
+      "image_background": "https://media.rawg.io/media/games/960/960b601d9541cec776c5fa42a00bf6c4.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Funny",
+      "slug": "funny",
+      "language": "eng",
+      "games_count": 28871,
+      "image_background": "https://media.rawg.io/media/games/25c/25c4776ab5723d5d735d8bf617ca12d9.jpg"
+    },
+    {
+      "id": 193,
+      "name": "Classic",
+      "slug": "classic",
+      "language": "eng",
+      "games_count": 1839,
+      "image_background": "https://media.rawg.io/media/games/9c4/9c47f320eb73c9a02d462e12f6206b26.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Sandbox",
+      "slug": "sandbox",
+      "language": "eng",
+      "games_count": 8523,
+      "image_background": "https://media.rawg.io/media/games/095/0953bf01cd4e4dd204aba85489ac9868.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Violent",
+      "slug": "violent",
+      "language": "eng",
+      "games_count": 7865,
+      "image_background": "https://media.rawg.io/media/games/13a/13a528ac9cf48bbb6be5d35fe029336d.jpg"
+    },
+    {
+      "id": 150,
+      "name": "Third-Person Shooter",
+      "slug": "third-person-shooter",
+      "language": "eng",
+      "games_count": 4169,
+      "image_background": "https://media.rawg.io/media/games/b49/b4912b5dbfc7ed8927b65f05b8507f6c.jpg"
+    },
+    {
+      "id": 62,
+      "name": "Moddable",
+      "slug": "moddable",
+      "language": "eng",
+      "games_count": 1139,
+      "image_background": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+    },
+    {
+      "id": 192,
+      "name": "Mature",
+      "slug": "mature",
+      "language": "eng",
+      "games_count": 4784,
+      "image_background": "https://media.rawg.io/media/games/471/4712c9ac591f556f553556b864a7e92b.jpg"
+    },
+    {
+      "id": 144,
+      "name": "Crime",
+      "slug": "crime",
+      "language": "eng",
+      "games_count": 3275,
+      "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+      "id": 130,
+      "name": "Driving",
+      "slug": "driving",
+      "language": "eng",
+      "games_count": 5641,
+      "image_background": "https://media.rawg.io/media/games/345/3452d9d4483686c602372e0e6b3bb4cc.jpg"
+    },
+    {
+      "id": 224,
+      "name": "1980s",
+      "slug": "1980s",
+      "language": "eng",
+      "games_count": 3436,
+      "image_background": "https://media.rawg.io/media/games/5e4/5e4bff02098b2b6f824c68286d5da1a6.jpg"
+    },
+    {
+      "id": 62348,
+      "name": "first person mod",
+      "slug": "first-person-mod",
+      "language": "eng",
+      "games_count": 14,
+      "image_background": "https://media.rawg.io/media/games/a3a/a3a13c2a388a44a28401e8bd705eec77.jpg"
+    }
+  ],
+  "esrb_rating": {
+    "id": 4,
+    "name": "Mature",
+    "slug": "mature"
+  },
+  "short_screenshots": [
+    {
+      "id": -1,
+      "image": "https://media.rawg.io/media/games/13a/13a528ac9cf48bbb6be5d35fe029336d.jpg"
+    },
+    {
+      "id": 27216,
+      "image": "https://media.rawg.io/media/screenshots/dfd/dfd73edec49df98ca9cd6736eeba1049.jpg"
+    },
+    {
+      "id": 27217,
+      "image": "https://media.rawg.io/media/screenshots/41b/41bab662e69407ebdea4f9c2620ea964.jpg"
+    },
+    {
+      "id": 27219,
+      "image": "https://media.rawg.io/media/screenshots/866/8669e298a904fce58ba84ab0a9205c01.jpg"
+    },
+    {
+      "id": 27220,
+      "image": "https://media.rawg.io/media/screenshots/579/57946b3f520595bf96c77e9c36ea5a9a.jpg"
+    },
+    {
+      "id": 27221,
+      "image": "https://media.rawg.io/media/screenshots/8d8/8d84dcd621ea9cc54ffec9ab6040f799.jpg"
+    },
+    {
+      "id": 27223,
+      "image": "https://media.rawg.io/media/screenshots/bd2/bd2b4586b6acabf7ee39400d3ad5fa66.jpg"
+    }
+  ]
+}

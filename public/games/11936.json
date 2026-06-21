@@ -1,0 +1,289 @@
+{
+  "id": 11936,
+  "slug": "half-life-2-deathmatch",
+  "name": "Half-Life 2: Deathmatch",
+  "released": "2004-11-01",
+  "tba": false,
+  "background_image": "https://media.rawg.io/media/games/ec3/ec3a7db7b8ab5a71aad622fe7c62632f.jpg",
+  "rating": 3.29,
+  "rating_top": 4,
+  "ratings": [
+    {
+      "id": 4,
+      "title": "recommended",
+      "count": 372,
+      "percent": 40.83
+    },
+    {
+      "id": 3,
+      "title": "meh",
+      "count": 235,
+      "percent": 25.8
+    },
+    {
+      "id": 1,
+      "title": "skip",
+      "count": 179,
+      "percent": 19.65
+    },
+    {
+      "id": 5,
+      "title": "exceptional",
+      "count": 125,
+      "percent": 13.72
+    }
+  ],
+  "ratings_count": 908,
+  "reviews_text_count": 3,
+  "added": 11255,
+  "added_by_status": {
+    "yet": 575,
+    "owned": 9850,
+    "beaten": 330,
+    "toplay": 27,
+    "dropped": 458,
+    "playing": 15
+  },
+  "metacritic": null,
+  "playtime": 1,
+  "suggestions_count": 209,
+  "updated": "2026-06-06T10:55:46",
+  "user_game": null,
+  "reviews_count": 911,
+  "saturated_color": "0f0f0f",
+  "dominant_color": "0f0f0f",
+  "platforms": [
+    {
+      "platform": {
+        "id": 6,
+        "name": "Linux",
+        "slug": "linux",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 80440,
+        "image_background": "https://media.rawg.io/media/games/48c/48cb04ca483be865e3a83119c94e6097.jpg"
+      },
+      "released_at": "2004-11-01",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 5,
+        "name": "macOS",
+        "slug": "macos",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 108098,
+        "image_background": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg"
+      },
+      "released_at": "2004-11-01",
+      "requirements_en": {
+        "minimum": "<strong>Minimum: </strong>OS X version Leopard 10.5.8, Snow Leopard 10.6.3, 1GB RAM, NVIDIA GeForce 8 or higher, ATI X1600 or higher, or Intel HD 3000 or higher Mouse, Keyboard, Internet Connection"
+      },
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 4,
+        "name": "PC",
+        "slug": "pc",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 561168,
+        "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+      },
+      "released_at": "2004-11-01",
+      "requirements_en": {
+        "minimum": "\r\n\t\t\t<p><strong>Minimum:</strong> 1.2 GHz Processor, 256MB RAM, DirectX 7 level graphics card, Windows XP, Mouse, Keyboard, Internet Connection<br /></p>\r\n\t\t\t<p><strong>Recommended:</strong> 2.4 GHz Processor, 512MB RAM, DirectX 9 level graphics card, Windows XP, Mouse, Keyboard, Internet Connection<br /></p>\r\n\t\t\t"
+      },
+      "requirements_ru": null
+    }
+  ],
+  "parent_platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      }
+    },
+    {
+      "platform": {
+        "id": 5,
+        "name": "Apple Macintosh",
+        "slug": "mac"
+      }
+    },
+    {
+      "platform": {
+        "id": 6,
+        "name": "Linux",
+        "slug": "linux"
+      }
+    }
+  ],
+  "genres": [
+    {
+      "id": 4,
+      "name": "Action",
+      "slug": "action",
+      "games_count": 191772,
+      "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+    }
+  ],
+  "stores": [
+    {
+      "id": 13105,
+      "store": {
+        "id": 1,
+        "name": "Steam",
+        "slug": "steam",
+        "domain": "store.steampowered.com",
+        "games_count": 123695,
+        "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+      }
+    }
+  ],
+  "clip": null,
+  "tags": [
+    {
+      "id": 7,
+      "name": "Multiplayer",
+      "slug": "multiplayer",
+      "language": "eng",
+      "games_count": 42598,
+      "image_background": "https://media.rawg.io/media/games/960/960b601d9541cec776c5fa42a00bf6c4.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Atmospheric",
+      "slug": "atmospheric",
+      "language": "eng",
+      "games_count": 39763,
+      "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Co-op",
+      "slug": "co-op",
+      "language": "eng",
+      "games_count": 14420,
+      "image_background": "https://media.rawg.io/media/games/da1/da1b267764d77221f07a4386b6548e5a.jpg"
+    },
+    {
+      "id": 411,
+      "name": "cooperative",
+      "slug": "cooperative",
+      "language": "eng",
+      "games_count": 6603,
+      "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+      "id": 8,
+      "name": "First-Person",
+      "slug": "first-person",
+      "language": "eng",
+      "games_count": 37444,
+      "image_background": "https://media.rawg.io/media/games/15c/15c95a4915f88a3e89c821526afe05fc.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Sci-fi",
+      "slug": "sci-fi",
+      "language": "eng",
+      "games_count": 22084,
+      "image_background": "https://media.rawg.io/media/games/2ba/2bac0e87cf45e5b508f227d281c9252a.jpg"
+    },
+    {
+      "id": 30,
+      "name": "FPS",
+      "slug": "fps",
+      "language": "eng",
+      "games_count": 15007,
+      "image_background": "https://media.rawg.io/media/games/120/1201a40e4364557b124392ee50317b99.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Funny",
+      "slug": "funny",
+      "language": "eng",
+      "games_count": 28871,
+      "image_background": "https://media.rawg.io/media/games/25c/25c4776ab5723d5d735d8bf617ca12d9.jpg"
+    },
+    {
+      "id": 79,
+      "name": "Free to Play",
+      "slug": "free-to-play",
+      "language": "eng",
+      "games_count": 9898,
+      "image_background": "https://media.rawg.io/media/games/ec3/ec3a7db7b8ab5a71aad622fe7c62632f.jpg"
+    },
+    {
+      "id": 114,
+      "name": "Physics",
+      "slug": "physics",
+      "language": "eng",
+      "games_count": 21603,
+      "image_background": "https://media.rawg.io/media/screenshots/570/5704316c673fab6994db582e0f43f924.jpg"
+    },
+    {
+      "id": 170,
+      "name": "Competitive",
+      "slug": "competitive",
+      "language": "eng",
+      "games_count": 1314,
+      "image_background": "https://media.rawg.io/media/games/abd/abdb7e589f0a8ccd36c0582673120b1e.jpg"
+    },
+    {
+      "id": 40856,
+      "name": "Valve Anti-Cheat enabled",
+      "slug": "valve-anti-cheat-enabled",
+      "language": "eng",
+      "games_count": 105,
+      "image_background": "https://media.rawg.io/media/games/78d/78dfae12fb8c5b16cd78648553071e0a.jpg"
+    },
+    {
+      "id": 40839,
+      "name": "Includes Source SDK",
+      "slug": "includes-source-sdk",
+      "language": "eng",
+      "games_count": 66,
+      "image_background": "https://media.rawg.io/media/screenshots/e79/e7935d0c8fcd497c6824f490455988c7.jpg"
+    }
+  ],
+  "esrb_rating": {
+    "id": 4,
+    "name": "Mature",
+    "slug": "mature"
+  },
+  "short_screenshots": [
+    {
+      "id": -1,
+      "image": "https://media.rawg.io/media/games/ec3/ec3a7db7b8ab5a71aad622fe7c62632f.jpg"
+    },
+    {
+      "id": 98731,
+      "image": "https://media.rawg.io/media/screenshots/8e7/8e7039ef354447c969a9fe82329ca50e.jpg"
+    },
+    {
+      "id": 98732,
+      "image": "https://media.rawg.io/media/screenshots/0d0/0d0ff34c7bef12783cfe7c6dda7284b2.jpg"
+    },
+    {
+      "id": 98733,
+      "image": "https://media.rawg.io/media/screenshots/853/85349bbb51ad92fc351b61a89b6db19b.jpg"
+    },
+    {
+      "id": 98734,
+      "image": "https://media.rawg.io/media/screenshots/1fc/1fcc71ae3d931406dbc4b33e3446d457.jpg"
+    },
+    {
+      "id": 98735,
+      "image": "https://media.rawg.io/media/screenshots/c11/c11d517937d7261e9d357709ca3c3cc0.jpg"
+    }
+  ]
+}

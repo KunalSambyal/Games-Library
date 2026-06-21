@@ -1,15 +1,8 @@
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import { getGamesData } from "../services/api";
+import { getGamesData } from "../../services/api";
 import GamesCard from "./GamesCard";
-
-interface RawGame {
-    id: number;
-    name: string;
-    rating: number;
-    background_image: string;
-    genres: { name: string }[];
-}
+import { type RawGame } from "../../types/game";
 
 function GamesGrid() {
     const [searchParams] = useSearchParams();

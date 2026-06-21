@@ -1,0 +1,382 @@
+{
+  "id": 4806,
+  "slug": "mass-effect-2",
+  "name": "Mass Effect 2",
+  "released": "2010-01-26",
+  "tba": false,
+  "background_image": "https://media.rawg.io/media/games/3cf/3cff89996570cf29a10eb9cd967dcf73.jpg",
+  "rating": 4.46,
+  "rating_top": 5,
+  "ratings": [
+    {
+      "id": 5,
+      "title": "exceptional",
+      "count": 2035,
+      "percent": 65.37
+    },
+    {
+      "id": 4,
+      "title": "recommended",
+      "count": 749,
+      "percent": 24.06
+    },
+    {
+      "id": 3,
+      "title": "meh",
+      "count": 187,
+      "percent": 6.01
+    },
+    {
+      "id": 1,
+      "title": "skip",
+      "count": 142,
+      "percent": 4.56
+    }
+  ],
+  "ratings_count": 3089,
+  "reviews_text_count": 13,
+  "added": 9539,
+  "added_by_status": {
+    "yet": 485,
+    "owned": 5223,
+    "beaten": 3167,
+    "toplay": 342,
+    "dropped": 268,
+    "playing": 54
+  },
+  "metacritic": 94,
+  "playtime": 22,
+  "suggestions_count": 613,
+  "updated": "2026-06-17T06:48:50",
+  "user_game": null,
+  "reviews_count": 3113,
+  "saturated_color": "0f0f0f",
+  "dominant_color": "0f0f0f",
+  "platforms": [
+    {
+      "platform": {
+        "id": 4,
+        "name": "PC",
+        "slug": "pc",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 561169,
+        "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+      },
+      "released_at": "2010-01-26",
+      "requirements_en": {
+        "minimum": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Windows XP SP3 / Windows Vista SP1 / Windows 7<br>\t\t\t\t\t\t</li><li><strong>Processor:</strong> 1.8GHz Intel Core 2 Duo or equivalent AMD CPU<br>\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1 GB RAM for Windows XP / 2 GB RAM for Windows Vista and Windows 7<br>\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 256 MB (with Pixel Shader 3.0 support)<br>\t\t\t\t\t\t</li><li><strong>DirectX®:</strong> DirectX 9.0c August 2008 (included)<br>\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 15 GB<br>\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c compatible<br>\t\t\t\t\t\t</li><li><strong>Supported Chipsets:</strong> NVIDIA GeForce 6800 or greater; ATI Radeon X1600 Pro or greater. Please note that NVIDIA GeForce 7300, 8100, 8200, 8300, 8400, and 9300; ATI Radeon HD3200, and HD4350 are below minimum system requirements. Updates to your video and sound card drivers may be required.<br>\t\t\t\t\t</li></ul>",
+        "recommended": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Windows XP SP3 / Windows Vista SP1 / Windows 7<br>\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2.6+ GHz Core 2 Duo Intel or equivalent AMD CPU<br>\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2 GB RAM<br>\t\t\t\t\t\t</li><li><strong>Graphics:</strong> ATI Radeon HD 2900 XT, NVIDIA GeForce 8800 GT, or better recommended<br>\t\t\t\t\t\t</li><li><strong>DirectX®:</strong> DirectX 9.0c August 2008 (included)<br>\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 15 GB<br>\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c compatible<br>\t\t\t\t\t</li></ul>"
+      },
+      "requirements_ru": {
+        "minimum": "Core 2 Duo/Athlon X2 1.8 ГГц,1 Гб памяти,GeForce 6800/Radeon X1600 Pro,15 Гб на винчестере",
+        "recommended": "Core 2 Duo/Athlon X2 2.5 ГГц,2 Гб памяти,GeForce 8800/Radeon HD 4870,15 Гб на винчестере,интернет-соединение"
+      }
+    },
+    {
+      "platform": {
+        "id": 1,
+        "name": "Xbox One",
+        "slug": "xbox-one",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 5743,
+        "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+      },
+      "released_at": "2010-01-26",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 16,
+        "name": "PlayStation 3",
+        "slug": "playstation3",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 3209,
+        "image_background": "https://media.rawg.io/media/games/8e4/8e4de3f54ac659e08a7ba6a2b731682a.jpg"
+      },
+      "released_at": "2010-01-26",
+      "requirements_en": null,
+      "requirements_ru": null
+    },
+    {
+      "platform": {
+        "id": 14,
+        "name": "Xbox 360",
+        "slug": "xbox360",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 2831,
+        "image_background": "https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg"
+      },
+      "released_at": "2010-01-26",
+      "requirements_en": null,
+      "requirements_ru": null
+    }
+  ],
+  "parent_platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      }
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation",
+        "slug": "playstation"
+      }
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox",
+        "slug": "xbox"
+      }
+    }
+  ],
+  "genres": [
+    {
+      "id": 4,
+      "name": "Action",
+      "slug": "action",
+      "games_count": 191772,
+      "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+    },
+    {
+      "id": 5,
+      "name": "RPG",
+      "slug": "role-playing-games-rpg",
+      "games_count": 62046,
+      "image_background": "https://media.rawg.io/media/games/a6c/a6ccd34125c594abf1a9c9821b9a715d.jpg"
+    }
+  ],
+  "stores": [
+    {
+      "id": 467004,
+      "store": {
+        "id": 2,
+        "name": "Xbox Store",
+        "slug": "xbox-store",
+        "domain": "microsoft.com",
+        "games_count": 4942,
+        "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+      }
+    },
+    {
+      "id": 5150,
+      "store": {
+        "id": 3,
+        "name": "PlayStation Store",
+        "slug": "playstation-store",
+        "domain": "store.playstation.com",
+        "games_count": 8084,
+        "image_background": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg"
+      }
+    },
+    {
+      "id": 21828,
+      "store": {
+        "id": 1,
+        "name": "Steam",
+        "slug": "steam",
+        "domain": "store.steampowered.com",
+        "games_count": 123696,
+        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+      }
+    },
+    {
+      "id": 34005,
+      "store": {
+        "id": 7,
+        "name": "Xbox 360 Store",
+        "slug": "xbox360",
+        "domain": "marketplace.xbox.com",
+        "games_count": 1915,
+        "image_background": "https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg"
+      }
+    }
+  ],
+  "clip": null,
+  "tags": [
+    {
+      "id": 31,
+      "name": "Singleplayer",
+      "slug": "singleplayer",
+      "language": "eng",
+      "games_count": 251054,
+      "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Atmospheric",
+      "slug": "atmospheric",
+      "language": "eng",
+      "games_count": 39763,
+      "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Great Soundtrack",
+      "slug": "great-soundtrack",
+      "language": "eng",
+      "games_count": 3450,
+      "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+    },
+    {
+      "id": 24,
+      "name": "RPG",
+      "slug": "rpg",
+      "language": "eng",
+      "games_count": 26681,
+      "image_background": "https://media.rawg.io/media/games/d82/d82990b9c67ba0d2d09d4e6fa88885a7.jpg"
+    },
+    {
+      "id": 118,
+      "name": "Story Rich",
+      "slug": "story-rich",
+      "language": "eng",
+      "games_count": 27297,
+      "image_background": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg"
+    },
+    {
+      "id": 149,
+      "name": "Third Person",
+      "slug": "third-person",
+      "language": "eng",
+      "games_count": 14734,
+      "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Sci-fi",
+      "slug": "sci-fi",
+      "language": "eng",
+      "games_count": 22084,
+      "image_background": "https://media.rawg.io/media/games/2ba/2bac0e87cf45e5b508f227d281c9252a.jpg"
+    },
+    {
+      "id": 193,
+      "name": "Classic",
+      "slug": "classic",
+      "language": "eng",
+      "games_count": 1839,
+      "image_background": "https://media.rawg.io/media/games/9c4/9c47f320eb73c9a02d462e12f6206b26.jpg"
+    },
+    {
+      "id": 189,
+      "name": "Female Protagonist",
+      "slug": "female-protagonist",
+      "language": "eng",
+      "games_count": 15569,
+      "image_background": "https://media.rawg.io/media/games/2ba/2bac0e87cf45e5b508f227d281c9252a.jpg"
+    },
+    {
+      "id": 97,
+      "name": "Action RPG",
+      "slug": "action-rpg",
+      "language": "eng",
+      "games_count": 8703,
+      "image_background": "https://media.rawg.io/media/games/67f/67f62d1f062a6164f57575e0604ee9f6.jpg"
+    },
+    {
+      "id": 150,
+      "name": "Third-Person Shooter",
+      "slug": "third-person-shooter",
+      "language": "eng",
+      "games_count": 4169,
+      "image_background": "https://media.rawg.io/media/games/b49/b4912b5dbfc7ed8927b65f05b8507f6c.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Space",
+      "slug": "space",
+      "language": "eng",
+      "games_count": 44248,
+      "image_background": "https://media.rawg.io/media/games/5f4/5f4780690dbf04900cbac5f05b9305f3.jpg"
+    },
+    {
+      "id": 121,
+      "name": "Character Customization",
+      "slug": "character-customization",
+      "language": "eng",
+      "games_count": 6656,
+      "image_background": "https://media.rawg.io/media/games/214/214b29aeff13a0ae6a70fc4426e85991.jpg"
+    },
+    {
+      "id": 145,
+      "name": "Choices Matter",
+      "slug": "choices-matter",
+      "language": "eng",
+      "games_count": 8386,
+      "image_background": "https://media.rawg.io/media/games/283/283e7e600366b0da7021883d27159b27.jpg"
+    },
+    {
+      "id": 110,
+      "name": "Cinematic",
+      "slug": "cinematic",
+      "language": "eng",
+      "games_count": 3389,
+      "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+    },
+    {
+      "id": 194,
+      "name": "Real-Time with Pause",
+      "slug": "real-time-with-pause",
+      "language": "eng",
+      "games_count": 247,
+      "image_background": "https://media.rawg.io/media/games/789/7896837ec22a83e4007018ddd55e8c9a.jpg"
+    },
+    {
+      "id": 217,
+      "name": "Romance",
+      "slug": "romance",
+      "language": "eng",
+      "games_count": 9874,
+      "image_background": "https://media.rawg.io/media/games/315/3156817d3ac1f341da73de6495fb28f5.jpg"
+    }
+  ],
+  "esrb_rating": {
+    "id": 4,
+    "name": "Mature",
+    "slug": "mature"
+  },
+  "short_screenshots": [
+    {
+      "id": -1,
+      "image": "https://media.rawg.io/media/games/3cf/3cff89996570cf29a10eb9cd967dcf73.jpg"
+    },
+    {
+      "id": 182425,
+      "image": "https://media.rawg.io/media/screenshots/3e9/3e987ae85497ded8e4fea09634be9c0a.jpg"
+    },
+    {
+      "id": 182426,
+      "image": "https://media.rawg.io/media/screenshots/be5/be56c7c5c5b0f10644213f99051525f4.jpg"
+    },
+    {
+      "id": 182427,
+      "image": "https://media.rawg.io/media/screenshots/61c/61c0fb8a92ffdd64e9355202cbf1d3f2.jpg"
+    },
+    {
+      "id": 182428,
+      "image": "https://media.rawg.io/media/screenshots/2aa/2aa8bf125cb9c7c20ee1d296a3c4a45e.jpg"
+    },
+    {
+      "id": 182429,
+      "image": "https://media.rawg.io/media/screenshots/90e/90ed4c6bb3c400ea3e825c47a09c41df.jpg"
+    },
+    {
+      "id": 182430,
+      "image": "https://media.rawg.io/media/screenshots/824/824e85651ba98e8539ef39b205428e88.jpg"
+    }
+  ]
+}
