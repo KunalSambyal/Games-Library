@@ -71,7 +71,9 @@ function GamesGrid() {
                     {selectedGenre !== "All" && ` in genre "${selectedGenre}"`}
                 </div>
             ) : (
-                filteredGames.map((game: RawGame) => <GamesCard Game={game} />)
+                filteredGames.map((game: RawGame) => (
+                    <GamesCard key={game.id} Game={game} />
+                ))
             )}
         </div>
     );
