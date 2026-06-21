@@ -56,7 +56,7 @@ function GamesGrid() {
 
     return (
         // Grid Layout
-        <div className="flex-1 grid 2xl:grid-cols-7 xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 p-2 gap-3 overflow-y-auto content-start">
+        <div className="flex-1 grid 2xl:grid-cols-7 xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 p-2 gap-3 overflow-y-auto content-start scroll-smooth">
             {filteredGames.length === 0 ? (
                 <div className="col-span-full text-center py-10 dark:text-neutral-400 text-neutral-600">
                     No games found

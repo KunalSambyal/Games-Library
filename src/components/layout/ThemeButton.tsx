@@ -30,7 +30,7 @@ function ThemeButton() {
         );
     return (
         <button
-            className="p-2 dark:hover:bg-neutral-700 hover:bg-neutral-200 dark:hover:text-amber-200 hover:text-amber-400 duration-200 rounded-full cursor-pointer flex justify-center items-center text-xl"
+            className="p-2 hover:bg-input hover:text-brand duration-200 rounded-full cursor-pointer flex justify-center items-center text-xl"
             onClick={handleThemeToggle}
         >
             {themeButtonIcon}

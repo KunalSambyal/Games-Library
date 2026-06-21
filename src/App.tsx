@@ -13,7 +13,7 @@ const navbarLogoIcon: ReactElement = <i className="fa-solid fa-gamepad"></i>;
 const App = () => {
     return (
         <FavouritesProvider>
-            <div className="flex flex-col h-dvh dark:bg-neutral-900 overflow-hidden">
+            <div className="flex flex-col h-dvh bg-app text-main overflow-hidden">
                 <Navbar logoIcon={navbarLogoIcon} />
                 <div className="flex-1 overflow-hidden">
                     <Routes>

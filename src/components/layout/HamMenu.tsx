@@ -14,7 +14,7 @@ function HamMenu({ isOpen, onClick }: HamMenuProps) {
     return (
         <button
             onClick={onClick}
-            className="dark:hover:bg-neutral-700 hover:bg-neutral-200 duration-200 rounded-full p-1 cursor-pointer text-xl md:hidden block"
+            className="hover:bg-input duration-200 rounded-full p-1 cursor-pointer text-xl md:hidden block"
         >
             {hamMenuIcon}
         </button>

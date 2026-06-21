@@ -2,6 +2,62 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+@theme {
+    --color-app: var(--app-bg);
+    --color-card: var(--card-bg);
+    --color-nav: var(--nav-bg);
+    --color-input: var(--input-bg);
+    --color-accent-border: var(--border-accent);
+    
+    --color-main: var(--text-main);
+    --color-muted: var(--text-muted);
+    --color-accent-text: var(--text-accent);
+    
+    --color-brand: var(--brand-accent);
+    --color-brand-hover: var(--brand-accent-hover);
+    --color-brand-muted: var(--brand-accent-muted);
+}
+
+:root {
+    --app-bg: #fafafa;
+    --card-bg: #fffbeb;
+    --nav-bg: #ffffff;
+    --input-bg: #e2e8f0;
+    --border-accent: #fcd34d;
+    
+    --text-main: #171717;
+    --text-muted: #52525b;
+    --text-accent: #78350f;
+    
+    --brand-accent: #f59e0b;
+    --brand-accent-hover: #d97706;
+    --brand-accent-muted: #fef3c7;
+
+    --scrollbar-track: #f9fafb;
+    --scrollbar-thumb: #d1d5db;
+    --scrollbar-thumb-hover: #f59e0b;
+}
+
+.dark {
+    --app-bg: #171717;
+    --card-bg: #262626;
+    --nav-bg: #0a0a0a;
+    --input-bg: #404040;
+    --border-accent: #3f3f46;
+    
+    --text-main: #f5f5f5;
+    --text-muted: #a1a1aa;
+    --text-accent: #fde68a;
+    
+    --brand-accent: #fbbf24;
+    --brand-accent-hover: #f59e0b;
+    --brand-accent-muted: rgba(251, 191, 36, 0.15);
+
+    --scrollbar-track: #171717;
+    --scrollbar-thumb: #3f3f46;
+    --scrollbar-thumb-hover: #fbbf24;
+}
+
 @keyframes like-bump {
     0% {
         transform: scale(1);
@@ -16,4 +72,59 @@
 
 .animate-like {
     animation: like-bump 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Native View Transitions Animations */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(6px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+::view-transition-old(root) {
+    animation: 100ms cubic-bezier(0.4, 0, 1, 1) both fade-out;
+}
+
+::view-transition-new(root) {
+    animation: 200ms cubic-bezier(0, 0, 0.2, 1) both fade-in;
+}
+
+/* Firefox scrollbar styles */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+/* Chrome, Safari, Edge, and Opera scrollbar styles */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 9999px;
+    border: 1px solid var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-thumb-hover);
 }
