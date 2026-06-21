@@ -1,5 +1,5 @@
 import { type ReactElement, useState, useEffect } from "react";
-import { Link, useNavigate, useSearchParams } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import HamMenu from "./HamMenu";
 import ThemeButton from "./ThemeButton";
 import NavLinks from "./NavLinks";
@@ -14,16 +14,17 @@ const Navbar = ({ logoIcon }: NavbarProps) => {
     const [searchParams, setSearchParams] = useSearchParams();
     const searchQuery = searchParams.get("search") || "";
 
-    const navigate = useNavigate();
     const [inputVal, setInputVal] = useState("");
 
     const handleSearchSubmit = (e: React.FormEvent) => {
         e.preventDefault();
+        const newParams = new URLSearchParams(searchParams);
         if (inputVal.trim()) {
-            navigate(`/?search=${encodeURIComponent(inputVal.trim())}`);
+            newParams.set("search", inputVal.trim());
         } else {
-            navigate("/");
+            newParams.delete("search");
         }
+        setSearchParams(newParams);
     };
 
     useEffect(() => {

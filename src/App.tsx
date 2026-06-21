@@ -5,22 +5,25 @@ import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Favourites from "./pages/Favourites";
 import WishList from "./pages/WishList";
+import { FavouritesProvider } from "./context/FavouritesContext";
 
 // Navbar Assets
 const navbarLogoIcon: ReactElement = <i className="fa-solid fa-gamepad"></i>;
 
 const App = () => {
     return (
-        <div className="flex flex-col h-dvh dark:bg-neutral-900 overflow-hidden">
-            <Navbar logoIcon={navbarLogoIcon} />
-            <div className="flex-1 overflow-hidden">
-                <Routes>
-                    <Route path="/" element={<Home />}></Route>
-                    <Route path="/favourites" element={<Favourites />}></Route>
-                    <Route path="/wishlist" element={<WishList />}></Route>
-                </Routes>
+        <FavouritesProvider>
+            <div className="flex flex-col h-dvh dark:bg-neutral-900 overflow-hidden">
+                <Navbar logoIcon={navbarLogoIcon} />
+                <div className="flex-1 overflow-hidden">
+                    <Routes>
+                        <Route path="/" element={<Home />}></Route>
+                        <Route path="/favourites" element={<Favourites />}></Route>
+                        <Route path="/wishlist" element={<WishList />}></Route>
+                    </Routes>
+                </div>
             </div>
-        </div>
+        </FavouritesProvider>
     );
 };
 
