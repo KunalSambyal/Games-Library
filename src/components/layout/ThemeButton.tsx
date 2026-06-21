@@ -4,8 +4,8 @@ type Theme = "light" | "dark";
 
 function ThemeButton() {
     const [theme, setTheme] = useState<Theme>(() => {
-        const savedTheme = localStorage.getItem("theme") as Theme;
-        return savedTheme || "light";
+        const savedTheme = localStorage.getItem("theme");
+        return savedTheme === "dark" || savedTheme === "light" ? savedTheme : "light";
     });
     useEffect(() => {
         const rootElement = window.document.documentElement;
@@ -24,12 +24,14 @@ function ThemeButton() {
 
     const themeButtonIcon: ReactElement =
         theme === "dark" ? (
-            <i className="fa-regular fa-sun"></i>
+            <i className="fa-regular fa-sun" aria-hidden="true"></i>
         ) : (
-            <i className="fa-regular fa-moon"></i>
+            <i className="fa-regular fa-moon" aria-hidden="true"></i>
         );
     return (
         <button
+            aria-label={theme === "dark" ? "Switch to light theme" : "Switch to dark theme"}
+            aria-pressed={theme === "dark"}
             className="p-2 hover:bg-input hover:text-brand duration-200 rounded-full cursor-pointer flex justify-center items-center text-xl"
             onClick={handleThemeToggle}
         >

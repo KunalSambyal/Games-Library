@@ -1,11 +1,12 @@
-import { useFavourites } from "../../context/FavouritesContext";
+import { memo } from "react";
+import { useFavourites } from "../../context/useFavourites";
 import { type RawGame } from "../../types/game";
 
 interface Props {
     Game: RawGame;
 }
 
-function GamesCard({ Game }: Props) {
+const GamesCard = memo(function GamesCard({ Game }: Props) {
     const { toggleFavourite, isFavourite } = useFavourites();
     const isFav = isFavourite(Game.id);
 
@@ -19,7 +20,6 @@ function GamesCard({ Game }: Props) {
 
     return (
         <div
-            key={Game.id}
             className="bg-card text-main rounded-2xl relative hover:scale-[1.02] transition-transform duration-200 group"
         >
             <img
@@ -29,7 +29,7 @@ function GamesCard({ Game }: Props) {
                 className="rounded-t-2xl w-full aspect-video object-cover"
             />
             <span className="absolute top-2 right-2 bg-black/60 text-emerald-400 text-xs px-1.5 py-1 rounded-full backdrop-blur-sm">
-                ⭐ {Game.rating}
+                <span aria-hidden="true">⭐</span> {Game.rating}
             </span>
 
             <div className="p-4 flex flex-col gap-y-2">
@@ -52,6 +52,7 @@ function GamesCard({ Game }: Props) {
                     </div>
                     <button
                         onClick={() => toggleFavourite(Game)}
+                        aria-label={isFav ? `Remove ${Game.name} from Favourites` : `Add ${Game.name} to Favourites`}
                         className={`transition-colors duration-200 cursor-pointer text-lg shrink-0 ${
                             isFav
                                 ? "text-brand hover:text-brand-hover animate-like"
@@ -69,12 +70,13 @@ function GamesCard({ Game }: Props) {
                                     ? "fa-solid fa-heart"
                                     : "fa-regular fa-heart"
                             }
+                            aria-hidden="true"
                         ></i>
                     </button>
                 </div>
             </div>
         </div>
     );
-}
+});
 
 export default GamesCard;

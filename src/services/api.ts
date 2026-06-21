@@ -1,6 +1,6 @@
-export async function getGamesData() {
+export async function getGamesData(signal?: AbortSignal) {
     try {
-        const response = await fetch("/games.json");
+        const response = await fetch("/games.json", { signal });
 
         if (!response.ok) {
             throw new Error(`Failed to fetch games: ${response.statusText}`);

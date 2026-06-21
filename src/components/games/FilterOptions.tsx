@@ -45,6 +45,9 @@ function FilterOptions() {
     return (
         <div className="py-2 px-4 flex items-center gap-x-3">
             {/* Genre Select Dropdown */}
+            <label htmlFor="genreFilter" className="sr-only">
+                Filter by Genre
+            </label>
             <select
                 name="genre"
                 id="genreFilter"
@@ -64,10 +67,11 @@ function FilterOptions() {
                     {activeGenre}
                     <button
                         onClick={clearGenreFilter}
+                        aria-label={`Clear ${activeGenre} filter`}
                         className="hover:text-red-500 cursor-pointer font-bold text-xs flex items-center justify-center"
                         title="Clear genre filter"
                     >
-                        <i className="fa-solid fa-xmark"></i>
+                        <i className="fa-solid fa-xmark" aria-hidden="true"></i>
                     </button>
                 </span>
             )}

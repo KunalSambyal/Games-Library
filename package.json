@@ -1,5 +1,5 @@
 {
-    "name": "Games Library Bay",
+    "name": "games-library-bay",
     "private": true,
     "version": "0.0.0",
     "type": "module",
@@ -11,7 +11,6 @@
     },
     "dependencies": {
         "@tailwindcss/vite": "^4.3.0",
-        "dotenv": "^17.4.2",
         "react": "^19.2.6",
         "react-dom": "^19.2.6",
         "react-router-dom": "^7.18.0",

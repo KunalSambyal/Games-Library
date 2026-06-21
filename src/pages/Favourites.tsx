@@ -1,14 +1,19 @@
+import { useEffect } from "react";
 import { useSearchParams, Link } from "react-router-dom";
 import PageHeading from "../components/common/PageHeading";
 import FilterOptions from "../components/games/FilterOptions";
 import GamesCard from "../components/games/GamesCard";
-import { useFavourites } from "../context/FavouritesContext";
+import { useFavourites } from "../context/useFavourites";
 
 function Favourites() {
     const { favourites } = useFavourites();
     const [searchParams] = useSearchParams();
     const searchQuery = searchParams.get("search") || "";
     const selectedGenre = searchParams.get("genre") || "All";
+
+    useEffect(() => {
+        document.title = "Favourites | Game Discovery Bay";
+    }, []);
 
     const filteredFavourites = favourites.filter((game) => {
         const matchesSearch = game.name

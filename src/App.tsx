@@ -5,7 +5,8 @@ import Home from "./pages/Home";
 import Navbar from "./components/layout/Navbar";
 import Favourites from "./pages/Favourites";
 import WishList from "./pages/WishList";
-import { FavouritesProvider } from "./context/FavouritesContext";
+import NotFound from "./pages/NotFound";
+import { FavouritesProvider } from "./context/FavouritesProvider";
 
 // Navbar Assets
 const navbarLogoIcon: ReactElement = <i className="fa-solid fa-gamepad"></i>;
@@ -20,6 +21,7 @@ const App = () => {
                         <Route path="/" element={<Home />}></Route>
                         <Route path="/favourites" element={<Favourites />}></Route>
                         <Route path="/wishlist" element={<WishList />}></Route>
+                        <Route path="*" element={<NotFound />}></Route>
                     </Routes>
                 </div>
             </div>
